@@ -2,6 +2,10 @@
 
 Based on [Mike White's resume](https://github.com/mwhite/resume).
 
+And [Phil Hollenback](https://github.com/tels7ar/resume)
+
+Updated by [Derek Carter](https://github.com/goozbach/resume)
+
 ## Overview
 
 A collection of files and scripts to manage your resume in the

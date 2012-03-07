@@ -1,16 +1,14 @@
-all:	resume-phil.html resume-phil.pdf
+NAME ?= Derek_Carter
+BASENAME ?= ${NAME}-Systems_Administrator
+SOURCENAME ?= resume-source
 
-%.html:	%.md
+all:	${BASENAME}.html ${BASENAME}.pdf
+
+%.html:	${SOURCENAME}.md
 	pandoc -t html -o $@ $< -c resume.css
-	./resume-uploader $@ $< resume.css
-	git commit -m "update html via makefile" $@ $< Makefile README.md
-	git push origin master
 
-%.pdf:	%.md
-	markdown2pdf --template=resume-template.tex --xetex $<
-	./resume-uploader $@ $< resume-template.tex
-	git commit -m "update pdf via makefile" $@ $< Makefile README.md
-	git push origin master
+%.pdf:	${SOURCENAME}.md
+	markdown2pdf --template=resume-template.tex -o $@ $<
 
 clean:
 	rm -f *~ *.html *.log *.pdf
