@@ -8,7 +8,7 @@ spell:
 	aspell check ${SOURCENAME}.md
 
 open: ${BASENAME}.pdf
-	evince ${BASENAME}.pdf &
+	evince -f ${BASENAME}.pdf &
 
 %.html:	${SOURCENAME}.md
 	pandoc -t html -o $@ $< -c resume.css
