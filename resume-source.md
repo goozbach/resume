@@ -60,10 +60,9 @@ Helped create and maintain industry leading Linux course ware, ranging from intr
 
 ##Other experience
 
+I am active in my local Linux users groups, [Atlanta Linux Enthusiasts][] and [Classic Hackers UGA Linux Users Group][]. As well as an active participant in the mailing lists of Linux users groups elsewhere: [BYU Unix Users Group][], [Provo Linux Users Group]
 
-Active in my local Linux users groups, [ALE][] and [CHUGALUG][]
-
-Author/Contributor to open source [projects][]
+Author/Contributor to open source [projects][].
 
   [Coraid]: http://www.coraid.com/
   [Cox Media Group Digital]: http://cmgdigital.com/
@@ -75,6 +74,8 @@ Author/Contributor to open source [projects][]
   [Main Website -- http://blog.friocorte.com/]: http://blog.friocorte.com/
   [presentations]: http://blog.friocorte.com/presentation/
   [projects]: http://github.com/goozbach/
-  [CHUGALUG]: http://chugalug.uga.edu/
-  [ALE]: http://ale.org/
+  [Classic Hackers UGA Linux Users Group]: http://chugalug.uga.edu/
+  [Atlanta Linux Enthusiasts]: http://ale.org/
+  [BYU Unix Users Group]: http://uug.byu.edu/
+  [Provo Linux Users Group]: http://plug.org/
   [Plan9 based PXE and DHCP environment]: http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html
