@@ -1,117 +1,84 @@
-# Philip J. Hollenback
+# Derek C Carter
+dcarter@friocorte.com  
 
-philiph@pobox.com  
-San Francisco Bay Area  
-[http://www.linkedin.com/in/philiph][]
+1665 Eisenhower Ave  
+Watkinsville, GA  30677  
 
-## Overview
+phone: 1-762-233-4009  
 
-I'm a senior system administrator and team leader
-[with a focus on DevOps][]. Recently I moved from being a tech lead to
-managing a small group of highly skilled people. I love working with
-Linux and writing scripts to [manage large-scale deployment issues][].
+[Main Website -- http://blog.friocorte.com/][]  
+[Virtual Business Card -- http://blog.friocorte.com/card/][]  
 
-## Experience
+## Objective:
 
-### [Yahoo][], Sunnyvale CA
+Create, Maintain and manage a world-class internet infrastructure by utilizing my Linux/Unix system administrator experience in deployment and server management automation.
 
-#### Manager, Release Management - September 2011 to present
+## Qualifications:
 
-I manage a team of three people who are responsible for software
-releases across all of Yahoo Communications (including Mail and
-Messenger). My team sets standards for software releases, plans the
-releases, and pushes the software to production servers. We regularly
-push changes to 10,000 servers a week. I cover everything from planning
-our strategic projects to writing perl scripts to analyze install logs.
-I also coordinate the activities of our Sunnyvale and Bangalore Release
-Management teams.
+###Programming/scripting languages
 
-*Highlight*: Wrote a series of perl scripts to analyze mail farm
-software release quality. Trained Release and QA teams to use these
-scripts to automate release testing, resulting in a 75% reduction in QA
-support requests to my group.
+Perl,  Python,  Bash,  TCL,  RC(plan9 shell)  
 
-#### Tech Lead, Release Management - July 2008 to September 2011
+###Technical writing
 
-Responsible for assembling, verifying, and scheduling software releases
-for approximately 10,000 servers. Develop release and monitoring scripts
-in Bash and Perl. Perform all types of Linux and FreeBSD system
-administration from remote installs to performance tuning. Act as
-liaison between Mail operations and development. Debug and fix
-large-scale user mail problems.
+Proficient in both English and Spanish
 
-*Highlight*: Technical lead on year-long project to convert all 7000
-mail front end systems
-[to a new rules-based configuration management system][]. This
-involved  extensive scripting, tracking down dependencies, and
-validating system installs of several thousand software packages.
+Written courseware and lab exercises for training purposes
 
-### [Schrodinger][], New York, NY
+###Certifications
+* Red Hat Certified Engineer (RHCE) Cert #803004747509962
+* Red Hat Certified Instructor (RHCI)
+* Red Hat Certified Examiner (RHCX)
+* IBM Certified Linux Instructor
 
-#### Senior System Administrator - August 2005 to July 2008
+###Technology experience
+Asterisk,  PostgreSQL/MySQL,  Snort/IDS,  Xen,  VMware,  LDAP/Red Hat Directory Server,  Linux,  Solaris,  Nexenta,  OpenIndiana,  ZFS,  Active Directory Integration,  Kerberos,  Apache/IIS,  DHCP(ISC dhcpd),  DNS(BIND),  iptables firewalls,  Linux LVM,  Samba,  Linux/Unix Troubleshooting,  Ticket/request tracking solutions,  NetAPP storage,  F5 load-balancers,  Coraid EtherDrive Hardware/ATAoverEthernet,  Plan9,  Inferno,  Build integration/Deployment automation,  Linux systems provisioning/maintenance automation (Cobbler, Puppet, etc), Git, SVN, BZR, Mercurial
 
-Support 30 users and 100 mixed Linux, Unix, and Windows servers and
-workstations. Install, configure, and administer several cluster systems
-running ROCKS, PBS Pro, and SGE. Install and administer United Devices
-GridMP grid computing system.
 
-*Highlight*: Planned and implemented office and network move between
-floors of midtown Manhattan office tower. This included designing and
-configuring a server room for several hundred systems (including two
-clusters) with full AC and UPS support.
+## Recent Experience
 
-Schrodinger is a leader in developing chemical simulation software for
-use in pharmaceutical and biotechnology research.
+###[Coraid][]
 
-### [Telemetry Investments][], New York, NY
+####QA Enginner February 2010 – March 2012
+Tested and released new HBA drivers for the Solaris, Windows, and Linux platforms. Build an installation automation system to make installing and testing various platforms easier. Tested and released various firmware updates for Coraid appliances. Helped design and implement automated QA testing script frameworks (one in Bash, the other in Python). Helped design and install a new testing lab data center. 
 
-#### Senior System Administrator - July 2003 to August 2005
+###[Cox Media Group Digital][]
+####Systems Administrator November 2009 – February 2010
+Cox Radio Interactive was merged into the newly created Cox Media Group Digital. During the transition I continued with all of the responsibilities related to the servers managed by the Cox Radio Interactive group. I also helped design and create a new server platform for the future content management system being developed for this new group. I helped migrate various code bases from subversion, bazaar, CVS, and others to the Git revision control system. I built and maintained various systems and tools which were used for developer and sysadmin collaboration, including an IRC server. I built and configured an installation automation system using Cobbler and PXE. 
 
-Administered mixed Linux and Windows environment of 7 users. Planned and
-installed disaster recovery site. Managed Linux software packaging and
-migration from Solaris to Linux for servers and workstations.
+###[Cox Radio Interactive][]
+####Senior Systems Administrator August 2007 – November 2009
+Migrated entire technology team from CVS to Subversion leading to an easier to manage code base. Improved the internal software release tool, which decreased the time needed to deploy new software to production. Designed and built an entire new hardware architecture for a new version of our flagship products. Created and built a fully N+1 MySQL database server cluster. Helped manage a release of a new version of our flagship product. Developed many internal tools for monitoring overall network and system health. Created a new server deployment system based on Cobbler and Puppet which allows for rapid deployment of new server hardware. Created a improved pre-production/quality control/development environment based on virtual servers to allow for higher quality code to be installed on production servers.
 
-*Highlight*: Specified and built Linux WAN routers to connect main
-office to disaster recovery site. These routers connect 4 T1 and 1 T3
-line between sites using commodity hardware. Created custom Linux
-install based on Fedora Core 1 to run on 256MB flash hard drives. I
-wrote a Linux Journal cover story on this project, see the publications
-section below for details.
+###[Florida Department of Health][]
+####Systems Administrator III March 2006 – June 2007
+Designed and deployed medium scale Asterisk VOIP solution for a virtual IT help desk. Maintained and supported state-wide, multi-agency, contact directory using Red Hat Directory Server, importing data from various different agencies. Created and maintained an automatic Linux install system, reducing time spent installing Linux considerably. Researched Linux migration paths/plans for future Linux needs or requirements of the agency. Prepared and presented training at internal departmental conferences.
 
-Telemetry Investments is a hedge fund which manages over $100 million in
-funds for institutional and private investors.
+###[Neverblock][]
+####CTO/Co-Founder 2004 - 2008
+Developed systems, Interfaces, access devices, and products for Xen and Linux based virtual server company. Provide customer support for products developed.
 
-*previous positions listed in [my linkedin
-profile][http://www.linkedin.com/in/philiph]*
+###[Guru Labs][]
+####Linux Instructor December 2003 - March 2006
+Helped create and maintain industry leading Linux courseware, ranging from introductory classes to high-level Unix-Linux boot camps, and troubleshooting. Taught 2-3 Linux courses per month. Contract instructor for such companies as IBM, Red Hat, Novell, and HP. Administered dozens of Red Hat certification exams (RHCT and RHCE).
 
-## Skills
+##Other experience
 
-Proficient in perl and bash scripting for linux system administration.
-Experienced in administering a wide range of operating systems including
-RedHat Linux and FreeBSD, with an emphasis on large-scale deployments
-and automation. Focused on maximizing uptime on production web servers
-while also deploying code quickly and reliably.
+Prepared and given numerous [presentations][] at conferences and special interest groups.
 
-## Education
+Active in my local Linux users groups, [ALE][] and [CHUGALUG][]
 
-Bachelor of Science in Computer Science from The University of Montana.
-Emphasis in Artificial Intelligence. Minor in English Literature.
-Graduated 1996.
+Author/Contributor to various open source [projects][]
 
-## Associations and Publications
-
-Active member of the [League of Professional System Administrators][].
-
-I write technical articles for blogs and magazines such as Linux
-Journal, emphasizing open source software and hands-on solutions. See
-[www.hollenback.net/index.php/MyArticles][] for details.
-
-  [http://www.linkedin.com/in/philiph]: http://www.linkedin.com/in/philiph
-  [with a focus on DevOps]: http://www.hollenback.net/index.php/DevOpsMeansDontBeAnAhole
-  [manage large-scale deployment issues]: http://www.hollenback.net/index.php/ServerLoadSpreading
-  [Yahoo]: http://www.yahoo.com
-  [to a new rules-based configuration management system]: https://db.usenix.org/events/lisa10/tech/full_papers/Hollenback.pdf
-  [Schrodinger]: http://www.schrodinger.com
-  [Telemetry Investments]: http://telemetry-investments.com/
-  [League of Professional System Administrators]: http://lopsa.org
-  [www.hollenback.net/index.php/MyArticles]: http://www.hollenback.net/index.php/MyArticles
+  [Coraid]: http://www.coraid.com/
+  [Cox Media Group Digital]: http://cmgdigital.com/
+  [Cox Radio Interactive]: http://cxri.net/
+  [Florida Department of Health]: http://www.doh.state.fl.us/
+  [Neverblock]: http://neverblock.com/
+  [Guru Labs]: http://www.gurulabs.com/
+  [Virtual Business Card -- http://blog.friocorte.com/card/]: http://blog.friocorte.com/card/
+  [Main Website -- http://blog.friocorte.com/]: http://blog.friocorte.com/
+  [presentations]: http://blog.friocorte.com/presentation/
+  [projects]: http://github.com/goozbach/
+  [CHUGALUG]: http://chugalug.uga.edu/
+  [ALE]: http://ale.org/

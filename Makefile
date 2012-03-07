@@ -4,6 +4,9 @@ SOURCENAME ?= resume-source
 
 all:	${BASENAME}.html ${BASENAME}.pdf
 
+open: ${BASENAME}.pdf
+	evince ${BASENAME}.pdf &
+
 %.html:	${SOURCENAME}.md
 	pandoc -t html -o $@ $< -c resume.css
 
