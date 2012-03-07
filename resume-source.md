@@ -40,7 +40,7 @@ Asterisk,  PostgreSQL/MySQL,  Snort/IDS,  Xen,  VMware,  LDAP/Red Hat Directory 
 ###[Coraid][]
 
 ####QA Engineer -- February 2010 – March 2012
-Tested and released new HBA drivers for the Solaris, Windows, and Linux platforms. Build an installation automation system to make installing and testing various platforms easier. Tested and released various firmware updates for Coraid appliances. Helped design and implement automated QA testing script frameworks (one in Bash, the other in Python). Helped design and install a new testing lab data center. 
+Tested and released new HBA drivers for the Solaris, Windows, and Linux platforms. Built an installation automation system to make installing and testing various platforms easier. Tested and released various firmware updates for Coraid appliances. Helped design and implement automated QA testing script frameworks (one in Bash, the other in Python). Helped design and install a new testing lab data center. 
 
 ###[Cox Media Group Digital][]
 ####Systems Administrator -- November 2009 – February 2010
