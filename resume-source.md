@@ -25,6 +25,8 @@ Proficient in both English and Spanish
 
 Written course ware and lab exercises for training purposes
 
+Prepared and given numerous [presentations][] at conferences and special interest groups.
+
 ###Certifications
 * Red Hat Certified Engineer (RHCE) Cert #803004747509962
 * Red Hat Certified Instructor (RHCI)
@@ -60,7 +62,6 @@ Helped create and maintain industry leading Linux course ware, ranging from intr
 
 ##Other experience
 
-Prepared and given numerous [presentations][] at conferences and special interest groups.
 
 Active in my local Linux users groups, [ALE][] and [CHUGALUG][]
 
