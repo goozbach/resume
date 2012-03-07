@@ -39,27 +39,27 @@ Asterisk,  PostgreSQL/MySQL,  Snort/IDS,  Xen,  VMware,  LDAP/Red Hat Directory 
 
 ###[Coraid][]
 
-####QA Engineer February 2010 – March 2012
+####QA Engineer -- February 2010 – March 2012
 Tested and released new HBA drivers for the Solaris, Windows, and Linux platforms. Build an installation automation system to make installing and testing various platforms easier. Tested and released various firmware updates for Coraid appliances. Helped design and implement automated QA testing script frameworks (one in Bash, the other in Python). Helped design and install a new testing lab data center. 
 
 ###[Cox Media Group Digital][]
-####Systems Administrator November 2009 – February 2010
+####Systems Administrator -- November 2009 – February 2010
 Cox Radio Interactive was merged into the newly created Cox Media Group Digital. During the transition I continued with all of the responsibilities related to the servers managed by the Cox Radio Interactive group. I also helped design and create a new server platform for the future content management system being developed for this new group. I helped migrate various code bases from subversion, bazaar, CVS, and others to the Git revision control system. I built and maintained various systems and tools which were used for developer and sysadmin collaboration, including an IRC server. I built and configured an installation automation system using Cobbler and PXE. 
 
 ###[Cox Radio Interactive][]
-####Senior Systems Administrator August 2007 – November 2009
+####Senior Systems Administrator -- August 2007 – November 2009
 Migrated entire technology team from CVS to Subversion leading to an easier to manage code base. Improved the internal software release tool, which decreased the time needed to deploy new software to production. Designed and built an entire new hardware architecture for a new version of our flagship products. Created and built a fully N+1 MySQL database server cluster. Helped manage a release of a new version of our flagship product. Developed many internal tools for monitoring overall network and system health. Created a new server deployment system based on Cobbler and Puppet which allows for rapid deployment of new server hardware. Created a improved pre-production/quality control/development environment based on virtual servers to allow for higher quality code to be installed on production servers.
 
 ###[Florida Department of Health][]
-####Systems Administrator III March 2006 – June 2007
+####Systems Administrator III -- March 2006 – June 2007
 Designed and deployed medium scale Asterisk VOIP solution for a virtual IT help desk. Maintained and supported state-wide, multi-agency, contact directory using Red Hat Directory Server, importing data from various different agencies. Created and maintained an automatic Linux install system, reducing time spent installing Linux considerably. Researched Linux migration paths/plans for future Linux needs or requirements of the agency. Prepared and presented training at internal departmental conferences.
 
 ###[Neverblock][]
-####CTO/Co-Founder 2004 - 2008
+####CTO/Co-Founder -- 2004 - 2008
 Developed systems, Interfaces, access devices, and products for Xen and Linux based virtual server company. Provide customer support for products developed.
 
 ###[Guru Labs][]
-####Linux Instructor December 2003 - March 2006
+####Linux Instructor -- December 2003 - March 2006
 Helped create and maintain industry leading Linux course ware, ranging from introductory classes to high-level Unix-Linux boot camps, and troubleshooting. Taught 2-3 Linux courses per month. Contract instructor for such companies as IBM, Red Hat, Novell, and HP. Administered dozens of Red Hat certification exams (RHCT and RHCE).
 
 ##Other experience
