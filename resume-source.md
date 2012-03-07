@@ -23,7 +23,7 @@ Perl,  Python,  Bash,  TCL,  RC(plan9 shell)
 
 Proficient in both English and Spanish
 
-Written courseware and lab exercises for training purposes
+Written course ware and lab exercises for training purposes
 
 ###Certifications
 * Red Hat Certified Engineer (RHCE) Cert #803004747509962
@@ -32,14 +32,14 @@ Written courseware and lab exercises for training purposes
 * IBM Certified Linux Instructor
 
 ###Technology experience
-Asterisk,  PostgreSQL/MySQL,  Snort/IDS,  Xen,  VMware,  LDAP/Red Hat Directory Server,  Linux,  Solaris,  Nexenta,  OpenIndiana,  ZFS,  Active Directory Integration,  Kerberos,  Apache/IIS,  DHCP(ISC dhcpd),  DNS(BIND),  iptables firewalls,  Linux LVM,  Samba,  Linux/Unix Troubleshooting,  Ticket/request tracking solutions,  NetAPP storage,  F5 load-balancers,  Coraid EtherDrive Hardware/ATAoverEthernet,  Plan9,  Inferno,  Build integration/Deployment automation,  Linux systems provisioning/maintenance automation (Cobbler, Puppet, etc), Git, SVN, BZR, Mercurial
+Asterisk,  PostgreSQL/MySQL,  Snort/IDS,  Xen,  VMware,  LDAP/Red Hat Directory Server,  Linux,  Solaris,  Nexenta,  OpenIndiana,  ZFS,  Active Directory Integration,  Kerberos,  Apache/IIS,  DHCP(ISC dhcpd),  DNS(BIND),  iptables firewalls,  Linux LVM,  Samba,  Linux/Unix Troubleshooting,  Ticket/request tracking solutions,  NetAPP storage,  F5 load-balancers,  Coraid EtherDrive Hardware/ATA Over Ethernet,  Plan9,  Inferno,  Build integration/Deployment automation,  Linux systems provisioning/maintenance automation (Cobbler, Puppet, etc), Git, SVN, BZR, Mercurial
 
 
 ## Recent Experience
 
 ###[Coraid][]
 
-####QA Enginner February 2010 – March 2012
+####QA Engineer February 2010 – March 2012
 Tested and released new HBA drivers for the Solaris, Windows, and Linux platforms. Build an installation automation system to make installing and testing various platforms easier. Tested and released various firmware updates for Coraid appliances. Helped design and implement automated QA testing script frameworks (one in Bash, the other in Python). Helped design and install a new testing lab data center. 
 
 ###[Cox Media Group Digital][]
@@ -60,7 +60,7 @@ Developed systems, Interfaces, access devices, and products for Xen and Linux ba
 
 ###[Guru Labs][]
 ####Linux Instructor December 2003 - March 2006
-Helped create and maintain industry leading Linux courseware, ranging from introductory classes to high-level Unix-Linux boot camps, and troubleshooting. Taught 2-3 Linux courses per month. Contract instructor for such companies as IBM, Red Hat, Novell, and HP. Administered dozens of Red Hat certification exams (RHCT and RHCE).
+Helped create and maintain industry leading Linux course ware, ranging from introductory classes to high-level Unix-Linux boot camps, and troubleshooting. Taught 2-3 Linux courses per month. Contract instructor for such companies as IBM, Red Hat, Novell, and HP. Administered dozens of Red Hat certification exams (RHCT and RHCE).
 
 ##Other experience
 

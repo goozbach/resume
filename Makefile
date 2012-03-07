@@ -4,6 +4,9 @@ SOURCENAME ?= resume-source
 
 all:	${BASENAME}.html ${BASENAME}.pdf
 
+spell:
+	aspell check ${SOURCENAME}.md
+
 open: ${BASENAME}.pdf
 	evince ${BASENAME}.pdf &
 
