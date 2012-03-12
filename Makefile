@@ -25,4 +25,12 @@ clean:
 
 release:
 	# commit *.html and *.pdf to gh-pages, and to friocorte-pages
+	git checkout gh-pages
+	git checkout master *[^x].html *.pdf
+	git commit -m "automatic pull of html and pdf from master"
+	git checkout friocorte-pages
+	git checkout master *[^x].html *.pdf
+	git commit -m "automatic pull of html and pdf from master"
 	# push to gh-pages and friocorte-pages
+	git push origin gh-pages
+	git push website friocorte-pages
