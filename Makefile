@@ -12,9 +12,13 @@ open: ${BASENAME}.pdf
 
 %.html:	${SOURCENAME}.md
 	pandoc -t html -o $@ $< -c resume.css
+	git add $@
+	git ci -m "adding $@ automaticly" $@
 
 %.pdf:	${SOURCENAME}.md
 	markdown2pdf --template=resume-template.tex -o $@ $<
+	git add $@
+	git ci -m "adding $@ automaticly" $@
 
 clean:
 	rm -f *~ *.html *.log *.pdf
