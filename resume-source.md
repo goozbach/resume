@@ -13,21 +13,7 @@ phone: 1-762-233-4009
 
 Create, maintain and manage a world-class internet infrastructure by utilizing my Linux/Unix system administrator experience in deployment and server management automation.
 
-## Qualifications:
-
-###Programming/scripting languages
-
-Perl,  Python,  Bash,  TCL,  RC(plan9 shell)  
-
-###Technical writing
-
-Proficient in both English and Spanish
-
-Written course ware and lab exercises for training purposes
-
-Prepared and given numerous [presentations][] at conferences and special interest groups.
-
-###Certifications
+##Certifications
 * Red Hat Certified Engineer (RHCE) Cert #803004747509962
 * Red Hat Certified Instructor (RHCI)
 * Red Hat Certified Examiner (RHCX)
@@ -57,6 +43,20 @@ Developed systems, Interfaces, access devices, and products for Xen and Linux ba
 ###[Guru Labs][]
 ####Linux Instructor -- December 2003 - March 2006
 Helped create and maintain industry leading Linux course ware, ranging from introductory classes to high-level Unix-Linux boot camps, and troubleshooting. Taught 2-3 Linux courses per month. Contract instructor for such companies as IBM, Red Hat, Novell, and HP. Administered dozens of Red Hat certification exams (RHCT and RHCE).
+
+## Qualifications:
+
+###Programming/scripting languages
+
+Perl,  Python,  Bash,  TCL,  RC(plan9 shell)  
+
+###Technical writing
+
+Proficient in both English and Spanish
+
+Written course ware and lab exercises for training purposes
+
+Prepared and given numerous [presentations][] at conferences and special interest groups.
 
 ##Other experience
 
