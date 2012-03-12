@@ -18,3 +18,7 @@ open: ${BASENAME}.pdf
 
 clean:
 	rm -f *~ *.html *.log *.pdf
+
+release:
+	# commit *.html and *.pdf to gh-pages, and to friocorte-pages
+	# push to gh-pages and friocorte-pages
