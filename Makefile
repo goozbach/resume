@@ -23,14 +23,18 @@ open: ${BASENAME}.pdf
 clean:
 	rm -f *~ *.html *.log *.pdf
 
-release:
-	# commit *.html and *.pdf to gh-pages, and to friocorte-pages
+release: release-gh release-frio
+	git push origin gh-pages
+	git push website friocorte-pages
+
+release-gh:
 	git checkout gh-pages
 	git checkout master *[^x].html *.pdf
 	git commit -m "automatic pull of html and pdf from master"
+	git co master
+	
+release-frio:
 	git checkout friocorte-pages
 	git checkout master *[^x].html *.pdf
 	git commit -m "automatic pull of html and pdf from master"
-	# push to gh-pages and friocorte-pages
-	git push origin gh-pages
-	git push website friocorte-pages
+	git checkout master
