@@ -34,44 +34,85 @@ too. Required packages:
   * Install on your Mac via [Macports](http://macports.org).
 * TeX/LaTeX/XeTeX - required for Pandoc to create PDFs.
   * Install with Macports.
-* Perl
-  * The best scripting language ever written.
-  * Required by the resume-uploader script.
-  * You also need File::Homedir, install with `sudo cpan "File::HomeDir"`
 * Awesomeness
   * You bring this yourself, not available prepackaged.
 
+## Setup
+
+### Github pages
+To use github pages you'll need to change the url of the github repo
+
+        git remote set-url gh-pages <YOUR GITHUB REPO>
+
+### Personal website
+If you have ssh access to your web server's file system you want to create a
+git repo somewhere inside the serverroot:
+
+        git init resume
+        cd resume
+
+You'll want to create a post-receive hook and change the config so it doesn't
+yell at you.
+
+        cat .git/hooks/post-receive
+        chmod +x .git/hooks/post-receive
+        git config receive.denyCurrentBranch ignore
+
+You'll then want to change or create the branch you'll be using for your site.
+
+        git remote set-url friocorte-pages <YOUR GITHUB REPO>
+
 ## Usage
 
+### Normal Usage
 Run `make` in the resume directory.  This builds html and pdf versions
-of my resume.  It also invokes `resume-uploader` to upload the various
-files to my website.
+of my resume. These html and pdf files will be automaticly checked into git.
 
-resume-uploader is a fairly generic perl script that uses Net::FTP to
-upload the files.  It checks if the files on the server are older than
-the ones being uploaded and only uploads newer files.  It also only
-uploads files which already exists on the server.
+You can also change the source file or output file names by modifying the 
+`NAME`, `TITLE`, `BASENAME`, or `SOURCENAME` varibles.
 
-There are just a couple of config settings in the uploader script -
-change them as appropriate for your setup.  That script should work
-with just about any ftp server.
+ * `BASENAME` is the varible which will form the first part of the filename.
+  The default is to use this format: `${NAME}-${TITLE}`
 
-Note that resume-uploader assumes the use of a `~/.netrc` file to
-store your login info.  The format of this file is:
+ * `NAME` should be your name, with no underscores for the spaces.
 
-    machine www.example.com login username password XXXXXXXX
-    default login anonymous password user@site
+ * `TITLE` should be the title of the position you're applying for.
+ 
+ * `SOURCENAME` is the source file which generates the resume. The default is:
+   resume-source *WITHOUT THE EXTENSION* the extension `md` gets added automaticly.
 
-Your `~/.netrc` must be mode 600.
+So, the default when you run the `make` command will create the files,
+`Derek_Carter-Systems_Administrator.html` and 
+`Derek_Carter-Systems_Administrator.pdf`.
 
-I call my finished files `resume-phil.xxx` to fit an existing naming
-scheme.  You probably want to adjust the makefile and scripts to call
-them something else.
+If you want to create a specific resume, say for the `example.com`
+`fiddle-manager` position you can run:
 
+        TITLE='example.com_fiddle-manager' make
+
+This would create the files: `Derek_Carter-example.com_fiddle-manager.html` and
+`Derek_Carter-example.com_fiddle-manager.pdf`. All without changing make files
+or source files.
+
+### Release Usage
+Once you've got your resume just the way you like it, you'll want to upload it
+to github pages and your website.
+
+This is done by running `make release` which will use the specially created
+branches and git push to update the remote locations.
+
+### Release Tweaks
+You will most likely want to modify or edit the index.html files in your
+gh-pages and site branches.
+
+### 
 ## TODO
 
 It would be pretty amazing if someone figured out how to generate
 word documents from Markdown.  Maybe use pandoc to create RTF?
+
+I need to remove the friocorte- specific branch names. Maybe have a script to
+create needed branches?
 
 ## Conclusion
 

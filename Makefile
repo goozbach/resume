@@ -1,6 +1,9 @@
 NAME ?= Derek_Carter
-BASENAME ?= ${NAME}-Systems_Administrator
+TITLE ?= Systems_Administrator
+BASENAME ?= ${NAME}-${TITLE}
 SOURCENAME ?= resume-source
+GHBRANCH ?= gh-pages
+SITEBRANCH ?= friocorte-pages
 
 all:	${BASENAME}.html ${BASENAME}.pdf
 
@@ -21,20 +24,20 @@ open: ${BASENAME}.pdf
 	git ci -m "adding $@ automaticly" $@
 
 clean:
-	rm -f *~ *.html *.log *.pdf
+	rm -f *~ *.log
 
-release: release-gh release-frio
-	git push origin gh-pages
-	git push website friocorte-pages
+release: release-gh release-site
+	git push origin ${GHBRANCH}
+	git push website ${SITEBRANCH}
 
 release-gh:
-	git checkout gh-pages
+	git checkout ${GHBRANCH}
 	git checkout master *[^x].html *.pdf
 	git commit -m "automatic pull of html and pdf from master"
 	git co master
 	
-release-frio:
-	git checkout friocorte-pages
+release-site:
+	git checkout ${SITEBRANCH}
 	git checkout master *[^x].html *.pdf
 	git commit -m "automatic pull of html and pdf from master"
 	git checkout master
