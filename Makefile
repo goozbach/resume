@@ -18,7 +18,7 @@ open: ${BASENAME}.pdf
 	git add $@
 	git ci -m "adding $@ automaticly" $@
 
-%.pdf:	${SOURCENAME}.md
+%.pdf:	${SOURCENAME}.md resume-template.tex
 	markdown2pdf --template=resume-template.tex -o $@ $<
 	git add $@
 	git ci -m "adding $@ automaticly" $@
