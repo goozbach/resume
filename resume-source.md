@@ -14,7 +14,7 @@ phone: 1-762-233-4009
 Create, maintain and manage a world-class internet infrastructure by utilizing my Linux/Unix system administrator experience in deployment and server management automation.
 
 ##Certifications
-* Red Hat Certified Engineer (RHCE) Cert #803004747509962
+* Red Hat Certified Engineer (RHCE) Cert #[110-015-385][]
 * Red Hat Certified Instructor (RHCI)
 * Red Hat Certified Examiner (RHCX)
 * IBM Certified Linux Instructor
@@ -84,3 +84,4 @@ I am one of the co-founders of the [GoOSe Linux Project][].
   [Provo Linux Users Group]: http://plug.org/
   [Plan9 based PXE and DHCP environment]: http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html
   [GoOSe Linux Project]: http://gooseproject.org/
+  [110-015-385]: https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-015-385&verify=Verify
