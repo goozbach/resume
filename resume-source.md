@@ -21,6 +21,12 @@ Create, maintain and manage a world-class internet infrastructure by utilizing m
 
 ## Recent Experience
 
+###Linux Infrastructure Consultant / Linux instructor -- December 2011 – Present
+Provide Linux infrastructure support for various clients.
+Services provided include system updates, configuration management (Puppet and/or Ansible), installation server (Cobbler) support and configuration, Bash and Python scripting, and other systems tasks.
+
+As a Linux instructor, taught courses for RedHat training partners, and proctored RHCE and RHCSA exams.
+
 ###[Coraid][]
 
 ####QA Engineer/Tools Developer -- February 2010 – March 2012
