@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:r="http://xmlresume.sourceforge.net/resume/0.0">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="resume-page" margin-top="0.75in" margin-left="0.6in" margin-right="0.6in" margin-bottom="0in" page-height="11in" page-width="8.5in">
+      <fo:region-body overflow="hidden" margin-bottom="0.6in"/>
+      <fo:region-after overflow="hidden" extent="0.6in"/>
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+  <fo:page-sequence master-reference="resume-page">
+    <fo:static-content flow-name="xsl-region-after">
+      <fo:block text-align="start" font-size="8pt" font-family="serif">Jo Doe - Résumé - page <fo:page-number/></fo:block>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block start-indent=".5in" font-family="serif" font-size="10pt">
+        <fo:block space-after="0.750em">
+          <fo:block font-style="normal" font-weight="bold" font-size="10pt">Jo Doe</fo:block>
+          <fo:block>
+            <fo:block>123 Elm #456</fo:block>
+            <fo:block>Garbonzoville, NX 99999-9999</fo:block>
+          </fo:block>
+          <fo:block space-before="0.4em">
+            <fo:block><fo:inline font-style="italic">Phone:</fo:inline> 555.555.5555</fo:block>
+            <fo:block><fo:inline font-style="italic">Email:</fo:inline> doe@doe.doe</fo:block>
+            <fo:block><fo:inline font-style="italic">URL:</fo:inline> http://doe.com/~doe/</fo:block>
+          </fo:block>
+        </fo:block>
+        <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Professional Objective</fo:block>
+        <fo:block space-after="0.750em">I really, really, really, <fo:inline font-weight="bold">really</fo:inline> want a
+      job.
+    </fo:block>
+        <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Employment History</fo:block>
+        <fo:block>
+          <fo:block space-after="0.4em" keep-with-next="always">
+            <fo:block keep-with-next="always" font-style="normal" font-weight="bold">Senior Toilet Cleaner</fo:block>
+            <fo:block keep-with-next="always">
+              <fo:inline font-style="italic" font-weight="normal">HM Secret Service</fo:inline>
+            </fo:block>
+            <fo:block font-style="italic" font-weight="normal">August 1943–Present</fo:block>
+          </fo:block>
+          <fo:block provisional-distance-between-starts="0.5em">
+            <fo:block space-after="0.750em">Cleaned out public lavoratories using my toothbrush.
+	  Assissted with enterprise resource planning.
+	</fo:block>
+          </fo:block>
+        </fo:block>
+        <fo:block>
+          <fo:block space-after="0.4em" keep-with-next="always">
+            <fo:block keep-with-next="always" font-style="normal" font-weight="bold">Junior Bedpan Cleaner</fo:block>
+            <fo:block keep-with-next="always">
+              <fo:inline font-style="italic" font-weight="normal">Framingham Palace</fo:inline>
+            </fo:block>
+            <fo:block font-style="italic" font-weight="normal">October 1633–October 1634</fo:block>
+          </fo:block>
+          <fo:block provisional-distance-between-starts="0.5em">
+            <fo:block space-after="0.750em">Analyzed bedpan cleanliness strategies for royal
+	  family.  Learned how to make soufflés.
+	</fo:block>
+          </fo:block>
+        </fo:block>
+        <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Education</fo:block>
+        <fo:block space-after="0.750em">
+          <fo:block keep-with-next="always"><fo:inline font-style="normal" font-weight="bold">BA in Renaissance Bedpan Design</fo:inline>, February 1631. 
+	  Graduated with lowest honors.
+	</fo:block>
+          <fo:block>Fishbaum del Schloßberg</fo:block>
+        </fo:block>
+        <fo:block font-weight="normal" font-style="italic"/>
+        <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Special Skills</fo:block>
+        <fo:block space-after="0.4em"><fo:inline font-style="italic" font-weight="normal"/>Speak multiple European languages with no discernable accent, Able to predict earthquakes.</fo:block>
+        <fo:block start-indent="0in" font-size="8pt">
+          <fo:block keep-with-next="always">Copyright © 2009 by Jo Doe. </fo:block>
+          <fo:block space-after="0.750em">So there!</fo:block>
+        </fo:block>
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

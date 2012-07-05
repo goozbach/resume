@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resume PUBLIC "-//Sean Kelly//DTD Resume 1.5.1//EN"
+  "http://xmlresume.sourceforge.net/dtd/resume.dtd">
+
+<!--
+example1.xml
+
+An example resume using the XML Resume Library
+
+Copyright (c) 2000-2002 Sean Kelly.  All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the
+   distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-->
+
+<resume>
+  <header>
+    <name>
+      <firstname>Derek</firstname>
+      <surname>Carter</surname>
+    </name>
+    <address>
+      <street>55 McDonald</street>
+      <city>Marietta</city>
+      <state>GA</state>
+      <zip>30064</zip>
+    </address>
+    <contact>
+      <phone>801 458 7326</phone>
+      <email>derek@neverblock.com</email>
+      <url>http://blog.friocorte.com</url>
+    </contact>
+  </header>
+
+  <objective>
+    <para>
+      Utilize training and Asterisk system administrator skill set to help develop world-class training and certification. Train others to do the same.
+    </para>
+  </objective>
+
+  <history>
+    <job>
+      <jobtitle>Senior System Administrator</jobtitle>
+      <employer>Cox Radio Interactive</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>August</month>
+	    <year>2007</year>
+	  </date>
+	</from>
+	<to>
+	  <present/>
+	</to>
+      </period>
+      <description>
+	<para>
+	  Migrated entire technology team from CVS to Subversion leading to an easier to manage code base. Improved the internal software release tool, which decreased the time needed to deploy new software into production. Designed and built an entire new hardware architecture for a new version of our flagship products. Created and built a fully N+1 MySQL database server cluster. Helped manage a release of a new version of our flagship product. Developed many internal tools for monitoring overall network and system health.
+	</para>
+      </description>
+    </job>
+
+    <job>
+      <jobtitle>Sys Admin III</jobtitle>
+      <employer>Florida Department of Health</employer>
+      <period>
+	      <from>
+	        <date>
+	          <month>March</month>
+	          <year>2006</year>
+	        </date>
+	      </from>
+      	<to>
+	        <date>
+	          <month>June</month>
+	          <year>2007</year>
+	        </date>
+	      </to>
+      </period>
+      <description>
+	      <para>
+	        Designed deployed medium scale Asterisk VOIP solution for department's IT help desk.  Maintained and supported state-wide, multi-agency, contact directory using Red Hat Directory Server, with data from various different agencies.  Created and maintained an automatic Linux install system, reducing time spent installing Linux considerably. Researched Linux migration paths/plans for future Linux needs or requirements of the agency. Prepared and presented training at internal department conferences.
+	      </para>
+      </description>
+    </job>
+
+    <job>
+      <jobtitle>Sys Admin III</jobtitle>
+      <employer>Florida Department of Health</employer>
+      <period>
+	      <from>
+	        <date>
+	          <month>March</month>
+	          <year>2006</year>
+	        </date>
+	      </from>
+      	<to>
+	        <date>
+	          <month>June</month>
+	          <year>2007</year>
+	        </date>
+	      </to>
+      </period>
+      <description>
+	      <para>
+	        Designed deployed medium scale Asterisk VOIP solution for department's IT help desk.  Maintained and supported state-wide, multi-agency, contact directory using Red Hat Directory Server, with data from various different agencies.  Created and maintained an automatic Linux install system, reducing time spent installing Linux considerably. Researched Linux migration paths/plans for future Linux needs or requirements of the agency. Prepared and presented training at internal department conferences.
+	      </para>
+      </description>
+    </job>
+    
+  </history>
+
+  <academics>
+    <degrees>
+      <degree>
+	<level>BA</level>
+	<major>Renaissance Bedpan Design</major>
+	<date>
+	  <month>February</month>
+	  <year>1631</year>
+	</date>
+	<institution>Fishbaum del Schlo&szlig;berg</institution>
+	<annotation>
+	  Graduated with lowest honors.
+	</annotation>
+      </degree>
+    </degrees>
+  </academics>
+
+  <skillarea>
+    <title>Special Skills</title>
+    <skillset>
+      <skill>Speak multiple European languages with no discernable
+        accent
+      </skill>
+      <skill>Able to predict earthquakes</skill>
+    </skillset>
+  </skillarea>
+
+  <copyright>
+    <year>2009</year>
+    <legalnotice>
+      <para>So there!</para>
+    </legalnotice>
+  </copyright>
+    
+</resume>
