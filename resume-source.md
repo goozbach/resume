@@ -21,7 +21,8 @@ Create, maintain and manage a world-class internet infrastructure by utilizing m
 
 ## Recent Experience
 
-###Linux Infrastructure Consultant / Linux instructor -- December 2011 – Present
+###[Goozbach Infrastructure Solutions][]
+####Linux Infrastructure Consultant / Linux instructor -- December 2011 – Present
 Provide Linux infrastructure support for various clients.
 Services provided include system updates, configuration management (Puppet and/or Ansible), installation server (Cobbler) support and configuration, Bash and Python scripting, and other systems tasks.
 
@@ -74,6 +75,7 @@ I am the Author of/Contributor to these [open source projects][].
 
 I am one of the co-founders of the [GoOSe Linux Project][].
 
+  [Goozbach Infrastructure Solutions]: http://goozbach.com/
   [Coraid]: http://www.coraid.com/
   [Cox Media Group Digital]: http://cmgdigital.com/
   [Cox Radio Interactive]: http://cxri.net/
