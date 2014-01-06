@@ -75,7 +75,18 @@ $if(graphics)$
 \let\Oldincludegraphics\includegraphics
 \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
 $endif$
-\usepackage[breaklinks=true,unicode=true,pdfborderstyle={/S/U/W 1},colorlinks=true,linkcolor={1 0 0},linkbordercolor={1 0 0}]{hyperref}
+\def\@pdfborder{0 0 1}% Overrides border definition set with colorlinks=true
+\def\@pdfborderstyle{/S/U/W 1}% Overrides border style set with colorlinks=true
+\usepackage[]{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = blue, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+  breaklinks=true,
+  unicode=true,
+  pdfborderstyle={/S/U/W 1},
+}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt plus 2pt minus 1pt}
 $if(listings)$
