@@ -4,10 +4,8 @@
 1665 Eisenhower Ave  
 Watkinsville, GA  30677  
 
-phone: 1-762-233-4009  
-
-[Main Website -- http://blog.friocorte.com/][]  
-[Virtual Business Card -- http://blog.friocorte.com/card/][]  
+1- (762) 233-4009 
+[http://blog.friocorte.com][]
 
 ## Objective:
 
@@ -87,6 +85,7 @@ I am the Author of/Contributor to these [open source projects][].
 
 I am one of the co-founders of the [GoOSe Linux Project][].
 
+  [http://blog.friocorte.com/]: http://blog.friocorte.com/
   [Goozbach Infrastructure Solutions]: http://goozbach.com/
   [Coraid]: http://www.coraid.com/
   [Cox Media Group Digital]: http://cmgdigital.com/
