@@ -13,25 +13,23 @@ Watkinsville, GA  30677
 
 ###[Goozbach Infrastructure Solutions][]
 ####Linux Instructor and Infrastructure Consultant -- December 2011 – Present
-#####Linux Infrastructure Consultant
-Services provided include system updates, configuration management (Puppet and/or Ansible), installation server (Cobbler) support and configuration, Bash and Python scripting, and other systems administration tasks.
+Sucessfull Linux Consulting and training company providing support and best practices for companies in the telecom, training and technology fields.
 
-* Consulting customers on proper "DevOps-style" policies, procedures, and tools, creating a more agile workflow.
+Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and other systems administration tasks.
+
+* Consulting customers on DevOps policies, procedures, and tools.
 
 * Creating best practices for tools customers are using, including Cobbler, Puppet, and Ansible.
 
 * Creating and maintaining virtualization and "private clouds", allowing for better use of existing resources.
 
-* Building and maintaining ISO generation system for a [Leading open source PBX distribution](http://www.freepbx.org/).
+* Automating and scripting system administration tasks.
 
-#####Linux Instructor
-As a Linux instructor, taught courses for RedHat training partners, the Linux Foundation, and proctored RHCE and RHCSA exams.
+* Developed Linux training courses.
 
-* Developed training courses for the Linux Foundation.
+    + Course topics included [Linux Automation][], and [Linux Network Managment][].
 
-  + Course topics included [Linux Automation][], and [Linux Network Managment][].
-
-  + Course creation included slides, books, lab excercises, and virtual server envrionments.
+    + Course creation included slides, books, lab excercises, and virtual server envrionments.
 
 ###[Coraid][]
 
