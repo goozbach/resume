@@ -4,8 +4,9 @@
 1665 Eisenhower Ave  
 Watkinsville, GA  30677  
 
-1- (762) 233-4009 
-[http://blog.friocorte.com][]
+1-(762)233-4009  
+[http://blog.friocorte.com/][]  
+[http://goozbach.com/contact/][]  
 
 ## Objective:
 
@@ -34,9 +35,9 @@ Built and maintained ISO generation system for a [Leading open source PBX distri
 
 As a Linux instructor, taught courses for RedHat training partners, and proctored RHCE and RHCSA exams.
 
-Developed and authored Linux training for the Linux Foundation.
-Course topics included [Linux Automation](http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation), and [Linux Network Managment](http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management).
-Course creation included slides, books, lab exercises, and virtual server environments.
+Developed, authored, and delivered training courses for the Linux Foundation.
+Course topics included [Linux Automation][], and [Linux Network Managment][].
+Course creation included slides, books, lab excercises, and virtual server envrionments.
 
 ###[Coraid][]
 
@@ -52,10 +53,6 @@ During my time at Cox Radio Interactive I migrated the entire technology team fr
 ###[Florida Department of Health][]
 ####Systems Administrator III -- March 2006 – June 2007
 Designed and deployed medium scale Asterisk VOIP solution for a virtual IT help desk, using Perl and JQuery to create a call center monitoring wallboard. Maintained and supported state-wide, multi-agency, contact directory using Red Hat Directory Server, importing data from all of the different state agencies using custom Perl scripts. Created and maintained an automatic Linux install system, reducing time spent installing Linux considerably. Researched Linux migration paths/plans for future Linux needs or requirements of the agency. Prepared and presented training at internal departmental conferences. Developed a Linux print server system using Samba which integrated with the Active Directory Authentication system. Used VMware as part of a fault tolerant infrastructure. Managed system configuration and Asterisk configuration using BZR.
-
-###[Neverblock][]
-####CTO/Co-Founder -- 2004 - 2008
-Developed systems, Interfaces, access devices, and products for Xen and Linux based virtual server company. Provide customer support for products developed.
 
 ###[Guru Labs][]
 ####Linux Instructor -- December 2003 - March 2006
@@ -79,13 +76,14 @@ Prepared and given numerous [presentations][] at conferences and special interes
 
 I am active in my local Linux users groups, [Atlanta Linux Enthusiasts][] and [Classic Hackers UGA Linux Users Group][]. 
 
-I also participate in the mailing lists of Linux users groups elsewhere: [BYU Unix Users Group][], [Provo Linux Users Group][]
-
 I am the Author of/Contributor to these [open source projects][].
 
 I am one of the co-founders of the [GoOSe Linux Project][].
 
+  [Linux Network Managment]: http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management
+  [Linux Automation]: http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation
   [http://blog.friocorte.com/]: http://blog.friocorte.com/
+  [http://goozbach.com/contact/]: http://goozbach.com/contact/
   [Goozbach Infrastructure Solutions]: http://goozbach.com/
   [Coraid]: http://www.coraid.com/
   [Cox Media Group Digital]: http://cmgdigital.com/
@@ -99,8 +97,6 @@ I am one of the co-founders of the [GoOSe Linux Project][].
   [open source projects]: http://github.com/goozbach/
   [Classic Hackers UGA Linux Users Group]: http://chugalug.uga.edu/
   [Atlanta Linux Enthusiasts]: http://ale.org/
-  [BYU Unix Users Group]: http://uug.byu.edu/
-  [Provo Linux Users Group]: http://plug.org/
   [Plan9 based PXE and DHCP environment]: http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html
   [GoOSe Linux Project]: http://gooseproject.org/
   [110-015-385]: https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-015-385&verify=Verify
