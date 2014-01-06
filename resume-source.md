@@ -26,7 +26,16 @@ Create, maintain and manage a world-class internet infrastructure by utilizing m
 Provide Linux infrastructure support for various clients.
 Services provided include system updates, configuration management (Puppet and/or Ansible), installation server (Cobbler) support and configuration, Bash and Python scripting, and other systems tasks.
 
+Created and implemented DevOps-style policies and tools to allow customers increased productivity and ease of management. 
+
+Designed, deployed and maintained virtualization environments allowing for more closely matching Development/QA/Production technology stacks.
+
+Consulting on best practices for tools customers are using, including Cobbler, Puppet, and Ansible.
+
 As a Linux instructor, taught courses for RedHat training partners, and proctored RHCE and RHCSA exams.
+
+Developed and authored Linux training for the Linux Foundation.
+Course topics included [Linux Automation](http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation), and [Linux Network Managment](http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management).
 
 ###[Coraid][]
 
