@@ -32,13 +32,13 @@ Designed, deployed and maintained virtualization environments allowing for more 
 
 Consulting on best practices for tools customers are using, including Cobbler, Puppet, and Ansible.
 
-Built and maintained ISO generation system for a [Leading opensource PBX distribution](http://www.freepbx.org/).
+Built and maintained ISO generation system for a [Leading open source PBX distribution](http://www.freepbx.org/).
 
 As a Linux instructor, taught courses for RedHat training partners, and proctored RHCE and RHCSA exams.
 
 Developed and authored Linux training for the Linux Foundation.
 Course topics included [Linux Automation](http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation), and [Linux Network Managment](http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management).
-Course creation included slides, books, lab excercises, and virtual server envrionments.
+Course creation included slides, books, lab exercises, and virtual server environments.
 
 ###[Coraid][]
 
