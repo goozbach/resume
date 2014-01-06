@@ -28,8 +28,10 @@ Services provided include system updates, configuration management (Puppet and/o
 As a Linux instructor, taught courses for RedHat training partners, the Linux Foundation, and proctored RHCE and RHCSA exams.
 
 * Developed training courses for the Linux Foundation.
-** Course topics included [Linux Automation][], and [Linux Network Managment][].
-** Course creation included slides, books, lab excercises, and virtual server envrionments.
+
+  * Course topics included [Linux Automation][], and [Linux Network Managment][].
+
+  * Course creation included slides, books, lab excercises, and virtual server envrionments.
 
 ###[Coraid][]
 
