@@ -29,9 +29,9 @@ As a Linux instructor, taught courses for RedHat training partners, the Linux Fo
 
 * Developed training courses for the Linux Foundation.
 
-  * Course topics included [Linux Automation][], and [Linux Network Managment][].
+  + Course topics included [Linux Automation][], and [Linux Network Managment][].
 
-  * Course creation included slides, books, lab excercises, and virtual server envrionments.
+  + Course creation included slides, books, lab excercises, and virtual server envrionments.
 
 ###[Coraid][]
 
