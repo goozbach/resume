@@ -14,7 +14,7 @@ open: ${BASENAME}.pdf
 	evince -f ${BASENAME}.pdf &
 
 %.html:	${SOURCENAME}.md
-	pandoc -t html -o $@ $< -c resume.css
+	pandoc -t html --self-contained -o $@ $< -c resume.css
 	git add $@
 	git ci -m "adding $@ automaticly" $@
 

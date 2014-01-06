@@ -32,10 +32,13 @@ Designed, deployed and maintained virtualization environments allowing for more 
 
 Consulting on best practices for tools customers are using, including Cobbler, Puppet, and Ansible.
 
+Built and maintained ISO generation system for a [Leading opensource PBX distribution](http://www.freepbx.org/).
+
 As a Linux instructor, taught courses for RedHat training partners, and proctored RHCE and RHCSA exams.
 
 Developed and authored Linux training for the Linux Foundation.
 Course topics included [Linux Automation](http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation), and [Linux Network Managment](http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management).
+Course creation included slides, books, lab excercises, and virtual server envrionments.
 
 ###[Coraid][]
 
@@ -93,7 +96,7 @@ I am one of the co-founders of the [GoOSe Linux Project][].
   [Guru Labs]: http://www.gurulabs.com/
   [Virtual Business Card -- http://blog.friocorte.com/card/]: http://blog.friocorte.com/card/
   [Main Website -- http://blog.friocorte.com/]: http://blog.friocorte.com/
-  [presentations]: http://blog.friocorte.com/presentation/
+  [presentations]: http://presentation.goozbach.com/
   [open source projects]: http://github.com/goozbach/
   [Classic Hackers UGA Linux Users Group]: http://chugalug.uga.edu/
   [Atlanta Linux Enthusiasts]: http://ale.org/
