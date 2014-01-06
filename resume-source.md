@@ -8,31 +8,23 @@ Watkinsville, GA  30677
 [http://blog.friocorte.com/][]  
 [http://goozbach.com/contact/][]  
 
-## Objective:
-
-Create, maintain and manage a world-class internet infrastructure by utilizing my Linux/Unix system administrator experience in deployment and server management automation.
-
-##Certifications
-* Red Hat Certified Engineer (RHCE) Cert #[110-015-385][]
-* Red Hat Certified Instructor (RHCI)
-* Red Hat Certified Examiner (RHCX)
-* IBM Certified Linux Instructor
 
 ## Recent Experience
 
 ###[Goozbach Infrastructure Solutions][]
-####Linux Infrastructure Consultant / Linux instructor -- December 2011 – Present
-Provide Linux infrastructure support for various clients.
-Services provided include system updates, configuration management (Puppet and/or Ansible), installation server (Cobbler) support and configuration, Bash and Python scripting, and other systems tasks.
+####Linux Instructor and Infrastructure Consultant -- December 2011 – Present
+#####Linux Infrastructure Consultant
+Services provided include system updates, configuration management (Puppet and/or Ansible), installation server (Cobbler) support and configuration, Bash and Python scripting, and other systems administration tasks.
 
-Created and implemented DevOps-style policies and tools to allow customers increased productivity and ease of management. 
+* Consulting customers on proper "DevOps-style" policies, procedures, and tools, creating a more agile workflow.
 
-Designed, deployed and maintained virtualization environments allowing for more closely matching Development/QA/Production technology stacks.
+* Creating best practices for tools customers are using, including Cobbler, Puppet, and Ansible.
 
-Consulting on best practices for tools customers are using, including Cobbler, Puppet, and Ansible.
+* Creating and maintaining virtualization and "private clouds", allowing for better use of existing resources.
 
-Built and maintained ISO generation system for a [Leading open source PBX distribution](http://www.freepbx.org/).
+* Building and maintaining ISO generation system for a [Leading open source PBX distribution](http://www.freepbx.org/).
 
+#####Linux Instructor
 As a Linux instructor, taught courses for RedHat training partners, and proctored RHCE and RHCSA exams.
 
 Developed, authored, and delivered training courses for the Linux Foundation.
@@ -57,6 +49,12 @@ Designed and deployed medium scale Asterisk VOIP solution for a virtual IT help 
 ###[Guru Labs][]
 ####Linux Instructor -- December 2003 - March 2006
 Helped create and maintain industry leading Linux course ware, ranging from introductory classes to high-level Unix-Linux boot camps, and troubleshooting. Taught 2-3 Linux courses per month. Contract instructor for such companies as IBM, Red Hat, Novell, and HP. Administered dozens of Red Hat certification exams (RHCT and RHCE).
+
+##Certifications
+* Red Hat Certified Engineer (RHCE) Cert #[110-015-385][]
+* Red Hat Certified Instructor (RHCI)
+* Red Hat Certified Examiner (RHCX)
+* IBM Certified Linux Instructor
 
 ## Qualifications:
 
