@@ -82,40 +82,27 @@ Managing day to day operations, capacity planning, operations budgeting and lead
     + N+1 redundant MySQL cluster, F5 LTM Load Balancers, Mod_Perl and Apache, and NetAPP Storage.
 
 ###[Florida Department of Health][]
-####Systems Administrator III -- March 2006 – June 2007
-Designed and deployed medium scale Asterisk VOIP solution for a virtual IT help desk, using Perl and JQuery to create a call center monitoring wallboard. Maintained and supported state-wide, multi-agency, contact directory using Red Hat Directory Server, importing data from all of the different state agencies using custom Perl scripts. Created and maintained an automatic Linux install system, reducing time spent installing Linux considerably. Researched Linux migration paths/plans for future Linux needs or requirements of the agency. Prepared and presented training at internal departmental conferences. Developed a Linux print server system using Samba which integrated with the Active Directory Authentication system. Used VMware as part of a fault tolerant infrastructure. Managed system configuration and Asterisk configuration using BZR.
+####Systems Administrator -- March 2006 – June 2007
+Full time Linux and VOIP consultant at agency responsible for technology procurment throughout the state.
 
-###[Guru Labs][]
-####Linux Instructor -- December 2003 - March 2006
-Helped create and maintain industry leading Linux course ware, ranging from introductory classes to high-level Unix-Linux boot camps, and troubleshooting. Taught 2-3 Linux courses per month. Contract instructor for such companies as IBM, Red Hat, Novell, and HP. Administered dozens of Red Hat certification exams (RHCT and RHCE).
+* Design and deploy medium scale Virtual IT help desk using Asterisk, with monitoring wallboard built with Jquery and Perl
 
-##Certifications
-* Red Hat Certified Engineer (RHCE) Cert #[110-015-385][]
-* Red Hat Certified Instructor (RHCI)
-* Red Hat Certified Examiner (RHCX)
-* IBM Certified Linux Instructor
+* Builing and mantaining state-wide, multi-agency, contact directory using Red Hat Directory Server, importing data from all of the different state agencies using custom Perl scripts.
 
-## Qualifications:
+* Building Linux based print servers using Samba, which integreted with Active Directory system.
 
-###Programming/scripting languages
+####Certifications  
+Red Hat Certified Engineer (RHCE) Cert #[110-015-385][] -- Red Hat Certified Instructor (RHCI) -- Red Hat Certified Examiner (RHCX) -- IBM Certified Linux Instructor.
 
-Perl,  Python,  Bash,  TCL,  RC(plan9 shell)  
+####Languages
+Perl -- Python -- TCL -- Bash -- English -- Spanish.
 
-###Technical writing
-
-Proficient in both English and Spanish
-
-Written course ware and lab exercises for training purposes
-
+##Additional Information
 Prepared and given numerous [presentations][] at conferences and special interest groups.
-
-##Other experience
 
 I am active in my local Linux users groups, [Atlanta Linux Enthusiasts][] and [Classic Hackers UGA Linux Users Group][]. 
 
 I am the Author of/Contributor to these [open source projects][].
-
-I am one of the co-founders of the [GoOSe Linux Project][].
 
   [Linux Network Management]: http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management
   [Linux Automation]: http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation
@@ -134,5 +121,4 @@ I am one of the co-founders of the [GoOSe Linux Project][].
   [Classic Hackers UGA Linux Users Group]: http://chugalug.uga.edu/
   [Atlanta Linux Enthusiasts]: http://ale.org/
   [Plan9 based PXE and DHCP environment]: http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html
-  [GoOSe Linux Project]: http://gooseproject.org/
   [110-015-385]: https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-015-385&verify=Verify
