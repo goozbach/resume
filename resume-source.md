@@ -13,7 +13,7 @@ Watkinsville, GA  30677
 
 ###[Goozbach Infrastructure Solutions][]
 ####Linux Infrastructure Consultant and Instructor -- December 2011 – Present
-Sucessfull Linux Consulting and training company providing support and best practices for companies in the telecom, training and technology fields.
+Successful Linux Consulting and training company providing support and best practices for companies in the telecommunications, training and technology fields.
 
 Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and other systems administration tasks.
 
@@ -29,9 +29,9 @@ Services provided include system updates, configuration management, installation
 
 * Developed Linux training courses.
 
-    + Course topics included [Linux Automation][], and [Linux Network Managment][].
+    + Course topics included [Linux Automation][], and [Linux Network Management][].
 
-    + Course creation included slides, books, lab excercises, and virtual server envrionments.
+    + Course creation included slides, books, lab exercises, and virtual server environments.
 
 ###[Coraid][]
 
@@ -50,9 +50,9 @@ Services provided include system updates, configuration management, installation
 
     + Integrating Cobbler into a [Plan9 based PXE and DHCP environment][].
 
-    + Designing and implemting automated QA testing script frameworks built in Bash and Python.
+    + Designing and implementing automated QA testing script frameworks built in Bash and Python.
 
-    + Designing and installing a new testing lab data center.
+    + Designing and installing a new testing data center.
 
 ###[Cox Media Group Digital][] / Cox Radio Interactive
 ####Systems Administrator -- August 2007 – February 2010
@@ -96,7 +96,7 @@ I am the Author of/Contributor to these [open source projects][].
 
 I am one of the co-founders of the [GoOSe Linux Project][].
 
-  [Linux Network Managment]: http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management
+  [Linux Network Management]: http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management
   [Linux Automation]: http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation
   [http://blog.friocorte.com/]: http://blog.friocorte.com/
   [http://goozbach.com/contact/]: http://goozbach.com/contact/
@@ -105,7 +105,6 @@ I am one of the co-founders of the [GoOSe Linux Project][].
   [Cox Media Group Digital]: http://cmgdigital.com/
   [Cox Radio Interactive]: http://cxri.net/
   [Florida Department of Health]: http://www.doh.state.fl.us/
-  [Neverblock]: http://neverblock.com/
   [Guru Labs]: http://www.gurulabs.com/
   [Virtual Business Card -- http://blog.friocorte.com/card/]: http://blog.friocorte.com/card/
   [Main Website -- http://blog.friocorte.com/]: http://blog.friocorte.com/
