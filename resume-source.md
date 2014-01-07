@@ -12,7 +12,7 @@ Watkinsville, GA  30677
 ## Recent Experience
 
 ###[Goozbach Infrastructure Solutions][]
-####Linux Instructor and Infrastructure Consultant -- December 2011 – Present
+####Linux Infrastructure Consultant and Instructor -- December 2011 – Present
 Sucessfull Linux Consulting and training company providing support and best practices for companies in the telecom, training and technology fields.
 
 Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and other systems administration tasks.
@@ -22,6 +22,8 @@ Services provided include system updates, configuration management, installation
 * Creating best practices for tools customers are using, including Cobbler, Puppet, and Ansible.
 
 * Creating and maintaining virtualization and "private clouds", allowing for better use of existing resources.
+
+    + Utilizing OpenStack, SolusVM, OpenShift, Vmware, and VirtualBox
 
 * Automating and scripting system administration tasks.
 
@@ -33,8 +35,24 @@ Services provided include system updates, configuration management, installation
 
 ###[Coraid][]
 
-####QA Engineer/Tools Developer -- February 2010 – March 2012
-Tested and released Coraid HBA drivers for Solaris, OpenIndiana, Nexenta, Windows, and Linux platforms, integrating Coraid storage with ZFS and Linux LVM. Tested an Inferno based thick client for managing Coraid Appliances on the Windows and Linux platforms. Built an installation automation system using Cobbler to make installing and testing easier and faster. Integrated Cobbler into a [Plan9 based PXE and DHCP environment][]. Tested and released firmware updates for Coraid appliances. Helped design and implement automated QA testing script frameworks (one in Bash, the other in Python). Helped design and install a new testing lab data center. Worked with Mercurial repositories for sharing Python testing scripts, and managing systems configuration files. Packaged internal tools and software using RPM for inclusion in Cobbler server repositories.
+####QA Engineer and Tools Developer -- February 2010 – March 2012
+"User number 1" for an Ethernet Storage company, which includes quality assurance engineering, testing, and tool/platform development; as well as product market research.
+
+* Testing releases of Coraid HBA drivers for Solaris, OpenIndiana, Nexenta, Windows, and Linux platforms.
+
+    + Integrating Coraid storage with ZFS and Linux LVM.
+
+* Tested firmware updates for Coraid appliances.
+
+* QA tool and platform engineering
+
+    + Built an installation automation system using Cobbler to make installing and testing easier and faster.
+
+    + Integrating Cobbler into a [Plan9 based PXE and DHCP environment][].
+
+    + Designing and implemting automated QA testing script frameworks built in Bash and Python.
+
+    + Designing and installing a new testing lab data center.
 
 ###[Cox Media Group Digital][] / Cox Radio Interactive
 ####Systems Administrator -- August 2007 – February 2010
