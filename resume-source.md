@@ -61,11 +61,11 @@ Managing day to day operations, capacity planning, operations budgeting and lead
 
     + Building collaboration tools (IRC server, mailing lists, Request Tracker).
 
-    + Desiging new server platform for new business entity.
+    + Designing new server platform for new business entity.
 
 * Managing 100+ Linux servers serving 150+ high-traffic websites.
 
-    + Built automation and configuration managment systems using Cobbler and Puppet.
+    + Built automation and configuration management systems using Cobbler and Puppet.
 
     + Migrating ops and dev teams from CVS to SVN.
 
@@ -73,7 +73,7 @@ Managing day to day operations, capacity planning, operations budgeting and lead
 
     + Building proper DEV/QA/Staging/Production environments using KVM, Vmware, and Xen virtualization.
 
-    + Building and improving continous integration testing and monitoring systems.
+    + Building and improving continuous integration testing and monitoring systems.
 
     + Managing public DNS infrastructure for 200+ domains.
 
@@ -83,13 +83,13 @@ Managing day to day operations, capacity planning, operations budgeting and lead
 
 ###[Florida Department of Health][]
 ####Systems Administrator -- March 2006 – June 2007
-Full time Linux and VOIP consultant at agency responsible for technology procurment throughout the state.
+Full time Linux and VOIP consultant at agency responsible for technology procurement throughout the state.
 
 * Design and deploy medium scale Virtual IT help desk using Asterisk, with monitoring wallboard built with Jquery and Perl
 
-* Builing and mantaining state-wide, multi-agency, contact directory using Red Hat Directory Server, importing data from all of the different state agencies using custom Perl scripts.
+* Building and maintaining state-wide, multi-agency, contact directory using Red Hat Directory Server, importing data from all of the different state agencies using custom Perl scripts.
 
-* Building Linux based print servers using Samba, which integreted with Active Directory system.
+* Building Linux based print servers using Samba, which integrated with Active Directory system.
 
 ####Certifications  
 Red Hat Certified Engineer (RHCE) Cert #[110-015-385][] -- Red Hat Certified Instructor (RHCI) -- Red Hat Certified Examiner (RHCX) -- IBM Certified Linux Instructor.
