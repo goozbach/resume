@@ -50,11 +50,36 @@ Services provided include system updates, configuration management, installation
 
     + Designing and installing a new testing data center.
 
-###[Cox Media Group Digital][] / Cox Radio Interactive
-####Systems Administrator -- August 2007 – February 2010
-Cox Radio Interactive(CXRI) merged into the newly created Cox Media Group Digital. During the transition I continued with all of the duties related to the servers managed by CXRI. I also helped design and create a new server platform for the future content management system under development. My responsibilities included migrating diverse code bases from subversion(SVN), bazaar(BZR), CVS, and others to the Git revision control system. Built and maintained systems and tools which used for developer and sysadmin collaboration, including an IRC server. I built and configured an installation automation system using Cobbler, PXE, and Puppet. Managed and maintained the 100+ CXRI servers.
+###[Cox Media Group Digital][]
+####Sr Systems Administrator -- August 2007 – February 2010
+Leading media and publishing company with digital presence for Radio, TV, Newspaper, and direct marketing.
+Managing day to day operations, capacity planning, operations budgeting and leading a team of two systems administrators.
 
-During my time at Cox Radio Interactive I migrated the entire technology team from CVS to Subversion leading to an easier to manage code base. Improved our internal software release tools, which decreased the time needed to deploy new software to production. Designed and built a new hardware architecture for a new version of our flagship products. This design included a fully N+1 redundant MySQL database server cluster, F5 LTM load balancers, Mod_Perl and Apache. Helped manage a release of a new version of our flagship product, running on Apache and Mod_Perl. Created a new server deployment system based on Cobbler and Puppet which allows for rapid deployment of new server hardware. Created an improved pre-production/quality control/development environment based on VMware, Xen and KVM virtual servers to allow for higher quality code on production servers. Developed a pre-launch integration test which helped find errors prior to code use in production. Developed internal tools for monitoring overall network and system health and security, using Nagios, Snort IDS, iptables, Func, and, Bash and Perl scripts. Utilized Request Tracker to manage work flow for the systems team and interact with internal and external customer requests. Managed the public DNS infrastructure for 100+ domains using ISC Bind. Managed NetAPP storage appliances utilizing snapshots and clones to facilitate our pre-production environments. Configured and monitored our F5 Load balancers with their embedded TCL scripting language.
+* Managing business merger.
+
+    + Migrating diverse code bases from SVN, BZR, CVS and others to Git.
+
+    + Building collaboration tools (IRC server, mailing lists, Request Tracker).
+
+    + Desiging new server platform for new business entity.
+
+* Managing 100+ Linux servers serving 150+ high-traffic websites.
+
+    + Built automation and configuration managment systems using Cobbler and Puppet.
+
+    + Migrating ops and dev teams from CVS to SVN.
+
+    + Building and improving deployment utilities cutting down on deployment time.
+
+    + Building proper DEV/QA/Staging/Production environments using KVM, Vmware, and Xen virtualization.
+
+    + Building and improving continous integration testing and monitoring systems.
+
+    + Managing public DNS infrastructure for 200+ domains.
+
+* Building a new hardware architecture for a new version of our platform.
+
+    + N+1 redundant MySQL cluster, F5 LTM Load Balancers, Mod_Perl and Apache, and NetAPP Storage.
 
 ###[Florida Department of Health][]
 ####Systems Administrator III -- March 2006 – June 2007
