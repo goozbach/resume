@@ -19,7 +19,7 @@ open: ${BASENAME}.pdf
 	git ci -m "adding $@ automaticly" $@
 
 %.pdf:	${SOURCENAME}.md resume-template.tex
-	pandoc --template=resume-template.tex -f markdown+yaml_metadata_block -o $@ $<
+	pandoc --self-contained --template=resume-template.tex -f markdown+yaml_metadata_block -o $@ $<
 	git add $@
 	git ci -m "adding $@ automaticly" $@
 
