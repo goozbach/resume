@@ -1,7 +1,7 @@
 \documentclass[fontsize=11pt]{scrartcl}
 \usepackage{amssymb,amsmath}
 
-\usepackage[showframe, top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
 
 \pagestyle{empty}
 
@@ -126,8 +126,8 @@ $summary$
 \end{minipage}
 $endif$
 $if(title)$
+\begin{flushright}
 \begin{minipage}[t]{0.25\linewidth}
-  \begin{flushright}
   {\LARGE\bfseries\sffamily
     $title$\\
     $if(subtitle)$
@@ -146,8 +146,8 @@ $if(title)$
   $phone$\\ 
   $endif$
   }
-\end{flushright}
 \end{minipage}
+\end{flushright}
 $endif$
 
 $for(include-before)$

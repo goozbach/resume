@@ -9,8 +9,7 @@ phone: 1-(762)233-4009
 uri: 'http://goozbach.com/contact/'
 date: ''
 summary: |
-  Infrastructure Engineer with over nine years’ experience managing Linux systems. Motivated, creative and versatile with a knack for automating the most difficult tasks within the infrastructure. Reputation for being clear and honest, while respecting confidentiality in all my communication. Willing to work in stressful environments where uptime is critical to the success of the business. Currently managing a team of 7 Sr. Infrastructure Engineers; however not necessarily seeking a continued career in management.
-
+  
 
 ...
 
@@ -22,36 +21,34 @@ Successful Linux Consulting and training company providing support and best prac
 
 Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and other systems administration tasks.
 
-* Consulting customers on DevOps policies, procedures, and tools.
+* Consulting customers on DevOps policies, procedures, and tools, using continous integration (Jenkins), unit testing(Test Anything Protocol, Rspec), configuration managment(Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
 
-* Creating best practices for tools customers are using, including Cobbler, Puppet, and Ansible.
+* Creating and maintaining virtualization and "private clouds", utilizing OpenStack, SolusVM, OpenShift, Vmware, and VirtualBox
 
-* Creating and maintaining virtualization and "private clouds", allowing for better use of existing resources.
+* Automating and scripting system administration tasks using Bash, Python, cron and at.
 
-    + Utilizing OpenStack, SolusVM, OpenShift, Vmware, and VirtualBox
+    + Writing [Bash libraries][] for ease of [systems scripting].
 
-* Automating and scripting system administration tasks.
+* Developing Linux systems administration training courses for The Linux Foundation using LaTeX, ConTeX and Docbook.
 
-* Developed Linux training courses.
+    + Course topics include [Linux Automation][], and [Linux Network Management][].
 
-    + Course topics included [Linux Automation][], and [Linux Network Management][].
+    + Course creation includes slides, books, lab exercises, and virtual server environments.
 
-    + Course creation included slides, books, lab exercises, and virtual server environments.
+* Delivered Linux systems administration training courses and proctored exams for RedHat training partners.
 
 ###[Coraid][]
 
 ####QA Engineer and Tools Developer -- February 2010 – March 2012
-"User number 1" for an Ethernet Storage company, which includes quality assurance engineering, testing, and tool/platform development; as well as product market research.
+Quality assurance engineering, testing, and tool/platform development, with some focus in product market fit for an Ethernet SAN Storage company.
 
-* Testing releases of Coraid HBA drivers for Solaris, OpenIndiana, Nexenta, Windows, and Linux platforms.
+* Testing releases of Coraid HBA drivers for Solaris, OpenIndiana, Nexenta, Windows, and Linux platforms; integrating Coraid storage with ZFS on Solaris based systems and Linux LVM.
 
-    + Integrating Coraid storage with ZFS and Linux LVM.
-
-* Tested firmware updates for Coraid appliances.
+* Testing firmware updates for Coraid appliances.
 
 * QA tool and platform engineering
 
-    + Built an installation automation system using Cobbler to make installing and testing easier and faster.
+    + Building an installation automation system using Cobbler to make installing and testing easier and faster.
 
     + Integrating Cobbler into a [Plan9 based PXE and DHCP environment][].
 
@@ -61,8 +58,7 @@ Services provided include system updates, configuration management, installation
 
 ###[Cox Media Group Digital][]
 ####Sr Systems Administrator -- August 2007 – February 2010
-Leading media and publishing company with digital presence for Radio, TV, Newspaper, and direct marketing.
-Managing day to day operations, capacity planning, operations budgeting and leading a team of two systems administrators.
+Managing day to day operations, capacity planning, operations budgeting and operations team lead for a leading media and publishing company with digital presence for Radio, TV, Newspaper, and direct marketing.
 
 * Managing business merger.
 
@@ -131,3 +127,5 @@ I am the Author of/Contributor to these [open source projects][].
   [Atlanta Linux Enthusiasts]: http://ale.org/
   [Plan9 based PXE and DHCP environment]: http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html
   [110-015-385]: https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-015-385&verify=Verify
+  [Bash libraries]: https://github.com/goozbach/log4bats
+  [systems scripting]: https://github.com/goozbach/bash-app
