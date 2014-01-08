@@ -7,7 +7,6 @@ address: |
   Watkinsville, GA  30677  
 phone: 1-(762)233-4009
 uri: 'http://goozbach.com/contact/'
-date: ''
 summary: |
   Linux administrator and trainer with thirteen years of experience.
   Building and maintaining robust, agile and scalable Linux infrastructure
