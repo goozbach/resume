@@ -9,11 +9,11 @@ phone: 1-(762)233-4009
 uri: 'http://goozbach.com/contact/'
 date: ''
 summary: |
-  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue odio nec leo rhoncus venenatis. Pellentesque in dui et quam egestas lobortis. Quisque commodo sem euismod elit aliquet tempor. Sed ornare scelerisque tellus non pharetra. Donec lacus metus, aliquet at faucibus id, cursus ac mauris. Sed sit amet justo nisl. Sed interdum lacinia velit, nec eleifend mauris viverra vitae. Morbi eu odio massa. Integer vulputate dapibus malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum blandit nisl eu pellentesque elementum. Maecenas quis nunc auctor, accumsan massa sed, ullamcorper purus. Aenean blandit id dui eu commodo.
 
 ...
 
-## Recent Experience
+##Experience
 
 ###[Goozbach Infrastructure Solutions][]
 ####Linux Infrastructure Consultant and Instructor -- December 2011 – Present
@@ -90,7 +90,7 @@ Managing day to day operations, capacity planning, operations budgeting and oper
 ####Systems Administrator -- March 2006 – June 2007
 Full time Linux and VOIP consultant at agency responsible for technology procurement throughout the state.
 
-* Design and deploy medium scale Virtual IT help desk using Asterisk, with monitoring wallboard built with Jquery and Perl
+* Designing and deploying medium scale Virtual IT help desk using Asterisk, with monitoring wallboard built with Jquery and Perl
 
 * Building and maintaining state-wide, multi-agency, contact directory using Red Hat Directory Server, importing data from all of the different state agencies using custom Perl scripts.
 
