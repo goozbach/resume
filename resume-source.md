@@ -1,9 +1,12 @@
-# Derek C Carter
-<dcarter@friocorte.com>  
-1665 Eisenhower Ave  
-Watkinsville, GA  30677  
-1-(762)233-4009  
-[http://goozbach.com/contact/][]  
+---
+Title: Derek C Carter  
+Email: <dcarter@friocorte.com>  
+Address: |
+  1665 Eisenhower Ave 
+  Watkinsville, GA  30677  
+Phone: 1-(762)233-4009  
+URL: 'http://goozbach.com/contact/'
+...
 
 ## Recent Experience
 

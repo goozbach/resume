@@ -14,12 +14,12 @@ open: ${BASENAME}.pdf
 	evince -f ${BASENAME}.pdf &
 
 %.html:	${SOURCENAME}.md
-	pandoc -t html --self-contained -o $@ $< -c resume.css
+	pandoc -t html --self-contained -f markdown+mmd_title_block -o $@ $< -c resume.css
 	git add $@
 	git ci -m "adding $@ automaticly" $@
 
 %.pdf:	${SOURCENAME}.md resume-template.tex
-	pandoc --template=resume-template.tex -o $@ $<
+	pandoc --template=resume-template.tex -f markdown+mmd_title_block -o $@ $<
 	git add $@
 	git ci -m "adding $@ automaticly" $@
 
