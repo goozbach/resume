@@ -9,7 +9,9 @@ phone: 1-(762)233-4009
 uri: 'http://goozbach.com/contact/'
 date: ''
 summary: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue odio nec leo rhoncus venenatis. Pellentesque in dui et quam egestas lobortis. Quisque commodo sem euismod elit aliquet tempor. Sed ornare scelerisque tellus non pharetra. Donec lacus metus, aliquet at faucibus id, cursus ac mauris. Sed sit amet justo nisl. Sed interdum lacinia velit, nec eleifend mauris viverra vitae. Morbi eu odio massa. Integer vulputate dapibus malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum blandit nisl eu pellentesque elementum. Maecenas quis nunc auctor, accumsan massa sed, ullamcorper purus. Aenean blandit id dui eu commodo.
+  Linux administrator and trainer with thirteen years of experience.
+  Building and maintaining robust, agile and scalible Linux infrastructure
+  With a focus on Linux customization, creating custom Linux distributions based on CentOS; administration overhead reduction, and ease of use for non-technical users.
 
 ...
 
@@ -21,7 +23,7 @@ Successful Linux Consulting and training company providing support and best prac
 
 Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and other systems administration tasks.
 
-* Consulting customers on DevOps policies, procedures, and tools, using continuous integration (Jenkins), unit testing(Test Anything Protocol, Rspec), configuration management(Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
+* Consulting customers on DevOps policies, procedures, and tools, using continous integration (Jenkins), unit testing(Test Anything Protocol, Rspec), configuration managment(Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
 
 * Creating and maintaining virtualization and "private clouds", utilizing OpenStack, SolusVM, OpenShift, Vmware, and VirtualBox
 
