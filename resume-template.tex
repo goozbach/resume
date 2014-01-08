@@ -1,7 +1,7 @@
 \documentclass[fontsize=11pt]{scrartcl}
 \usepackage{amssymb,amsmath}
 
-\usepackage[showframe, top=0.5in, bottom=0.5in, left=0.75in, right=0.75in]{geometry}
+\usepackage[showframe, top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
 
 \pagestyle{empty}
 
@@ -115,28 +115,27 @@ $if(date)$
 \date{$date$}
 $endif$
 
-% working on styling title
-\usepackage[]{titling}
-\setlength{\droptitle}{-0.75in}
-\pretitle{\begin{flushright}\LARGE\sffamily}
-\posttitle{
-  \par\end{flushright}
-  $if(subtitle)$
-  \begin{flushright}
-  \small\scshape
-  $subtitle$
-  \par\end{flushright}
-  $endif$
-  \vskip-5em
-}
-\preauthor{\begin{flushright}}
-\postauthor{\par\end{flushright}\vskip-5em}
-\predate{\begin{flushright}}
-\postdate{\par\end{flushright}\vskip-5em}
-
 \begin{document}
 $if(title)$
-\maketitle
+\begin{flushright}{\LARGE\bfseries\sffamily
+    $title$\\
+    $if(subtitle)$
+    \small\scshape
+    $subtitle$\\
+    $endif$
+  }
+  $if(author)$
+  $author$\\ 
+  $endif$
+  $if(address)$
+  {\footnotesize\ttfamily
+    $address$\\ 
+  }
+  $endif$
+  $if(phone)$
+  $phone$\\ 
+  $endif$
+\end{flushright}
 $endif$
 
 $for(include-before)$

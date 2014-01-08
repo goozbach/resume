@@ -3,8 +3,8 @@ title: Derek C Carter
 subtitle: Sr Linux Administrator
 author: <dcarter@friocorte.com>
 address: |
-  1665 Eisenhower Ave
-  Watkinsville, GA  30677
+  1665 Eisenhower Ave  
+  Watkinsville, GA  30677  
 phone: 1-(762)233-4009
 uri: 'http://goozbach.com/contact/'
 date: ''
@@ -97,13 +97,13 @@ Full time Linux and VOIP consultant at agency responsible for technology procure
 
 * Building Linux based print servers using Samba, which integrated with Active Directory system.
 
+##Additional Information
 ####Certifications  
 Red Hat Certified Engineer (RHCE) Cert #[110-015-385][] -- Red Hat Certified Instructor (RHCI) -- Red Hat Certified Examiner (RHCX) -- IBM Certified Linux Instructor.
 
 ####Languages
 Perl -- Python -- TCL -- Bash -- English -- Spanish.
 
-##Additional Information
 Prepared and given numerous [presentations][] at conferences and special interest groups.
 
 I am active in my local Linux users groups, [Atlanta Linux Enthusiasts][] and [Classic Hackers UGA Linux Users Group][]. 
