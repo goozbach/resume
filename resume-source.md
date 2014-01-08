@@ -8,6 +8,9 @@ address: |
 phone: 1-(762)233-4009
 uri: 'http://goozbach.com/contact/'
 date: ''
+summary: |
+  Infrastructure Engineer with over nine years’ experience managing Linux systems. Motivated, creative and versatile with a knack for automating the most difficult tasks within the infrastructure. Reputation for being clear and honest, while respecting confidentiality in all my communication. Willing to work in stressful environments where uptime is critical to the success of the business. Currently managing a team of 7 Sr. Infrastructure Engineers; however not necessarily seeking a continued career in management.
+
 
 ...
 

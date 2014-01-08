@@ -116,8 +116,19 @@ $if(date)$
 $endif$
 
 \begin{document}
+% header stuff
+$if(summary)$
+\begin{minipage}[t]{0.75\linewidth}
+\begin{flushleft}
+\subsection{Summary:}\label{summary}
+$summary$
+\end{flushleft}
+\end{minipage}
+$endif$
 $if(title)$
-\begin{flushright}{\LARGE\bfseries\sffamily
+\begin{minipage}[t]{0.25\linewidth}
+  \begin{flushright}
+  {\LARGE\bfseries\sffamily
     $title$\\
     $if(subtitle)$
     \small\scshape
@@ -136,6 +147,7 @@ $if(title)$
   $endif$
   }
 \end{flushright}
+\end{minipage}
 $endif$
 
 $for(include-before)$
