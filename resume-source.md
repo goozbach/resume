@@ -21,7 +21,7 @@ Successful Linux Consulting and training company providing support and best prac
 
 Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and other systems administration tasks.
 
-* Consulting customers on DevOps policies, procedures, and tools, using continous integration (Jenkins), unit testing(Test Anything Protocol, Rspec), configuration managment(Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
+* Consulting customers on DevOps policies, procedures, and tools, using continuous integration (Jenkins), unit testing(Test Anything Protocol, Rspec), configuration management(Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
 
 * Creating and maintaining virtualization and "private clouds", utilizing OpenStack, SolusVM, OpenShift, Vmware, and VirtualBox
 
