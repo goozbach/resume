@@ -1,12 +1,13 @@
 ---
 title: Derek C Carter
-subtitle: Sr Systems Administrator
+subtitle: Sr Linux Administrator
 author: <dcarter@friocorte.com>
 address: |
   1665 Eisenhower Ave
   Watkinsville, GA  30677
 phone: 1-(762)233-4009
 uri: 'http://goozbach.com/contact/'
+date: ''
 
 ...
 
