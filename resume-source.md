@@ -11,7 +11,7 @@ date: ''
 summary: |
   Linux administrator and trainer with thirteen years of experience.
   Building and maintaining robust, agile and scalable Linux infrastructure
-  With a focus on Linux customization, creating custom Linux distributions based on CentOS; administration overhead reduction, and ease of use for non-technical users.
+  With a focus on Linux customization, creating custom Linux distributions based on CentOS; administration overhead reduction; and ease of use for non-technical users.
 
 ...
 
