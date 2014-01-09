@@ -118,7 +118,7 @@ $endif$
 \begin{document}
 % header stuff
 $if(summary)$
-\begin{minipage}[t]{0.75\linewidth}
+\begin{minipage}[t]{0.70\linewidth}
 \begin{flushleft}
 \subsection{Summary:}\label{summary}
 $summary$
@@ -126,7 +126,7 @@ $summary$
 \end{minipage}
 $endif$
 $if(title)$
-\begin{minipage}[t]{0.25\linewidth}
+\begin{minipage}[t]{0.30\linewidth}
   \begin{flushright}
   {\LARGE\bfseries\sffamily
     $title$\\
