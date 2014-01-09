@@ -1,3 +1,4 @@
+% vim: set filetype=latex
 \documentclass[fontsize=11pt]{scrartcl}
 \usepackage{amssymb,amsmath}
 
