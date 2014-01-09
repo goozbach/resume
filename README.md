@@ -32,6 +32,7 @@ too. Required packages:
 * [Pandoc](http://johnmacfarlane.net/pandoc/) - convert Markdown files
   to various formats such as HTML and PDF.
   * Install on your Mac via [Macports](http://macports.org).
+  * Now requires a realitivly recent version to support the `yaml_metadata_block` parameter.
 * TeX/LaTeX/XeTeX - required for Pandoc to create PDFs.
   * Install with Macports.
 * Awesomeness
