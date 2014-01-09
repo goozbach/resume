@@ -104,6 +104,7 @@ Red Hat Certified Engineer (RHCE) Cert #[110-015-385][] -- Red Hat Certified Ins
 ####Languages
 Perl -- Python -- TCL -- Bash -- English -- Spanish.
 
+####Presentations, Projects, and Community
 Prepared and given numerous [presentations][] at conferences and special interest groups.
 
 I am active in my local Linux users groups, [Atlanta Linux Enthusiasts][] and [Classic Hackers UGA Linux Users Group][]. 

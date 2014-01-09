@@ -48,7 +48,7 @@ body {
     margin: auto;
     width: 70%;
     padding: .5in;
-    padding-bottom: 0;
+    padding-bottom: 5em;
     font-family: helvetica, Verdana, sans-serif;
     color: #2E2B00;
     background: #FBFBFB;
@@ -83,7 +83,7 @@ ol, ul, li {
     margin-bottom: 1em;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-weight: bold;
     margin-top: 1em;
     margin-bottom: 1em;
