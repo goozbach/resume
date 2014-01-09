@@ -8,9 +8,9 @@ address: |
 phone: 1-(762)233-4009
 uri: 'http://goozbach.com/contact/'
 summary: |
-  Linux administrator and trainer with thirteen years of experience.
+  Linux administrator and trainer with fourteen years of experience.
   Building and maintaining robust, agile and scalable Linux infrastructure
-  With a focus on Linux customization, creating custom Linux distributions based on CentOS; administration overhead reduction; and ease of use for non-technical users.
+  With a focus on Linux customization, core technology infrastructure, automation, and training.
 
 ...
 

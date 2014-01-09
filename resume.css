@@ -1,6 +1,52 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* start mine */
 body {
     margin: auto;
-    width: 7.5in;
+    width: 70%;
     padding: .5in;
     padding-bottom: 0;
     font-family: helvetica, Verdana, sans-serif;
@@ -10,9 +56,11 @@ body {
 
 * {
     clear: both;
+    padding: none;
 }
+
 a {
-    text-decoration: underline;
+    text-decoration: none;
     color: #4745ff;
 }
 
@@ -20,10 +68,75 @@ a:hover {
     text-decoration: underline;
 }
 
-h2 {
-    margin-top:0;
+.title {
+    font-size: 175%;
+}
+.subtitle {
+    font-weight: normal;
+    size: 80%;
+}
+.author, .address, .uri {
+    font-weight: normal;
+}
+ol, ul, li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 li {
     margin-top: .2em;
+}
+
+#header h1, #header h2, #header h3 {
+    padding: 0px;
+    margin: 0;
+    margin-top: 0px;
+}
+
+#summary h1, #summary h2, #summary h3 {
+}
+
+#headwrap {
+    margin: auto;
+}
+
+#header {
+    float: right;
+    text-align: right;
+    width: 30%;
+    clear: none;
+}
+
+#summary {
+    float: left;
+    width: 65%;
+    clear: none;
+}
+
+body > h1 {
+    font-size: 150%;
+}
+
+body > h2 {
+    font-size: 140%;
+}
+
+body > h3 {
+    font-size: 130%;
+}
+
+body > h4 {
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#main {
+    margin-top: 4em;
 }

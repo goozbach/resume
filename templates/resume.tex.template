@@ -145,6 +145,9 @@ $if(title)$
   $if(phone)$
   $phone$\\ 
   $endif$
+  $if(uri)$
+  \url{$uri$}\\ 
+  $endif$
   }
 \end{flushright}
 \end{minipage}

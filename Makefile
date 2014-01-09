@@ -6,6 +6,7 @@ GHBRANCH ?= gh-pages
 SITEBRANCH ?= friocorte-pages
 PDFTEMPLATE ?= templates/resume.tex.template
 HTMLTEMPLATE ?= templates/resume.html.template
+CSSFILE ?= resume.css
 
 all:	${BASENAME}.html ${BASENAME}.pdf
 
@@ -15,8 +16,8 @@ spell:
 open: ${BASENAME}.pdf
 	evince -f ${BASENAME}.pdf &
 
-%.html:	${SOURCENAME}.md ${HTMLTEMPLATE}
-	pandoc -t html --template=${HTMLTEMPLATE} --self-contained -f markdown+yaml_metadata_block -o $@ $< -c resume.css
+%.html:	${SOURCENAME}.md ${HTMLTEMPLATE} ${CSSFILE}
+	pandoc -t html --template=${HTMLTEMPLATE} --self-contained -f markdown+yaml_metadata_block -o $@ $< -c ${CSSFILE}
 	git add $@
 	git ci -m "adding $@ automaticly" $@
 

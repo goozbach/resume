@@ -34,26 +34,41 @@ $endfor$
 $for(include-before)$
 $include-before$
 $endfor$
-$if(title)$
-<div id="$idprefix$header">
-<h1 class="title">$title$</h1>
-$if(subtitle)$
-<h1 class="subtitle">$subtitle$</h1>
-$endif$
-$for(author)$
-<h2 class="author">$author$</h2>
-$endfor$
-$if(date)$
-<h3 class="date">$date$</h3>
-$endif$
-</div>
-$endif$
+
+  $if(summary)$
+  <div id="summary">
+    <h1>Summary:</h1>
+    <div id="summarycontents">
+      $summary$
+    </div>
+  </div>
+  $endif$
+  <div id="header">
+    $if(title)$
+    <h1 class="title">$title$</h1>
+    $endif$
+    $if(subtitle)$
+    <h2 class="subtitle">$subtitle$</h1>
+    $endif$
+    $if(author)$
+    <h2 class="author">$author$</h2>
+    $endif$
+    $if(address)$
+    <h3 class="address">$address$</h3>
+    $endif$
+    $if(uri)$
+    <h3 class="uri"><a href="$uri$">$uri$</a></h3>
+    $endif$
+  </div>
+
 $if(toc)$
 <div id="$idprefix$TOC">
 $toc$
 </div>
 $endif$
+<div id="clearfix">&nbsp;</div>
 $body$
+
 $for(include-after)$
 $include-after$
 $endfor$
