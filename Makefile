@@ -8,7 +8,11 @@ PDFTEMPLATE ?= templates/resume.tex.template
 HTMLTEMPLATE ?= templates/resume.html.template
 CSSFILE ?= resume.css
 
-all:	${BASENAME}.html ${BASENAME}.pdf
+all: pdf html
+
+pdf: ${BASENAME}.pdf
+
+html: ${BASENAME}.html
 
 spell:
 	aspell check ${SOURCENAME}.md
@@ -19,12 +23,12 @@ open: ${BASENAME}.pdf
 %.html:	${SOURCENAME}.md ${HTMLTEMPLATE} ${CSSFILE}
 	pandoc -t html --template=${HTMLTEMPLATE} --self-contained -f markdown+yaml_metadata_block -o $@ $< -c ${CSSFILE}
 	git add $@
-	git ci -m "adding $@ automaticly" $@
+	git ci --allow-empty -m "adding $@ automaticly" $@
 
 %.pdf:	${SOURCENAME}.md ${PDFTEMPLATE}
 	pandoc --self-contained --template=${PDFTEMPLATE} -f markdown+yaml_metadata_block -o $@ $<
 	git add $@
-	git ci -m "adding $@ automaticly" $@
+	git ci --allow-empty -m "adding $@ automaticly" $@
 
 clean:
 	rm -f *~ *.log
