@@ -1,0 +1,52 @@
+% Fancy chapter headings
+% Author: Stefan Kottwitz 
+% Source: http://texblog.net/latex-archive/layout/fancy-chapter-tikz/
+\documentclass[svgnames]{report}
+\usepackage{tikz}
+\usepackage{verbatim}
+
+\begin{comment}
+:Title: Fancy chapter headings
+:Grid: 2x2
+
+An example of how you can use TikZ and absolute positioning to create fancy chapter headings.
+
+:Source: `TeXblog: Fancy chapter headings with TikZ`__
+
+__ http://texblog.net/latex-archive/layout/fancy-chapter-tikz/
+
+\end{comment}
+
+\usepackage{kpfonts}
+\usepackage[explicit]{titlesec}
+\newcommand*\chapterlabel{}
+\titleformat{\chapter}
+  {\gdef\chapterlabel{}
+   \normalfont\sffamily\Huge\bfseries\scshape}
+  {\gdef\chapterlabel{\thechapter\ }}{0pt}
+  {\begin{tikzpicture}[remember picture,overlay]
+    \node[yshift=-3cm] at (current page.north west)
+      {\begin{tikzpicture}[remember picture, overlay]
+        \draw[fill=LightSkyBlue] (0,0) rectangle
+          (\paperwidth,3cm);
+        \node[anchor=east,xshift=.9\paperwidth,rectangle,
+              rounded corners=20pt,inner sep=11pt,
+              fill=MidnightBlue]
+              {\color{white}\chapterlabel#1};
+       \end{tikzpicture}
+      };
+   \end{tikzpicture}
+  }
+\titlespacing*{\chapter}{0pt}{50pt}{-60pt}
+
+\begin{document}
+\tableofcontents
+\chapter{Introduction}
+Text
+\chapter{Main}
+\section{Section}
+Text
+\begin{thebibliography}{99}
+\bibitem{Test} test reference
+\end{thebibliography}
+\end{document}
