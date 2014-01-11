@@ -8,7 +8,9 @@ PDFTEMPLATE ?= templates/resume.tex.template
 HTMLTEMPLATE ?= templates/resume.html.template
 CSSFILE ?= resume.css
 
-all: pdf html
+.PHONY: all pdf html open release fancy clean release-gh release-site
+
+all: pdf html fancy
 
 pdf: ${BASENAME}.pdf
 
@@ -48,3 +50,6 @@ release-site:
 	git checkout master *[^x].html *.pdf
 	git commit -m "automatic pull of html and pdf from master"
 	git checkout master
+
+fancy:
+	$(MAKE) -C fancy/
