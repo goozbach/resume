@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage[]{moresize}
+\usetikzlibrary{fadings,patterns}
+\newsavebox{\tempbox}
+\newcommand\fadetext[1]{%
+  \begin{tikzfadingfrompicture}[name=fadetext]
+    \node [text=white] {\normalfont \HUGE \bfseries #1};
+  \end{tikzfadingfrompicture}
+  \begin{lrbox}{\tempbox}%
+    \begin{tikzpicture}
+      \node [text=white,inner sep=0pt,outer sep=0pt] (textnode) {\normalfont \HUGE \bfseries #1};
+      \shade[path fading=fadetext,fit fading=false,top color=white,bottom color=lightgray]
+      (textnode.south west) rectangle (textnode.north east);
+    \end{tikzpicture}%
+  \end{lrbox}
+  % Now we use the fading in another picture:
+  {\usebox\tempbox{}}%
+}
+\begin{document}
+\fadetext{GOOZBACH}
+\end{document}
