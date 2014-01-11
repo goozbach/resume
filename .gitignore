@@ -2,5 +2,6 @@
 *.log
 *.toc
 *.dvi
+*.out
 /*.tex
 fancy/*.pdf

@@ -3,12 +3,14 @@ ALLPDF ?= $(patsubst %.tex,%.pdf,$(ALLTEX))
 
 all: $(ALLPDF)
 
-%.pdf: %.tex Makefile
-	pdflatex $<
-	pdflatex $<
+%.pdf: %.out Makefile
+	pdflatex $(patsubst %.out,%.tex,$<)
+
+%.out: %.tex
+	pdflatex $(patsubst %.out,%.tex,$<)
 
 clean: 
-	rm -rf *.aux *.log *.toc *.dvi
+	rm -rf *.aux *.log *.toc *.dvi *.out
 
 nuke: clean
 	rm -rf *.pdf
