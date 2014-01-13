@@ -42,13 +42,13 @@ release: release-gh release-site
 release-gh:
 	git checkout ${GHBRANCH}
 	git checkout master *[^x].html *.pdf
-	git commit -m "automatic pull of html and pdf from master"
+	git commit --allow-empty -m "automatic pull of html and pdf from master"
 	git co master
 	
 release-site:
 	git checkout ${SITEBRANCH}
 	git checkout master *[^x].html *.pdf
-	git commit -m "automatic pull of html and pdf from master"
+	git commit --allow-empty -m "automatic pull of html and pdf from master"
 	git checkout master
 
 publish: release
