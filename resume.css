@@ -51,7 +51,15 @@ body {
     padding-bottom: 5em;
     font-family: helvetica, Verdana, sans-serif;
     color: #2E2B00;
-    background: #FBFBFB;
+    background: #FFFFFF;
+    background: #0f0f0f; /* Old browsers */
+    background: -moz-linear-gradient(top,  #0f0f0f 0%, #ffffff 5cm); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0f0f0f), color-stop(5cm,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #0f0f0f 0%,#ffffff 5cm); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #0f0f0f 0%,#ffffff 5cm); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #0f0f0f 0%,#ffffff 5cm); /* IE10+ */
+    background: linear-gradient(to bottom,  #0f0f0f 0%,#ffffff 5cm); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0f0f', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 * {

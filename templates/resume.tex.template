@@ -8,15 +8,15 @@
 
 \usepackage{tikz}
 \usetikzlibrary{fadings,patterns}
-\definecolor{VeryDarkGray}{gray}{0.25}
+\definecolor{VeryDarkGray}{HTML}{0F0F0F}
 \pagestyle{empty}
 
 % setup header fade
 \newcommand\placeheader{
   \begin{tikzpicture}[remember picture,overlay]
-    \node[yshift=-4cm] at (current page.north west){
+    \node[yshift=-5cm] at (current page.north west){
       \begin{tikzpicture}[remember picture, overlay]
-        \shade[top color=VeryDarkGray, bottom color=white] (0,0) rectangle (\paperwidth,4cm);
+        \shade[top color=VeryDarkGray, bottom color=white] (0,0) rectangle (\paperwidth,5cm);
       \end{tikzpicture}
     };
   \end{tikzpicture}
