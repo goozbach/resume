@@ -15,7 +15,7 @@
 
 \usepackage{tikz}
 \usetikzlibrary{fadings,patterns}
-\definecolor{VeryDarkGray}{HTML}{0F0F0F}
+\definecolor{VeryDarkGray}{HTML}{4F4F4F}
 \pagestyle{empty}
 
 % setup header fade
