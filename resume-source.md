@@ -18,7 +18,7 @@ summary: |
 
 ###[Goozbach Infrastructure Solutions, LLC][]
 ####Linux Infrastructure Consultant and Instructor -- December 2011 – Present
-Owner and primary consultant of successful Linux consulting and training company providing Linux support and best practices.
+Owner and primary consultant of successful Linux consulting and training company providing Linux support and best practices consultation.
 Customers include RedHat training partners, Linux Foundation, Endosys, Schmooze Communications and others.
 Customer environments range from dozens to thousands of servers.
 
