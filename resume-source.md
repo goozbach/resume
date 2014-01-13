@@ -9,16 +9,17 @@ phone: 1-(762)233-4009
 uri: 'http://goozbach.com/contact/'
 summary: |
   Linux administrator and trainer with fourteen years of experience.
-  Building and maintaining robust, agile and scalable Linux infrastructure
-  With a focus on Linux customization, core technology infrastructure, automation, and training.
+  Building and maintaining robust, agile and scalable Linux infrastructure with a focus on Linux customization, core technology infrastructure, automation, and training.
 
 ...
 
 ##Experience
 
-###[Goozbach Infrastructure Solutions][]
+###[Goozbach Infrastructure Solutions, LLC][]
 ####Linux Infrastructure Consultant and Instructor -- December 2011 – Present
-Successful Linux Consulting and training company providing support and best practices for companies in the telecommunications, training and technology fields.
+Owner and primary consultant of successful Linux Consulting and training company providing support and best practices for companies in the telecommunications, training and technology fields.
+Customers include RedHat training partners, Linux Foundation, Endosys, Schmooze Communications and others.
+Customer environments range from dozens to thousands of servers.
 
 Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and other systems administration tasks.
 
@@ -115,7 +116,7 @@ I am the Author of/Contributor to these [open source projects][].
   [Linux Automation]: http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation
   [http://blog.friocorte.com/]: http://blog.friocorte.com/
   [http://goozbach.com/contact/]: http://goozbach.com/contact/
-  [Goozbach Infrastructure Solutions]: http://goozbach.com/
+  [Goozbach Infrastructure Solutions, LLC]: http://goozbach.com/
   [Coraid]: http://www.coraid.com/
   [Cox Media Group Digital]: http://cmgdigital.com/
   [Cox Radio Interactive]: http://cxri.net/
