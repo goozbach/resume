@@ -1,4 +1,4 @@
----
+c
 title: Derek C Carter
 subtitle: Sr Linux Administrator
 author: <dcarter@friocorte.com>
@@ -17,7 +17,7 @@ summary: |
 
 ###[Goozbach Infrastructure Solutions, LLC][]
 ####Linux Infrastructure Consultant and Instructor -- December 2011 – Present
-Owner and primary consultant of successful Linux Consulting and training company providing support and best practices for companies in the telecommunications, training and technology fields.
+Owner and primary consultant of successful Linux consulting and training company providing support and best practices for companies in the telecommunications, training and technology fields.
 Customers include RedHat training partners, Linux Foundation, Endosys, Schmooze Communications and others.
 Customer environments range from dozens to thousands of servers.
 

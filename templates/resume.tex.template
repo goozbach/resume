@@ -4,6 +4,13 @@
 \usepackage[english]{babel}
 \usepackage[]{moresize}
 
+% redefine href
+\usepackage{letltxmacro}
+\LetLtxMacro{\oldhref}{\href}
+\newcommand{\href}[2]{
+  \oldhref{#2}{#1}\footnote{\url{#2}}%
+}
+
 \usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
 
 \usepackage{tikz}
