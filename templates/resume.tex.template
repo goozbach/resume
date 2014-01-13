@@ -1,11 +1,26 @@
 % vim: set filetype=latex
 \documentclass[fontsize=11pt]{scrartcl}
 \usepackage{amssymb,amsmath}
+\usepackage[english]{babel}
+\usepackage[]{moresize}
 
 \usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
 
+\usepackage{tikz}
+\usetikzlibrary{fadings,patterns}
+\definecolor{VeryDarkGray}{gray}{0.25}
 \pagestyle{empty}
 
+% setup header fade
+\newcommand\placeheader{
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[yshift=-4cm] at (current page.north west){
+      \begin{tikzpicture}[remember picture, overlay]
+        \shade[top color=VeryDarkGray, bottom color=white] (0,0) rectangle (\paperwidth,4cm);
+      \end{tikzpicture}
+    };
+  \end{tikzpicture}
+}
 $if(xetex)$
 \usepackage{ifxetex}
 \ifxetex
@@ -117,6 +132,7 @@ $if(date)$
 $endif$
 
 \begin{document}
+\placeheader
 % header stuff
 $if(summary)$
 \begin{minipage}[t]{0.70\linewidth}
