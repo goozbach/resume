@@ -11,7 +11,7 @@
   \oldhref{#2}{#1}\footnote{\url{#2}}%
 }
 
-\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+\usepackage[top=0.4in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
 
 \usepackage{tikz}
 \usetikzlibrary{fadings,patterns}
