@@ -29,9 +29,9 @@ Services provided include system updates, configuration management, installation
 
 * Automating and scripting system administration tasks using Bash, Python, cron and at.
 
-    + Writing [Bash libraries][] for ease of [systems scripting].
+    + Authored open source [Bash libraries][] and [Bash scripts][] for ease of scripting tasks such as creating VM templates, managing Cobbler profiles, and other systems tasks.
 
-* Developing Linux systems administration training courses for The Linux Foundation using LaTeX, ConTeX and Docbook.
+* Developing Linux systems administration training courses for customers such as The Linux Foundation using LaTeX, ConTeX and Docbook.
 
     + Course topics include [Linux Automation][], and [Linux Network Management][].
 
@@ -42,7 +42,7 @@ Services provided include system updates, configuration management, installation
 ###[Coraid][]
 
 ####QA Engineer and Tools Developer -- February 2010 – March 2012
-Quality assurance engineering, testing, and tool/platform development, with some focus in product market fit for an Ethernet SAN Storage company.
+Quality assurance engineering, testing, and tool/platform development, with some focus in product market fit for an Ethernet SAN Storage company. Helped manage QA lab environment of approximately 100 servers and appliances.
 
 * Testing releases of Coraid HBA drivers for Solaris, OpenIndiana, Nexenta, Windows, and Linux platforms; integrating Coraid storage with ZFS on Solaris based systems and Linux LVM.
 
@@ -108,6 +108,8 @@ Perl -- Python -- TCL -- Bash -- English -- Spanish.
 ####Presentations, Projects, and Community
 Prepared and given numerous [presentations][] at conferences and special interest groups.
 
+Started and ran open source Linux distro rebuild project called [GoOSeLinux][]
+
 I am active in my local Linux users groups, [Atlanta Linux Enthusiasts][] and [Classic Hackers UGA Linux Users Group][]. 
 
 I am the Author of/Contributor to these [open source projects][].
@@ -131,4 +133,5 @@ I am the Author of/Contributor to these [open source projects][].
   [Plan9 based PXE and DHCP environment]: http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html
   [110-015-385]: https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-015-385&verify=Verify
   [Bash libraries]: https://github.com/goozbach/log4bats
-  [systems scripting]: https://github.com/goozbach/bash-app
+  [Bash scripts]: https://github.com/goozbach/bash-app
+  [GoOSeLinux]: http://gooseproject.org/
