@@ -111,9 +111,9 @@ Prepared and given numerous [presentations][] at conferences and special interes
 
 Started and ran open source Linux distro rebuild project called [GoOSeLinux][]
 
-I am active in my local Linux users groups, [Atlanta Linux Enthusiasts][] and [Classic Hackers UGA Linux Users Group][]. 
+Active in local Linux users groups, [Atlanta Linux Enthusiasts][] and [Classic Hackers UGA Linux Users Group][]. 
 
-I am the Author of/Contributor to these [open source projects][].
+Author of/Contributor to these [open source projects][].
 
   [Linux Network Management]: http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management
   [Linux Automation]: http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation
