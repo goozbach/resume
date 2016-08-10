@@ -5,3 +5,4 @@
 *.out
 /*.tex
 fancy/*.pdf
+.password

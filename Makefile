@@ -54,4 +54,4 @@ release-site:
 publish: release
 
 fancy:
-	$(MAKE) -C fancy/
+	@echo $(MAKE) -C fancy/
