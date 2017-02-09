@@ -1,20 +1,36 @@
 ---
 title: Derek C Carter
-subtitle: Sr Linux Administrator
-author: <dcarter@friocorte.com>
+subtitle: Sr Systems Architect
+author: <derek@goozbach.com>
 address: |
-  1665 Eisenhower Ave  
-  Watkinsville, GA  30677  
-phone: 1-(762)233-4009
-uri: 'http://goozbach.com/contact/'
+  1009 N 900 W  
+  American Fork, UT  84003  
+phone: 1-(762)233-4009  
+uri: 'http://goozbach.com/contact/'  
 summary: |
-  Linux administrator with fourteen years of experience.
-  Using training and course development knowledge to build and maintain robust and scalable Linux infrastructure.
+  Linux infrastructure specialist with sixteen years of experience.
+  Using training, Sr Linux systems administration, and course development knowledge to build and maintain robust and scalable Linux infrastructure.
   Focusing on core business technology: including custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems administration and training. Active participant in open source local interest groups, contributor to open source projects, and full-time geek.
 
 ...
 
 ##Experience
+
+###[Bluehost][] 
+####Sr Systems Architect, DevOps -- August 2014 - Present
+Sr Linux Systems architect embedded in development team.
+Built tools, processes and environments to help facilitate better development team productivity.
+Supported pre-production developer environments allowing development team to focus on product development.
+
+* Built and supported automated pre-production systems using Ansible, Puppet, KVM, and OpenStack.
+
+* Provided self-service portals for various development resources.
+
+  * RPM Package building, and YUM repository hosting.
+
+  * SCL (software collections) packages for Perl and other technologies.
+
+  * Alpha systems tear-down and rebuilding.
 
 ###[Goozbach Infrastructure Solutions, LLC][]
 ####Linux Infrastructure Consultant and Instructor -- December 2011 – Present
@@ -30,11 +46,11 @@ Services provided include system updates, configuration management, installation
 
 * Automating and scripting system administration tasks using Bash, Python, cron and at.
 
-    + Authored open source [Bash libraries][] and [Bash scripts][] for ease of scripting tasks such as creating VM templates, managing Cobbler profiles, and other systems tasks.
+    + Authored open source Bash libraries[^1] and Bash scripts[^2] for ease of scripting tasks such as creating VM templates, managing Cobbler profiles, and other systems tasks.
 
 * Developing Linux systems administration training courses for customers such as The Linux Foundation using LaTeX, ConTeX and Docbook.
 
-    + Course topics include [Linux Automation][], and [Linux Network Management][].
+    + Course topics include Linux Automation[^3], and Linux Network Management[^4].
 
     + Course creation includes slides, books, lab exercises, and virtual server environments.
 
@@ -53,7 +69,7 @@ Quality assurance engineering, testing, and tool/platform development, with some
 
     + Building an installation automation system using Cobbler to make installing and testing easier and faster.
 
-    + Integrating Cobbler into a [Plan9 based PXE and DHCP environment][].
+    + Integrating Cobbler into a Plan9 based PXE and DHCP environment[^5].
 
     + Designing and implementing automated QA testing script frameworks built in Bash and Python.
 
@@ -101,38 +117,45 @@ Full time Linux and VOIP consultant at agency responsible for technology procure
 
 ##Additional Information
 ####Certifications  
-Red Hat Certified Engineer (RHCE) Cert #[110-015-385][] -- Red Hat Certified Instructor (RHCI) -- Red Hat Certified Examiner (RHCX) -- IBM Certified Linux Instructor.
+* Red Hat Certified Engineer (RHCE) Cert #110-015-385[^6] 
+* Red Hat Certified Instructor (RHCI) 
+* Red Hat Certified Examiner (RHCX)
+* IBM Certified Linux Instructor.
 
 ####Languages
-Perl -- Python -- TCL -- Bash -- English -- Spanish.
+* Perl 
+* Python 
+* TCL 
+* Bash 
+* English 
+* Spanish
 
 ####Presentations, Projects, and Community
-Prepared and given numerous [presentations][] at conferences and special interest groups.
+Prepared and given numerous presentations[^7] at conferences and special interest groups.
 
-Started and ran open source Linux distro rebuild project called [GoOSeLinux][]
+Started and ran open source Linux distro rebuild project called GoOSeLinux[^8] (now defunct).
 
-Active in local Linux users groups, [Atlanta Linux Enthusiasts][] and [Classic Hackers UGA Linux Users Group][]. 
+Active in local users groups, Provo Linux Users Group[^9], BYU Linux Users Group[^10], and Salt Lake Perl Mongers[^11]. 
 
-Author of/Contributor to these [open source projects][].
+Author of/Contributor to these open source projects[^12].
 
-  [Linux Network Management]: http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management
-  [Linux Automation]: http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation
-  [http://blog.friocorte.com/]: http://blog.friocorte.com/
-  [http://goozbach.com/contact/]: http://goozbach.com/contact/
+  [Bluehost]: http://bluehost.com
   [Goozbach Infrastructure Solutions, LLC]: http://goozbach.com/
   [Coraid]: http://www.coraid.com/
   [Cox Media Group Digital]: http://cmgdigital.com/
   [Cox Radio Interactive]: http://cxri.net/
   [Florida Department of Health]: http://www.doh.state.fl.us/
   [Guru Labs]: http://www.gurulabs.com/
-  [Virtual Business Card -- http://blog.friocorte.com/card/]: http://blog.friocorte.com/card/
-  [Main Website -- http://blog.friocorte.com/]: http://blog.friocorte.com/
-  [presentations]: http://presentation.goozbach.com/
-  [open source projects]: http://github.com/goozbach/
-  [Classic Hackers UGA Linux Users Group]: http://chugalug.uga.edu/
-  [Atlanta Linux Enthusiasts]: http://ale.org/
-  [Plan9 based PXE and DHCP environment]: http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html
-  [110-015-385]: https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-015-385&verify=Verify
-  [Bash libraries]: https://github.com/goozbach/log4bats
-  [Bash scripts]: https://github.com/goozbach/bash-app
-  [GoOSeLinux]: http://gooseproject.org/
+
+  [^1]: <https://github.com/goozbach/log4bats>  
+  [^2]: <https://github.com/goozbach/bash-app>  
+  [^3]: <http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation>  
+  [^4]: <http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management>  
+  [^5]: <http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html>  
+  [^6]: <https://www.redhat.com/rhtapps/certification/verify/?certId=110-015-385>  
+  [^7]: <http://presentation.goozbach.com/>  
+  [^8]: http://gooseproject.org/ -- now defunct
+  [^9]: <http://plug.org/>  
+  [^10]: <https://linuxclub.cs.byu.edu/>  
+  [^11]: <http://slcperlmongers.com/>  
+  [^12]: <http://github.com/goozbach/>  
