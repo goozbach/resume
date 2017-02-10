@@ -10,7 +10,7 @@ uri: 'http://goozbach.com/contact/'
 summary: |
   Linux infrastructure specialist with sixteen years of experience.
   Using training, Sr Linux systems administration, and course development knowledge to build and maintain robust and scalable Linux infrastructure.
-  Focusing on core business technology: including custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems administration and training. Active participant in open source local interest groups, contributor to open source projects, and full-time geek.
+  Focusing on core business technology including: custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems administration and training. Active participant in open source local interest groups, contributor to open source projects, and full-time geek.
 
 ...
 
@@ -19,30 +19,32 @@ summary: |
 ###[Bluehost][] 
 ####Sr Systems Architect, DevOps -- August 2014 - Present
 Sr Linux Systems architect embedded in development team.
+
 Built tools, processes and environments to help facilitate better development team productivity.
-Supported pre-production developer environments allowing development team to focus on product development.
+
+Supported pre-production developer environments allowing development team to focus on product development tasks.
 
 * Built and supported automated pre-production systems using Ansible, Puppet, KVM, and OpenStack.
 
 * Provided self-service portals for various development resources.
 
-  * RPM Package building, and YUM repository hosting.
+    + RPM Package building, and YUM repository hosting.
 
-  * SCL (software collections) packages for Perl and other technologies.
+    + SCL (software collections) packages for Perl and other technologies.
 
-  * Alpha systems tear-down and rebuilding.
+    + Alpha systems tear-down and rebuilding.
 
 ###[Goozbach Infrastructure Solutions, LLC][]
 ####Linux Infrastructure Consultant and Instructor -- December 2011 – Present
 Owner and primary consultant of successful Linux consulting and training company providing Linux support and best practices consultation.
-Customers include RedHat training partners, Linux Foundation, Endosys, Schmooze Communications and others.
+Customers include RedHat training partners, Linux Foundation, Endosys, Sangoma, and others.
 Customer environments range from dozens to thousands of servers.
 
 Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and other systems administration tasks.
 
 * Consulting customers on DevOps policies, procedures, and tools, using continuous integration (Jenkins), unit testing (Test Anything Protocol, Rspec), configuration management (Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
 
-* Creating and maintaining virtualization and "private clouds", utilizing OpenStack, SolusVM, OpenShift, Vmware, and VirtualBox
+* Creating and maintaining virtualization and "private clouds", utilizing OpenStack, SolusVM, OpenShift, Vmware, Vagrant, Packer, and VirtualBox
 
 * Automating and scripting system administration tasks using Bash, Python, cron and at.
 
@@ -135,7 +137,7 @@ Prepared and given numerous presentations[^7] at conferences and special interes
 
 Started and ran open source Linux distro rebuild project called GoOSeLinux[^8] (now defunct).
 
-Active in local users groups, Provo Linux Users Group[^9], BYU Linux Users Group[^10], and Salt Lake Perl Mongers[^11]. 
+Active in local users groups: Provo Linux Users Group[^9], BYU Linux Users Group[^10], and Salt Lake Perl Mongers[^11]. 
 
 Author of/Contributor to these open source projects[^12].
 
