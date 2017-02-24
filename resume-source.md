@@ -10,7 +10,7 @@ uri: 'http://goozbach.com/contact/'
 summary: |
   Linux infrastructure specialist with sixteen years of experience.
   Using training, Sr Linux systems administration, and course development knowledge to build and maintain robust and scalable Linux infrastructure.
-  Focusing on core business technology including: custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems administration and training. Active participant in open source local interest groups, contributor to open source projects, and full-time geek.
+  Focusing on core business technology: custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems administration and training. Active participant in open source local interest groups, contributor to open source projects, and full-time geek.
 
 ...
 
