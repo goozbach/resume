@@ -18,6 +18,55 @@ summary: |
 
 ###[Nav][] 
 ####Principal Software Engineer DevOps -- August 2017 - February 2017
+DevOps software engineer focused on architecting, deploying, and migrating a mid-sized
+traditional infrastructure into Kubernetes.
+
+* Helped mitigate legacy architecture problems using automation(Ansible), security tools (HashiCorp Vault), and operations background.
+    + Built a new Ansible architecture to standardize the settings, security,
+        and managment of our legacy(EC2) infrastructre servers.
+    + Updated HashiCorp Vault to the latest editions.
+    + Create a schedule to keep Vault updated.
+    + Created a tool called [vault_helper][] to make the rotation of encryption
+        keys in HashiCorp Vault easier
+    + Added audit logging to our plaform to increase visibilty into and the security
+        of our systems
+    + Tied access of our HashiCorp Vault installation into our user managment system,
+        increasing security and enabling accountablility.
+
+* Built new Kubernetes platform and migrated legacy applications onto it.
+    + Built architecture to allow legacy apps and new (k8s) apps to communicate
+        as if they were on the same platform.
+    + Standardized our containerization workflow to allow for better security
+        and mantainiblity.
+    + Built container enviroment setting tooling to allow for multiple
+        environments with the same container image.
+    + Enabled containerized applications to leverage HashiCorp Vault's
+        encryption as a service to secure customer data.
+    + Assisted developers in migrating their legacy applications to the new
+        platform with minimal downtime.
+
+* Worked on improving developer workflow processes and tooling.
+    + Created company-wide engineering standards
+        - JSON based logging standard
+        - Secret management and encryption standards
+        - Environment naming, ownership, code lifecycle, and purpose standards
+    + Built a "canary application" which tested and exercised all the possible
+        features of our platform.r
+        This enabled testing of CI/CD pipelines and environments without
+        involving production applications
+    + Built a centralized CI/CD pipeline system to standardized our deployment
+        pipelines.
+        This enabled developers to focus on their application code, not
+        deployment artifacts and scripts.
+    + Built CI/CD pipeline tooling to automate common tasks
+        - Creation of databases with their corresponding users
+        - Create master database user/password and store secrets into HashiCorp
+            Vault
+    + Migrated all infrastructure creation from an ad-hoc solution to HashiCorp
+        Terraform. Enabling repeatable and better mantainable infrastructure.
+    + Implemented RunDocs for every application, bringing operations and
+        development closer into alignment. This also increased the reslienceny
+        for our applications.
 
 ###[Goozbach Infrastructure Solutions, LLC][]
 ####Linux Infrastructure Consultant and Instructor -- December 2011 – Present
@@ -36,6 +85,9 @@ Services provided include system updates, configuration management, installation
         workstations.
     + Built system automation to match the deployed software, allowing users
         an environment which closely matched production environments.
+
+* Created security related training framework for SCORM-enabled training
+    content.
 
 * Consulting customers on DevOps policies, procedures, and tools, using continuous integration (Jenkins), unit testing (Test Anything Protocol, Rspec), configuration management (Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
 
