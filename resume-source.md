@@ -1,6 +1,6 @@
 ---
 title: Derek C Carter
-subtitle: Sr Systems Architect
+subtitle: Digital Infrastructure Architect
 author: <derek@goozbach.com>
 address: |
   1009 N 900 W  
@@ -8,9 +8,10 @@ address: |
 phone: 1-(762)233-4009  
 uri: 'http://goozbach.com/contact/'  
 summary: |
-  Linux infrastructure specialist with sixteen years of experience.
-  Using training, Sr Linux systems administration, and course development knowledge to build and maintain robust and scalable Linux infrastructure.
-  Focusing on core business technology: custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems administration and training. Active participant in open source local interest groups, contributor to open source projects, and full-time geek.
+  Linux infrastructure specialist with twenty-two years of experience.
+  Using training, principal systems administration/architecture, and course development knowledge to architect and design robust and scalable Linux infrastructure.
+  Focusing on core business technology: custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems architecture, design and training.
+  Active participant in open source local interest groups, contributor to open source projects, and full-time geek.
 
 ...
 
