@@ -23,22 +23,22 @@ traditional infrastructure into Kubernetes.
 
 * Helped mitigate legacy architecture problems using automation(Ansible), security tools (HashiCorp Vault), and operations background.
     + Built a new Ansible architecture to standardize the settings, security,
-        and managment of our legacy(EC2) infrastructre servers.
+        and management of our legacy(EC2) infrastructure servers.
     + Updated HashiCorp Vault to the latest editions.
     + Create a schedule to keep Vault updated.
     + Created a tool called [vault_helper][] to make the rotation of encryption
         keys in HashiCorp Vault easier
-    + Added audit logging to our plaform to increase visibilty into and the security
+    + Added audit logging to our platform to increase visibility into and the security
         of our systems
-    + Tied access of our HashiCorp Vault installation into our user managment system,
-        increasing security and enabling accountablility.
+    + Tied access of our HashiCorp Vault installation into our user management system,
+        increasing security and enabling accountability.
 
 * Built new Kubernetes platform and migrated legacy applications onto it.
     + Built architecture to allow legacy apps and new (k8s) apps to communicate
         as if they were on the same platform.
     + Standardized our containerization workflow to allow for better security
-        and mantainiblity.
-    + Built container enviroment setting tooling to allow for multiple
+        and maintainability.
+    + Built container environment setting tooling to allow for multiple
         environments with the same container image.
     + Enabled containerized applications to leverage HashiCorp Vault's
         encryption as a service to secure customer data.
@@ -49,7 +49,7 @@ traditional infrastructure into Kubernetes.
     + Created company-wide engineering standards
         - JSON based logging standard
         - Secret management and encryption standards
-        - Environment naming, ownership, code lifecycle, and purpose standards
+        - Environment naming, ownership, code life-cycle, and purpose standards
     + Built a "canary application" which tested and exercised all the possible
         features of our platform.r
         This enabled testing of CI/CD pipelines and environments without
@@ -63,9 +63,9 @@ traditional infrastructure into Kubernetes.
         - Create master database user/password and store secrets into HashiCorp
             Vault
     + Migrated all infrastructure creation from an ad-hoc solution to HashiCorp
-        Terraform. Enabling repeatable and better mantainable infrastructure.
+        Terraform. Enabling repeatable and better maintainable infrastructure.
     + Implemented RunDocs for every application, bringing operations and
-        development closer into alignment. This also increased the reslienceny
+        development closer into alignment. This also increased the resiliency
         for our applications.
 
 ###[Goozbach Infrastructure Solutions, LLC][]
