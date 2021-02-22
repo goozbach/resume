@@ -6,7 +6,6 @@ address: |
   1009 N 900 W  
   American Fork, UT  84003  
 phone: 1-(762)233-4009  
-uri: 'http://goozbach.com/contact/'  
 summary: |
   Linux infrastructure specialist with twenty-two years of experience.
   Using training, principal systems administration/architecture, and course development knowledge to architect and design robust and scalable Linux infrastructure.
@@ -17,31 +16,26 @@ summary: |
 
 ##Experience
 
-###[Bluehost][] 
-####Sr Systems Architect, DevOps -- August 2014 - Present
-Sr Linux Systems architect embedded in development team.
-
-Built tools, processes and environments to help facilitate better development team productivity.
-
-Supported pre-production developer environments allowing development team to focus on product development tasks.
-
-* Built and supported automated pre-production systems using Ansible, Puppet, KVM, and OpenStack.
-
-* Provided self-service portals for various development resources.
-
-    + RPM Package building, and YUM repository hosting.
-
-    + SCL (software collections) packages for Perl and other technologies.
-
-    + Alpha systems tear-down and rebuilding.
+###[Nav][] 
+####Principal Software Engineer DevOps -- August 2017 - February 2017
 
 ###[Goozbach Infrastructure Solutions, LLC][]
 ####Linux Infrastructure Consultant and Instructor -- December 2011 – Present
 Owner and primary consultant of successful Linux consulting and training company providing Linux support and best practices consultation.
-Customers include RedHat training partners, Linux Foundation, Endosys, Sangoma, and others.
+Customers include RedHat training partners, Linux Foundation, Endosys, Sangoma, Local, State, Federal Government, and the Department of Defense.
 Customer environments range from dozens to thousands of servers.
 
 Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and other systems administration tasks.
+
+* Built a self-contained, portable training platform for the Department of
+    Defense.
+    + The customer needed a digital training environment in locations where we
+        wouldn't have reliable internet access, or use computers on-site.
+    + We designed and built a platform which could be shipped all over the
+        world which contained a portable data center, and a fleet of laptops as
+        workstations.
+    + Built system automation to match the deployed software, allowing users
+        an environment which closely matched production environments.
 
 * Consulting customers on DevOps policies, procedures, and tools, using continuous integration (Jenkins), unit testing (Test Anything Protocol, Rspec), configuration management (Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
 
@@ -58,6 +52,24 @@ Services provided include system updates, configuration management, installation
     + Course creation includes slides, books, lab exercises, and virtual server environments.
 
 * Delivered Linux systems administration training courses and proctored exams for RedHat training partners.
+
+###[Bluehost][] 
+####Sr Systems Architect, DevOps -- August 2014 - August 2017
+Sr Linux Systems architect embedded in development team.
+
+Built tools, processes and environments to help facilitate better development team productivity.
+
+Supported pre-production developer environments allowing development team to focus on product development tasks.
+
+* Built and supported automated pre-production systems using Ansible, Puppet, KVM, and OpenStack.
+
+* Provided self-service portals for various development resources.
+
+    + RPM Package building, and YUM repository hosting.
+
+    + SCL (software collections) packages for Perl and other technologies.
+
+    + Alpha systems tear-down and rebuilding.
 
 ###[Coraid][]
 
@@ -143,6 +155,7 @@ Active in local users groups: Provo Linux Users Group[^9], BYU Linux Users Group
 Author of/Contributor to these open source projects[^12].
 
   [Bluehost]: http://bluehost.com
+  [Nav]: http://nav.com
   [Goozbach Infrastructure Solutions, LLC]: http://goozbach.com/
   [Coraid]: http://www.coraid.com/
   [Cox Media Group Digital]: http://cmgdigital.com/
