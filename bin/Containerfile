@@ -1,5 +1,5 @@
 FROM registry.gitlab.com/goozbach-infra-containers/asciidoctor
 
-RUN dnf -y install pandoc-pdf pandoc-common
+RUN dnf -y install pandoc-pdf pandoc-common texlive
 
 WORKDIR /opt/source
