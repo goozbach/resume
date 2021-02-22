@@ -6,3 +6,6 @@
 /*.tex
 fancy/*.pdf
 .password
+output/
+runtime/.bash_history
+runtime/bash_history
