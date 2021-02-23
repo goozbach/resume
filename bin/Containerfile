@@ -1,6 +1,6 @@
 FROM registry.gitlab.com/goozbach-infra-containers/asciidoctor
 
-RUN dnf -y install pandoc-pdf pandoc-common texlive
+RUN dnf -y install pandoc-pdf pandoc-common texlive texlive-moresize
 
 ADD gitconfig /root/.gitconfig
 

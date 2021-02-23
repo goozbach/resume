@@ -21,43 +21,43 @@ summary: |
 DevOps software engineer focused on architecting, deploying, and migrating a mid-sized
 traditional infrastructure into Kubernetes.
 
-* Helped mitigate legacy architecture problems using automation(Ansible), security tools (HashiCorp Vault), and operations background.
+* Mitigated legacy architecture problems using automation(Ansible), security tools
+    (HashiCorp Vault), and my systems operations background.
     + Built a new Ansible architecture to standardize the settings, security,
-        and management of our legacy(EC2) infrastructure servers.
+        and management of legacy(EC2) infrastructure servers.
     + Updated HashiCorp Vault to the latest editions.
-    + Create a schedule to keep Vault updated.
-    + Created a tool called [vault_helper][] to make the rotation of encryption
-        keys in HashiCorp Vault easier
-    + Added audit logging to our platform to increase visibility into and the security
-        of our systems
-    + Tied access of our HashiCorp Vault installation into our user management system,
-        increasing security and enabling accountability.
+    + Created a tool called [vault_helper][] to ease the rotation of encryption
+        keys of the HashiCorp Vault system.
+    + Added audit logging to increase visibility into, and the security
+        of the platform.
+    + Tied user management system acccount access to the HashiCorp Vault installation.
+        This increased security, accountability, and auditability of the secret
+        storage and encryption systems.
 
 * Built new Kubernetes platform and migrated legacy applications onto it.
     + Built architecture to allow legacy apps and new (k8s) apps to communicate
         as if they were on the same platform.
-    + Standardized our containerization workflow to allow for better security
+    + Standardized a containerization workflow to allow for better security
         and maintainability.
     + Built container environment setting tooling to allow for multiple
-        environments with the same container image.
+        environments with the same \mbox{container} image.
     + Enabled containerized applications to leverage HashiCorp Vault's
         encryption as a service to secure customer data.
     + Assisted developers in migrating their legacy applications to the new
         platform with minimal downtime.
 
-* Worked on improving developer workflow processes and tooling.
+* Improved developer workflow processes and tooling.
     + Created company-wide engineering standards
         - JSON based logging standard
         - Secret management and encryption standards
         - Environment naming, ownership, code life-cycle, and purpose standards
     + Built a "canary application" which tested and exercised all the possible
-        features of our platform.r
+        features of the platform.
         This enabled testing of CI/CD pipelines and environments without
         involving production applications
-    + Built a centralized CI/CD pipeline system to standardized our deployment
-        pipelines.
-        This enabled developers to focus on their application code, not
-        deployment artifacts and scripts.
+    + Built a centralized CI/CD pipeline system to standardize deployment pipelines.
+        This enabled developers to focus on their application code, not deployment
+        artifacts and scripts.
     + Built CI/CD pipeline tooling to automate common tasks
         - Creation of databases with their corresponding users
         - Create master database user/password and store secrets into HashiCorp
@@ -66,7 +66,7 @@ traditional infrastructure into Kubernetes.
         Terraform. Enabling repeatable and better maintainable infrastructure.
     + Implemented RunDocs for every application, bringing operations and
         development closer into alignment. This also increased the resiliency
-        for our applications.
+        for the running applications.
 
 ### [Goozbach Infrastructure Solutions, LLC][]
 #### Linux Infrastructure Consultant and Instructor -- December 2011 – Present
@@ -76,7 +76,7 @@ Customer environments range from dozens to thousands of servers.
 
 Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and other systems administration tasks.
 
-* Built a self-contained, portable training platform for the Department of
+* Designed and built a self-contained, portable training platform for the Department of
     Defense.
     + The customer needed a digital training environment in locations where we
         wouldn't have reliable internet access, or use of computers on-site.
@@ -85,6 +85,8 @@ Services provided include system updates, configuration management, installation
         workstations.
     + Built system automation to match the deployed software, allowing users
         an environment which closely matched production environments.
+    + Designed and manufactured hardware to facilitate quiet airflow for the mobile
+        datacenter allowing use in close quarters.
 
 * Created security related training framework for SCORM-enabled training
     content.
@@ -172,16 +174,6 @@ Managing day to day operations, capacity planning, operations budgeting and oper
 
     + N+1 redundant MySQL cluster, F5 LTM Load Balancers, Mod_Perl and Apache, and NetAPP Storage.
 
-### [Florida Department of Health][]
-#### Systems Administrator -- March 2006 – June 2007
-Full time Linux and VOIP consultant at agency responsible for technology procurement throughout the state.
-
-* Designing and deploying medium scale Virtual IT help desk using Asterisk, with monitoring wallboard built with Jquery and Perl
-
-* Building and maintaining state-wide, multi-agency, contact directory using Red Hat Directory Server, importing data from all of the different state agencies using custom Perl scripts.
-
-* Building Linux based print servers using Samba, which integrated with Active Directory system.
-
 ## Additional Information
 #### Certifications  
 * Red Hat Certified Engineer (RHCE) Cert #110-015-385[^6] 
@@ -192,7 +184,7 @@ Full time Linux and VOIP consultant at agency responsible for technology procure
 #### Languages
 * Perl 
 * Python 
-* TCL 
+* Ruby
 * Bash 
 * English 
 * Spanish
@@ -202,9 +194,9 @@ Prepared and given numerous presentations[^7] at conferences and special interes
 
 Started and ran open source Linux distro rebuild project called GoOSeLinux[^8] (now defunct).
 
-Active in local users groups: Provo Linux Users Group[^9], BYU Linux Users Group[^10], and Salt Lake Perl Mongers[^11]. 
+Active in local users and special interest groups: Provo Linux Users Group[^9], Utah Open Source, and others.
 
-Author of/Contributor to these open source[^12] projects[^13]. 
+Author of/Contributor to these open source[^10] projects[^11]. 
 
   [Bluehost]: http://bluehost.com
   [vault_helper]: https://gitlab.com/goozbach/vault_helper
@@ -223,9 +215,7 @@ Author of/Contributor to these open source[^12] projects[^13].
   [^5]: <http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html>  
   [^6]: <https://www.redhat.com/rhtapps/certification/verify/?certId=110-015-385>  
   [^7]: <http://presentation.goozbach.com/>  
-  [^8]: http://gooseproject.org/ -- now defunct
+  [^8]: http://gooseproject.org/ -- now defunct  
   [^9]: <http://plug.org/>  
-  [^10]: <https://linuxclub.cs.byu.edu/>  
-  [^11]: <http://slcperlmongers.com/>  
-  [^12]: <http://github.com/goozbach/>  
-  [^13]: <http://gitlab.com/goozbach/>  
+  [^10]: <http://github.com/goozbach/>  
+  [^11]: <http://gitlab.com/goozbach/>  
