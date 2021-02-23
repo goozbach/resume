@@ -14,10 +14,10 @@ summary: |
 
 ...
 
-##Experience
+## Experience
 
-###[Nav][] 
-####Principal Software Engineer DevOps -- August 2017 - February 2017
+### [Nav][] 
+#### Principal Software Engineer DevOps -- August 2017 - February 2017
 DevOps software engineer focused on architecting, deploying, and migrating a mid-sized
 traditional infrastructure into Kubernetes.
 
@@ -68,8 +68,8 @@ traditional infrastructure into Kubernetes.
         development closer into alignment. This also increased the resiliency
         for our applications.
 
-###[Goozbach Infrastructure Solutions, LLC][]
-####Linux Infrastructure Consultant and Instructor -- December 2011 – Present
+### [Goozbach Infrastructure Solutions, LLC][]
+#### Linux Infrastructure Consultant and Instructor -- December 2011 – Present
 Owner and primary consultant of successful Linux consulting and training company providing Linux support and best practices consultation.
 Customers include RedHat training partners, Linux Foundation, Endosys, Sangoma, Local, State, Federal Government, and the Department of Defense.
 Customer environments range from dozens to thousands of servers.
@@ -79,7 +79,7 @@ Services provided include system updates, configuration management, installation
 * Built a self-contained, portable training platform for the Department of
     Defense.
     + The customer needed a digital training environment in locations where we
-        wouldn't have reliable internet access, or use computers on-site.
+        wouldn't have reliable internet access, or use of computers on-site.
     + We designed and built a platform which could be shipped all over the
         world which contained a portable data center, and a fleet of laptops as
         workstations.
@@ -105,8 +105,8 @@ Services provided include system updates, configuration management, installation
 
 * Delivered Linux systems administration training courses and proctored exams for RedHat training partners.
 
-###[Bluehost][] 
-####Sr Systems Architect, DevOps -- August 2014 - August 2017
+### [Bluehost][] 
+#### Sr Systems Architect, DevOps -- August 2014 - August 2017
 Sr Linux Systems architect embedded in development team.
 
 Built tools, processes and environments to help facilitate better development team productivity.
@@ -123,9 +123,9 @@ Supported pre-production developer environments allowing development team to foc
 
     + Alpha systems tear-down and rebuilding.
 
-###[Coraid][]
+### [Coraid][]
 
-####QA Engineer and Tools Developer -- February 2010 – March 2012
+#### QA Engineer and Tools Developer -- February 2010 – March 2012
 Quality assurance engineering, testing, and tool/platform development, with some focus in product market fit for an Ethernet SAN Storage company. Helped manage QA lab environment of approximately 100 servers and appliances.
 
 * Testing releases of Coraid HBA drivers for Solaris, OpenIndiana, Nexenta, Windows, and Linux platforms; integrating Coraid storage with ZFS on Solaris based systems and Linux LVM.
@@ -142,8 +142,8 @@ Quality assurance engineering, testing, and tool/platform development, with some
 
     + Designing and installing a new testing data center.
 
-###[Cox Media Group Digital][]
-####Sr Systems Administrator -- August 2007 – February 2010
+### [Cox Media Group Digital][]
+#### Sr Systems Administrator -- August 2007 – February 2010
 Managing day to day operations, capacity planning, operations budgeting and operations team lead for a leading media and publishing company with digital presence for Radio, TV, Newspaper, and direct marketing.
 
 * Managing business merger.
@@ -172,8 +172,8 @@ Managing day to day operations, capacity planning, operations budgeting and oper
 
     + N+1 redundant MySQL cluster, F5 LTM Load Balancers, Mod_Perl and Apache, and NetAPP Storage.
 
-###[Florida Department of Health][]
-####Systems Administrator -- March 2006 – June 2007
+### [Florida Department of Health][]
+#### Systems Administrator -- March 2006 – June 2007
 Full time Linux and VOIP consultant at agency responsible for technology procurement throughout the state.
 
 * Designing and deploying medium scale Virtual IT help desk using Asterisk, with monitoring wallboard built with Jquery and Perl
@@ -182,14 +182,14 @@ Full time Linux and VOIP consultant at agency responsible for technology procure
 
 * Building Linux based print servers using Samba, which integrated with Active Directory system.
 
-##Additional Information
-####Certifications  
+## Additional Information
+#### Certifications  
 * Red Hat Certified Engineer (RHCE) Cert #110-015-385[^6] 
 * Red Hat Certified Instructor (RHCI) 
 * Red Hat Certified Examiner (RHCX)
 * IBM Certified Linux Instructor.
 
-####Languages
+#### Languages
 * Perl 
 * Python 
 * TCL 
@@ -197,16 +197,17 @@ Full time Linux and VOIP consultant at agency responsible for technology procure
 * English 
 * Spanish
 
-####Presentations, Projects, and Community
+#### Presentations, Projects, and Community
 Prepared and given numerous presentations[^7] at conferences and special interest groups.
 
 Started and ran open source Linux distro rebuild project called GoOSeLinux[^8] (now defunct).
 
 Active in local users groups: Provo Linux Users Group[^9], BYU Linux Users Group[^10], and Salt Lake Perl Mongers[^11]. 
 
-Author of/Contributor to these open source projects[^12].
+Author of/Contributor to these open source[^12] projects[^13]. 
 
   [Bluehost]: http://bluehost.com
+  [vault_helper]: https://gitlab.com/goozbach/vault_helper
   [Nav]: http://nav.com
   [Goozbach Infrastructure Solutions, LLC]: http://goozbach.com/
   [Coraid]: http://www.coraid.com/
@@ -227,3 +228,4 @@ Author of/Contributor to these open source projects[^12].
   [^10]: <https://linuxclub.cs.byu.edu/>  
   [^11]: <http://slcperlmongers.com/>  
   [^12]: <http://github.com/goozbach/>  
+  [^13]: <http://gitlab.com/goozbach/>  
