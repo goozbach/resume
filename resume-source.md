@@ -4,7 +4,7 @@ subtitle: Digital Infrastructure Architect
 author: <derek@goozbach.com>
 address: |
   1009 N 900 W  
-  American Fork, UT  84003  
+  American Fork, UT  84003
 phone: 1-(762)233-4009  
 summary: |
   Linux infrastructure specialist with twenty-two years of experience.

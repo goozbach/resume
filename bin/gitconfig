@@ -1,0 +1,34 @@
+[user]
+	email = derek@goozbach.com
+	name = Derek Carter
+	signingkey = 14E825A9
+[gist]
+	user = goozbach
+[core]
+	excludesfile = ~/.gitignore
+	editor = /usr/bin/vim
+[merge]
+	tool = vimdiff
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	root = !pwd
+	goroot = !cd $(pwd)
+[push]
+	default = simple
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential]
+	helper = cache --timeout=3600
