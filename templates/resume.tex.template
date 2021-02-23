@@ -22,16 +22,6 @@
 \definecolor{VeryDarkGray}{HTML}{4F4F4F}
 \pagestyle{empty}
 
-% setup header fade
-\newcommand\placeheader{
-  \begin{tikzpicture}[remember picture,overlay]
-    \node[yshift=-5cm] at (current page.north west){
-      \begin{tikzpicture}[remember picture, overlay]
-        \shade[top color=VeryDarkGray, bottom color=white] (0,0) rectangle (\paperwidth,5cm);
-      \end{tikzpicture}
-    };
-  \end{tikzpicture}
-}
 $if(xetex)$
 \usepackage{ifxetex}
 \ifxetex
@@ -143,7 +133,6 @@ $if(date)$
 $endif$
 
 \begin{document}
-\placeheader
 % header stuff
 $if(summary)$
 \begin{minipage}[t]{0.72\linewidth}
