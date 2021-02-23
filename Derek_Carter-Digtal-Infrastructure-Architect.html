@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="derek@goozbach.com" />
+  <title>Derek C Carter</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+body {
+margin: auto;
+width: 70%;
+padding: .5in;
+padding-bottom: 5em;
+font-family: helvetica, Verdana, sans-serif;
+color: #2E2B00;
+background: #FFFFFF;
+background: -moz-linear-gradient(top, #4f4f4f 0%, #ffffff 5cm); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4f4f4f), color-stop(5cm,#ffffff)); 
+background: -webkit-linear-gradient(top, #4f4f4f 0%,#ffffff 5cm); 
+background: -o-linear-gradient(top, #4f4f4f 0%,#ffffff 5cm); 
+background: -ms-linear-gradient(top, #4f4f4f 0%,#ffffff 5cm); 
+background: linear-gradient(to bottom, #4f4f4f 0%,#ffffff 5cm); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#ffffff',GradientType=0 ); 
+}
+* {
+clear: both;
+padding: none;
+}
+a {
+text-decoration: none;
+color: #4745ff;
+}
+a:hover {
+text-decoration: underline;
+}
+p {
+margin-top: 1em;
+}
+.title {
+font-size: 175%;
+}
+.subtitle {
+font-weight: normal;
+size: 80%;
+}
+.author, .address, .uri {
+font-weight: normal;
+}
+ol, ul, li {
+margin-top: 1em;
+margin-bottom: 1em;
+}
+h1, h2, h3, h4 {
+font-weight: bold;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+li {
+margin-top: .2em;
+}
+#header h1, #header h2, #header h3 {
+padding: 0px;
+margin: 0;
+margin-top: 0px;
+}
+#summary h1, #summary h2, #summary h3 {
+}
+#headwrap {
+margin: auto;
+}
+#header {
+float: right;
+text-align: right;
+width: 30%;
+clear: none;
+}
+#summary {
+float: left;
+width: 65%;
+clear: none;
+}
+body > h1 {
+font-size: 150%;
+}
+body > h2 {
+font-size: 140%;
+}
+body > h3 {
+font-size: 130%;
+}
+body > h4 {
+font-size: 120%;
+font-weight: bold;
+margin-bottom: 1em;
+}
+#main {
+margin-top: 4em;
+}
+</style>
+</head>
+<body>
+
+    <div id="summary">
+    <h1>Summary:</h1>
+    <div id="summarycontents">
+      Linux infrastructure specialist with twenty-two years of experience. Using training, principal systems administration/architecture, and course development knowledge to architect and design robust and scalable Linux infrastructure. Focusing on core business technology: custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems architecture, design and training. Active participant in open source local interest groups, contributor to open source projects, and full-time geek.
+    </div>
+  </div>
+    <div id="header">
+        <h1 class="title">Derek C Carter</h1>
+            <h2 class="subtitle">Digital Infrastructure Architect</h1>
+            <h2 class="author"><a href="mailto:derek@goozbach.com" class="email">derek@goozbach.com</a></h2>
+            <h3 class="address">1009 N 900 W<br />
+American Fork, UT 84003</h3>
+          </div>
+
+<div id="clearfix"> </div>
+<p>##Experience</p>
+<p>###<a href="http://nav.com">Nav</a> ####Principal Software Engineer DevOps – August 2017 - February 2017 DevOps software engineer focused on architecting, deploying, and migrating a mid-sized traditional infrastructure into Kubernetes.</p>
+<ul>
+<li>Helped mitigate legacy architecture problems using automation(Ansible), security tools (HashiCorp Vault), and operations background.
+<ul>
+<li>Built a new Ansible architecture to standardize the settings, security, and management of our legacy(EC2) infrastructure servers.</li>
+<li>Updated HashiCorp Vault to the latest editions.</li>
+<li>Create a schedule to keep Vault updated.</li>
+<li>Created a tool called [vault_helper][] to make the rotation of encryption keys in HashiCorp Vault easier</li>
+<li>Added audit logging to our platform to increase visibility into and the security of our systems</li>
+<li>Tied access of our HashiCorp Vault installation into our user management system, increasing security and enabling accountability.</li>
+</ul></li>
+<li>Built new Kubernetes platform and migrated legacy applications onto it.
+<ul>
+<li>Built architecture to allow legacy apps and new (k8s) apps to communicate as if they were on the same platform.</li>
+<li>Standardized our containerization workflow to allow for better security and maintainability.</li>
+<li>Built container environment setting tooling to allow for multiple environments with the same container image.</li>
+<li>Enabled containerized applications to leverage HashiCorp Vault’s encryption as a service to secure customer data.</li>
+<li>Assisted developers in migrating their legacy applications to the new platform with minimal downtime.</li>
+</ul></li>
+<li>Worked on improving developer workflow processes and tooling.
+<ul>
+<li>Created company-wide engineering standards
+<ul>
+<li>JSON based logging standard</li>
+<li>Secret management and encryption standards</li>
+<li>Environment naming, ownership, code life-cycle, and purpose standards</li>
+</ul></li>
+<li>Built a “canary application” which tested and exercised all the possible features of our platform.r This enabled testing of CI/CD pipelines and environments without involving production applications</li>
+<li>Built a centralized CI/CD pipeline system to standardized our deployment pipelines. This enabled developers to focus on their application code, not deployment artifacts and scripts.</li>
+<li>Built CI/CD pipeline tooling to automate common tasks
+<ul>
+<li>Creation of databases with their corresponding users</li>
+<li>Create master database user/password and store secrets into HashiCorp Vault</li>
+</ul></li>
+<li>Migrated all infrastructure creation from an ad-hoc solution to HashiCorp Terraform. Enabling repeatable and better maintainable infrastructure.</li>
+<li>Implemented RunDocs for every application, bringing operations and development closer into alignment. This also increased the resiliency for our applications.</li>
+</ul></li>
+</ul>
+<p>###<a href="http://goozbach.com/">Goozbach Infrastructure Solutions, LLC</a> ####Linux Infrastructure Consultant and Instructor – December 2011 – Present Owner and primary consultant of successful Linux consulting and training company providing Linux support and best practices consultation. Customers include RedHat training partners, Linux Foundation, Endosys, Sangoma, Local, State, Federal Government, and the Department of Defense. Customer environments range from dozens to thousands of servers.</p>
+<p>Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and other systems administration tasks.</p>
+<ul>
+<li>Built a self-contained, portable training platform for the Department of Defense.
+<ul>
+<li>The customer needed a digital training environment in locations where we wouldn’t have reliable internet access, or use computers on-site.</li>
+<li>We designed and built a platform which could be shipped all over the world which contained a portable data center, and a fleet of laptops as workstations.</li>
+<li>Built system automation to match the deployed software, allowing users an environment which closely matched production environments.</li>
+</ul></li>
+<li><p>Created security related training framework for SCORM-enabled training content.</p></li>
+<li><p>Consulting customers on DevOps policies, procedures, and tools, using continuous integration (Jenkins), unit testing (Test Anything Protocol, Rspec), configuration management (Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)</p></li>
+<li><p>Creating and maintaining virtualization and “private clouds”, utilizing OpenStack, SolusVM, OpenShift, Vmware, Vagrant, Packer, and VirtualBox</p></li>
+<li><p>Automating and scripting system administration tasks using Bash, Python, cron and at.</p>
+<ul>
+<li>Authored open source Bash libraries<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> and Bash scripts<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> for ease of scripting tasks such as creating VM templates, managing Cobbler profiles, and other systems tasks.</li>
+</ul></li>
+<li><p>Developing Linux systems administration training courses for customers such as The Linux Foundation using LaTeX, ConTeX and Docbook.</p>
+<ul>
+<li><p>Course topics include Linux Automation<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>, and Linux Network Management<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>.</p></li>
+<li><p>Course creation includes slides, books, lab exercises, and virtual server environments.</p></li>
+</ul></li>
+<li><p>Delivered Linux systems administration training courses and proctored exams for RedHat training partners.</p></li>
+</ul>
+<p>###<a href="http://bluehost.com">Bluehost</a> ####Sr Systems Architect, DevOps – August 2014 - August 2017 Sr Linux Systems architect embedded in development team.</p>
+<p>Built tools, processes and environments to help facilitate better development team productivity.</p>
+<p>Supported pre-production developer environments allowing development team to focus on product development tasks.</p>
+<ul>
+<li><p>Built and supported automated pre-production systems using Ansible, Puppet, KVM, and OpenStack.</p></li>
+<li><p>Provided self-service portals for various development resources.</p>
+<ul>
+<li><p>RPM Package building, and YUM repository hosting.</p></li>
+<li><p>SCL (software collections) packages for Perl and other technologies.</p></li>
+<li><p>Alpha systems tear-down and rebuilding.</p></li>
+</ul></li>
+</ul>
+<p>###<a href="http://www.coraid.com/">Coraid</a></p>
+<p>####QA Engineer and Tools Developer – February 2010 – March 2012 Quality assurance engineering, testing, and tool/platform development, with some focus in product market fit for an Ethernet SAN Storage company. Helped manage QA lab environment of approximately 100 servers and appliances.</p>
+<ul>
+<li><p>Testing releases of Coraid HBA drivers for Solaris, OpenIndiana, Nexenta, Windows, and Linux platforms; integrating Coraid storage with ZFS on Solaris based systems and Linux LVM.</p></li>
+<li><p>Testing firmware updates for Coraid appliances.</p></li>
+<li><p>QA tool and platform engineering</p>
+<ul>
+<li><p>Building an installation automation system using Cobbler to make installing and testing easier and faster.</p></li>
+<li><p>Integrating Cobbler into a Plan9 based PXE and DHCP environment<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p></li>
+<li><p>Designing and implementing automated QA testing script frameworks built in Bash and Python.</p></li>
+<li><p>Designing and installing a new testing data center.</p></li>
+</ul></li>
+</ul>
+<p>###<a href="http://cmgdigital.com/">Cox Media Group Digital</a> ####Sr Systems Administrator – August 2007 – February 2010 Managing day to day operations, capacity planning, operations budgeting and operations team lead for a leading media and publishing company with digital presence for Radio, TV, Newspaper, and direct marketing.</p>
+<ul>
+<li><p>Managing business merger.</p>
+<ul>
+<li><p>Migrating diverse code bases from SVN, BZR, CVS and others to Git.</p></li>
+<li><p>Building collaboration tools (IRC server, mailing lists, Request Tracker).</p></li>
+<li><p>Designing new server platform for new business entity.</p></li>
+</ul></li>
+<li><p>Managing 100+ Linux servers serving 150+ high-traffic websites.</p>
+<ul>
+<li><p>Built automation and configuration management systems using Cobbler and Puppet.</p></li>
+<li><p>Migrating ops and dev teams from CVS to SVN.</p></li>
+<li><p>Building and improving deployment utilities cutting down on deployment time.</p></li>
+<li><p>Building proper DEV/QA/Staging/Production environments using KVM, Vmware, and Xen virtualization.</p></li>
+<li><p>Building and improving continuous integration testing and monitoring systems.</p></li>
+<li><p>Managing public DNS infrastructure for 200+ domains.</p></li>
+</ul></li>
+<li><p>Building a new hardware architecture for a new version of our platform.</p>
+<ul>
+<li>N+1 redundant MySQL cluster, F5 LTM Load Balancers, Mod_Perl and Apache, and NetAPP Storage.</li>
+</ul></li>
+</ul>
+<p>###<a href="http://www.doh.state.fl.us/">Florida Department of Health</a> ####Systems Administrator – March 2006 – June 2007 Full time Linux and VOIP consultant at agency responsible for technology procurement throughout the state.</p>
+<ul>
+<li><p>Designing and deploying medium scale Virtual IT help desk using Asterisk, with monitoring wallboard built with Jquery and Perl</p></li>
+<li><p>Building and maintaining state-wide, multi-agency, contact directory using Red Hat Directory Server, importing data from all of the different state agencies using custom Perl scripts.</p></li>
+<li><p>Building Linux based print servers using Samba, which integrated with Active Directory system.</p></li>
+</ul>
+<p>##Additional Information ####Certifications<br />
+* Red Hat Certified Engineer (RHCE) Cert #110-015-385<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a> * Red Hat Certified Instructor (RHCI) * Red Hat Certified Examiner (RHCX) * IBM Certified Linux Instructor.</p>
+<p>####Languages * Perl * Python * TCL * Bash * English * Spanish</p>
+<p>####Presentations, Projects, and Community Prepared and given numerous presentations<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a> at conferences and special interest groups.</p>
+<p>Started and ran open source Linux distro rebuild project called GoOSeLinux<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a> (now defunct).</p>
+<p>Active in local users groups: Provo Linux Users Group<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a>, BYU Linux Users Group<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a>, and Salt Lake Perl Mongers<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a>.</p>
+<p>Author of/Contributor to these open source projects<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a>.</p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://github.com/goozbach/log4bats" class="uri">https://github.com/goozbach/log4bats</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p><a href="https://github.com/goozbach/bash-app" class="uri">https://github.com/goozbach/bash-app</a><a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p><a href="http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation" class="uri">http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation</a><a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p><a href="http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management" class="uri">http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management</a><a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p><a href="http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html" class="uri">http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html</a><a href="#fnref5" class="footnote-back">↩</a></p></li>
+<li id="fn6"><p><a href="https://www.redhat.com/rhtapps/certification/verify/?certId=110-015-385" class="uri">https://www.redhat.com/rhtapps/certification/verify/?certId=110-015-385</a><a href="#fnref6" class="footnote-back">↩</a></p></li>
+<li id="fn7"><p><a href="http://presentation.goozbach.com/" class="uri">http://presentation.goozbach.com/</a><a href="#fnref7" class="footnote-back">↩</a></p></li>
+<li id="fn8"><p>http://gooseproject.org/ – now defunct<a href="#fnref8" class="footnote-back">↩</a></p></li>
+<li id="fn9"><p><a href="http://plug.org/" class="uri">http://plug.org/</a><a href="#fnref9" class="footnote-back">↩</a></p></li>
+<li id="fn10"><p><a href="https://linuxclub.cs.byu.edu/" class="uri">https://linuxclub.cs.byu.edu/</a><a href="#fnref10" class="footnote-back">↩</a></p></li>
+<li id="fn11"><p><a href="http://slcperlmongers.com/" class="uri">http://slcperlmongers.com/</a><a href="#fnref11" class="footnote-back">↩</a></p></li>
+<li id="fn12"><p><a href="http://github.com/goozbach/" class="uri">http://github.com/goozbach/</a><a href="#fnref12" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
+
+</body>
+</html>
+<!-- vim: set filetype=html -->
