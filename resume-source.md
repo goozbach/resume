@@ -82,7 +82,7 @@ Services provided include system updates, configuration management, installation
     Defense.
     + The customer needed a digital training environment in locations where we
         wouldn't have reliable internet access, or use of computers on-site.
-    + We designed and built a platform which could be shipped all over the
+    + Designed and built a platform which could be shipped all over the
         world which contained a portable data center, and a fleet of laptops as
         workstations.
     + Built system automation to match the deployed software, allowing users
