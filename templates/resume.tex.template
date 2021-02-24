@@ -1,8 +1,10 @@
 % vim: set filetype=latex
-\documentclass[fontsize=11pt]{scrartcl}
+\documentclass[fontsize=10.5]{scrartcl}
 \usepackage{amssymb,amsmath}
 \usepackage[english]{babel}
 \usepackage[]{moresize}
+\usepackage{longtable}
+\usepackage{booktabs}
 
 % redefine href
 \usepackage{letltxmacro}
@@ -15,7 +17,7 @@
 \newcommand{\tightlist}{%
   \setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}\setlength{\parsep}{0pt}}
 
-\usepackage[top=0.4in, bottom=0.8in, left=0.4in, right=0.4in]{geometry}
+\usepackage[top=0.4in, bottom=0.8in, left=0.6in, right=0.6in]{geometry}
 
 \usepackage{tikz}
 \usetikzlibrary{fadings,patterns}

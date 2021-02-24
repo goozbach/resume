@@ -1,5 +1,5 @@
 ---
-title: Derek C Carter
+title: Derek C. Carter
 subtitle: Digital Infrastructure Architect
 author: <derek@goozbach.com>
 address: |
@@ -9,7 +9,7 @@ phone: 1-(762)233-4009
 summary: |
   Linux infrastructure specialist with twenty-two years of experience in
   training, on-prem, or cloud computing platforms (AWS, GCP).
-  Using my training background, systems administration/architecture know-how, and course development knowledge to architect robust and scalable digital infrastructure.
+  Using my training background, systems administration/architecture know-how, and course development knowledge to architect robust, scalable digital infrastructure.
   Focusing on core business technology: custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems architecture, design and training.
 
 ...
@@ -28,12 +28,9 @@ into Kubernetes hosted on AWS.
     (HashiCorp Vault), and my systems operations background.
     + Built a new Ansible architecture to standardize the settings, security,
         and management of legacy(EC2) infrastructure servers.
-    + Updated HashiCorp Vault to the latest editions.
-    + Created a tool called [vault_helper][] to ease the rotation of encryption
+    + Created a tool called [vault_helper][][^1] to ease the rotation of encryption
         keys of the HashiCorp Vault system.
-    + Added audit logging to increase visibility into, and the security
-        of the platform.
-    + Tied user management system account access to the HashiCorp Vault installation.
+    + Centralized audit logging and user management for HashiCorp Vault.
         This increased security, accountability, and auditability of the secret
         storage and encryption systems.
 
@@ -42,8 +39,8 @@ into Kubernetes hosted on AWS.
         as if they were on the same platform.
     + Standardized a containerization workflow to allow for better security
         and maintainability.
-    + Built container environment setting tooling to allow for multiple
-        environments with the same \mbox{container} image.
+    + Built container environment tooling to allow for multiple environments using
+        the same \mbox{container} image.
     + Enabled containerized applications to leverage HashiCorp Vault's
         encryption as a service to secure customer data.
     + Assisted developers in migrating their legacy applications to the new
@@ -53,7 +50,8 @@ into Kubernetes hosted on AWS.
     + Created company-wide engineering standards
         - JSON based logging standard
         - Secret management and encryption standards
-        - Environment naming, ownership, code life-cycle, and purpose standards
+        - Standard for the proper use of non-production (QA, integration,
+            staging, and sandbox) environments.
     + Built a "canary application" which tested and exercised all the possible
         features of the platform.
         This enabled testing of CI/CD pipelines and environments without
@@ -71,6 +69,7 @@ into Kubernetes hosted on AWS.
         development closer into alignment. This also increased the resiliency
         for the running applications.
 
+\pagebreak[4]
 ### [Goozbach Infrastructure Solutions, LLC][]
 #### Linux Infrastructure Consultant and Instructor -- December 2011 – Present
 Owner and primary consultant of successful Linux consulting and training company providing Linux support and best practices consultation.
@@ -96,15 +95,15 @@ Services provided include system updates, configuration management, installation
 
 * Consulting customers on DevOps policies, procedures, and tools, using continuous integration (Jenkins), unit testing (Test Anything Protocol, Rspec), configuration management (Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
 
-* Creating and maintaining virtualization and "private clouds", utilizing OpenStack, SolusVM, OpenShift, Vmware, Vagrant, Packer, and VirtualBox
+* Creating and maintaining virtualization and "private clouds", utilizing OpenStack, SolusVM, OpenShift, Vmware, Vagrant, Packer, Kubernetes, and VirtualBox
 
 * Automating and scripting system administration tasks using Bash, Python, cron and at.
 
-    + Authored open source Bash libraries[^1] and Bash scripts[^2] for ease of scripting tasks such as creating VM templates, managing Cobbler profiles, and other systems tasks.
+    + Authored open source Bash libraries[^2] and Bash scripts[^3] for ease of scripting tasks such as creating VM templates, managing Cobbler profiles, and other systems tasks.
 
 * Developing Linux systems administration training courses for customers such as The Linux Foundation using LaTeX, ConTeX and Docbook.
 
-    + Course topics include Linux Automation[^3], and Linux Network Management[^4].
+    + Course topics include Linux Automation[^4], and Linux Network Management[^5].
 
     + Course creation includes slides, books, lab exercises, and virtual server environments.
 
@@ -141,13 +140,13 @@ Quality assurance engineering, testing, and tool/platform development, with some
 
     + Building an installation automation system using Cobbler to make installing and testing easier and faster.
 
-    + Integrating Cobbler into a Plan9 based PXE and DHCP environment[^5].
+    + Integrating Cobbler into a Plan9 based PXE and DHCP environment[^6].
 
     + Designing and implementing automated QA testing script frameworks built in Bash and Python.
 
     + Designing and installing a new testing data center.
 
-### [Cox Media Group Digital][]
+### Cox Media Group Digital
 #### Sr Systems Administrator -- August 2007 – February 2010
 Managing day to day digital operations, capacity planning, operations budgeting and operations team lead for a leading media and publishing company with digital presence for Radio, TV, Newspaper, and direct marketing.
 
@@ -178,31 +177,23 @@ Managing day to day digital operations, capacity planning, operations budgeting 
     + N+1 redundant MySQL cluster, F5 LTM Load Balancers, Mod_Perl and Apache, and NetAPP Storage.
 
 ## Additional Information
-#### Certifications  
-* Red Hat Certified Engineer (RHCE) Cert #110-015-385[^6] 
-* Red Hat Certified Instructor (RHCI) 
-* Red Hat Certified Examiner (RHCX)
-* IBM Certified Linux Instructor.
-
-#### Languages
-* Perl 
-* Python 
-* Ruby
-* Bash 
-* English 
-* Spanish
+* Open Source Projects:
+    + [GitHub][][^7]
+    + [GitLab][][^8]
 
   [Bluehost]: http://bluehost.com
   [vault_helper]: https://gitlab.com/goozbach/vault_helper
   [Nav]: http://nav.com
   [Goozbach Infrastructure Solutions, LLC]: http://goozbach.com/
   [Coraid]: http://www.coraid.com/
-  [Cox Media Group Digital]: http://cmgdigital.com/
-  [Cox Radio Interactive]: http://cxri.net/
+  [GitHub]: https://github.com/goozbach/
+  [GitLab]: https://gitlab.com/goozbach/
 
-  [^1]: <https://github.com/goozbach/log4bats>  
-  [^2]: <https://github.com/goozbach/bash-app>  
-  [^3]: <http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation>  
-  [^4]: <http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management>  
-  [^5]: <http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html>  
-  [^6]: <https://www.redhat.com/rhtapps/certification/verify/?certId=110-015-385>  
+  [^1]: <https://gitlab.com/goozbach/vault_helper>  
+  [^2]: <https://github.com/goozbach/log4bats>  
+  [^3]: <https://github.com/goozbach/bash-app>  
+  [^4]: <http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-enterprise-automation>  
+  [^5]: <https://training.linuxfoundation.org/training/linux-networking-and-administration/>  
+  [^6]: <http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html>  
+  [^7]: <https://github.com/goozbach/>  
+  [^8]: <https://gitlab.com/goozbach/>  
