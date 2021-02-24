@@ -7,19 +7,22 @@ address: |
   American Fork, UT  84003
 phone: 1-(762)233-4009  
 summary: |
-  Linux infrastructure specialist with twenty-two years of experience.
-  Using training, principal systems administration/architecture, and course development knowledge to architect and design robust and scalable Linux infrastructure.
+  Linux infrastructure specialist with twenty-two years of experience in
+  training, on-prem, or cloud computing platforms (AWS, GCP).
+  Using my training background, systems administration/architecture know-how, and course development knowledge to architect robust and scalable digital infrastructure.
   Focusing on core business technology: custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems architecture, design and training.
-  Active participant in open source local interest groups, contributor to open source projects, and full-time geek.
 
 ...
 
 ## Experience
 
 ### [Nav][] 
-#### Principal Software Engineer DevOps -- August 2017 - February 2017
-DevOps software engineer focused on architecting, deploying, and migrating a mid-sized
-traditional infrastructure into Kubernetes.
+#### Principal Software Engineer DevOps -- August 2017 - February 2021
+As a principal software engineer with a focus on DevOps, I architected,
+deployed and maintained the infrastructure platform for a late-stage fintech
+startup.
+Architected and oversaw migration of a mid-sized traditional Amazon AWS infrastructure
+into Kubernetes hosted on AWS.
 
 * Mitigated legacy architecture problems using automation(Ansible), security tools
     (HashiCorp Vault), and my systems operations background.
@@ -30,7 +33,7 @@ traditional infrastructure into Kubernetes.
         keys of the HashiCorp Vault system.
     + Added audit logging to increase visibility into, and the security
         of the platform.
-    + Tied user management system acccount access to the HashiCorp Vault installation.
+    + Tied user management system account access to the HashiCorp Vault installation.
         This increased security, accountability, and auditability of the secret
         storage and encryption systems.
 
@@ -146,31 +149,31 @@ Quality assurance engineering, testing, and tool/platform development, with some
 
 ### [Cox Media Group Digital][]
 #### Sr Systems Administrator -- August 2007 – February 2010
-Managing day to day operations, capacity planning, operations budgeting and operations team lead for a leading media and publishing company with digital presence for Radio, TV, Newspaper, and direct marketing.
+Managing day to day digital operations, capacity planning, operations budgeting and operations team lead for a leading media and publishing company with digital presence for Radio, TV, Newspaper, and direct marketing.
 
-* Managing business merger.
+* Managed business merger, from a technology stack perspective.
 
-    + Migrating diverse code bases from SVN, BZR, CVS and others to Git.
+    + Migrated diverse code bases from SVN, BZR, CVS and others to Git.
 
-    + Building collaboration tools (IRC server, mailing lists, Request Tracker).
+    + Built collaboration tools (IRC server, mailing lists, Request Tracker).
 
-    + Designing new server platform for new business entity.
+    + Designed and built new server platform for new business entity.
 
-* Managing 100+ Linux servers serving 150+ high-traffic websites.
+* Managed 100+ Linux servers serving 150+ high-traffic websites.
 
     + Built automation and configuration management systems using Cobbler and Puppet.
 
-    + Migrating ops and dev teams from CVS to SVN.
+    + Migrated ops and dev teams from CVS to SVN.
 
-    + Building and improving deployment utilities cutting down on deployment time.
+    + Built and improved deployment utilities cutting down on deployment time.
 
-    + Building proper DEV/QA/Staging/Production environments using KVM, Vmware, and Xen virtualization.
+    + Built proper DEV/QA/Staging/Production environments using KVM, Vmware, and Xen virtualization.
 
-    + Building and improving continuous integration testing and monitoring systems.
+    + Built and improved continuous integration testing and monitoring systems.
 
-    + Managing public DNS infrastructure for 200+ domains.
+    + Managed public DNS infrastructure for 200+ domains.
 
-* Building a new hardware architecture for a new version of our platform.
+* Built a new hardware architecture for a new version of our platform.
 
     + N+1 redundant MySQL cluster, F5 LTM Load Balancers, Mod_Perl and Apache, and NetAPP Storage.
 
@@ -189,15 +192,6 @@ Managing day to day operations, capacity planning, operations budgeting and oper
 * English 
 * Spanish
 
-#### Presentations, Projects, and Community
-Prepared and given numerous presentations[^7] at conferences and special interest groups.
-
-Started and ran open source Linux distro rebuild project called GoOSeLinux[^8] (now defunct).
-
-Active in local users and special interest groups: Provo Linux Users Group[^9], Utah Open Source, and others.
-
-Author of/Contributor to these open source[^10] projects[^11]. 
-
   [Bluehost]: http://bluehost.com
   [vault_helper]: https://gitlab.com/goozbach/vault_helper
   [Nav]: http://nav.com
@@ -205,8 +199,6 @@ Author of/Contributor to these open source[^10] projects[^11].
   [Coraid]: http://www.coraid.com/
   [Cox Media Group Digital]: http://cmgdigital.com/
   [Cox Radio Interactive]: http://cxri.net/
-  [Florida Department of Health]: http://www.doh.state.fl.us/
-  [Guru Labs]: http://www.gurulabs.com/
 
   [^1]: <https://github.com/goozbach/log4bats>  
   [^2]: <https://github.com/goozbach/bash-app>  
@@ -214,8 +206,3 @@ Author of/Contributor to these open source[^10] projects[^11].
   [^4]: <http://training.linuxfoundation.org/linux-courses/system-administration-training/linux-network-management>  
   [^5]: <http://blog.friocorte.com/2011/05/chain-loading-pxe-servers.html>  
   [^6]: <https://www.redhat.com/rhtapps/certification/verify/?certId=110-015-385>  
-  [^7]: <http://presentation.goozbach.com/>  
-  [^8]: http://gooseproject.org/ -- now defunct  
-  [^9]: <http://plug.org/>  
-  [^10]: <http://github.com/goozbach/>  
-  [^11]: <http://gitlab.com/goozbach/>  
