@@ -1,8 +1,10 @@
 % vim: set filetype=latex
-\documentclass[fontsize=11pt]{scrartcl}
+\documentclass[fontsize=10.5]{scrartcl}
 \usepackage{amssymb,amsmath}
 \usepackage[english]{babel}
 \usepackage[]{moresize}
+\usepackage{longtable}
+\usepackage{booktabs}
 
 % redefine href
 \usepackage{letltxmacro}
@@ -15,23 +17,13 @@
 \newcommand{\tightlist}{%
   \setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}\setlength{\parsep}{0pt}}
 
-\usepackage[top=0.4in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+\usepackage[top=0.4in, bottom=0.8in, left=0.6in, right=0.6in]{geometry}
 
 \usepackage{tikz}
 \usetikzlibrary{fadings,patterns}
 \definecolor{VeryDarkGray}{HTML}{4F4F4F}
 \pagestyle{empty}
 
-% setup header fade
-\newcommand\placeheader{
-  \begin{tikzpicture}[remember picture,overlay]
-    \node[yshift=-5cm] at (current page.north west){
-      \begin{tikzpicture}[remember picture, overlay]
-        \shade[top color=VeryDarkGray, bottom color=white] (0,0) rectangle (\paperwidth,5cm);
-      \end{tikzpicture}
-    };
-  \end{tikzpicture}
-}
 $if(xetex)$
 \usepackage{ifxetex}
 \ifxetex
@@ -143,7 +135,6 @@ $if(date)$
 $endif$
 
 \begin{document}
-\placeheader
 % header stuff
 $if(summary)$
 \begin{minipage}[t]{0.72\linewidth}
