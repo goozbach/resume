@@ -2,9 +2,6 @@
 title: Derek C. Carter
 subtitle: Digital Infrastructure Architect
 author: <derek@goozbach.com>
-address: |
-  1009 N 900 W  
-  American Fork, UT  84003
 phone: 1-(762)233-4009  
 summary: |
   Linux infrastructure specialist with twenty-two years of experience in
@@ -15,9 +12,7 @@ summary: |
 ...
 
 ## Experience
-
-### [Nav][] 
-#### Principal Software Engineer DevOps -- August 2017 - February 2021
+### [Nav][] -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
 As a principal software engineer with a focus on DevOps, I architected,
 deployed and maintained the infrastructure platform for a late-stage fintech
 startup.
@@ -69,9 +64,7 @@ into Kubernetes hosted on AWS.
         development closer into alignment. This also increased the resiliency
         for the running applications.
 
-\pagebreak[4]
-### [Goozbach Infrastructure Solutions, LLC][]
-#### Linux Infrastructure Consultant and Instructor -- December 2011 – Present
+### [Goozbach Infrastructure Solutions, LLC][] -- Linux Infrastructure Consultant and Instructor -- Dec 2011 – Present
 Owner and primary consultant of successful Linux consulting and training company providing Linux support and best practices consultation.
 Customers include RedHat training partners, Linux Foundation, Endosys, Sangoma, Local, State, Federal Government, and the Department of Defense.
 Customer environments range from dozens to thousands of servers.
@@ -109,8 +102,7 @@ Services provided include system updates, configuration management, installation
 
 * Delivered Linux systems administration training courses and proctored exams for RedHat training partners.
 
-### [Bluehost][] 
-#### Sr Systems Architect, DevOps -- August 2014 - August 2017
+### [Bluehost][] -- Sr Systems Architect, DevOps -- Aug 2014 - Aug 2017
 Sr Linux Systems architect embedded in development team.
 
 Built tools, processes and environments to help facilitate better development team productivity.
@@ -127,9 +119,7 @@ Supported pre-production developer environments allowing development team to foc
 
     + Alpha systems tear-down and rebuilding.
 
-### [Coraid][]
-
-#### QA Engineer and Tools Developer -- February 2010 – March 2012
+### [Coraid][] -- QA Engineer and Tools Developer -- Feb 2010 – Mar 2012
 Quality assurance engineering, testing, and tool/platform development, with some focus in product market fit for an Ethernet SAN Storage company. Helped manage QA lab environment of approximately 100 servers and appliances.
 
 * Testing releases of Coraid HBA drivers for Solaris, OpenIndiana, Nexenta, Windows, and Linux platforms; integrating Coraid storage with ZFS on Solaris based systems and Linux LVM.
@@ -146,8 +136,7 @@ Quality assurance engineering, testing, and tool/platform development, with some
 
     + Designing and installing a new testing data center.
 
-### Cox Media Group Digital
-#### Sr Systems Administrator -- August 2007 – February 2010
+### Cox Media Group Digital -- Sr Systems Administrator -- Aug 2007 – Feb 2010
 Managing day to day digital operations, capacity planning, operations budgeting and operations team lead for a leading media and publishing company with digital presence for Radio, TV, Newspaper, and direct marketing.
 
 * Managed business merger, from a technology stack perspective.
