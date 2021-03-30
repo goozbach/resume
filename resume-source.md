@@ -1,6 +1,6 @@
 ---
 title: Derek C. Carter
-subtitle: Digital Infrastructure Architect
+subtitle: Sr. Devops Engineer
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
