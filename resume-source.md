@@ -1,6 +1,6 @@
 ---
 title: Derek C. Carter
-subtitle: Sr. Devops Engineer
+subtitle: Sr. DevOps Engineer
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
@@ -12,6 +12,37 @@ summary: |
 ...
 
 ## Experience
+### [UserTesting][] -- Staff Software Engineer / Ops and Infrastructure Team Lead -- Mar 2021 - Mar 2023
+As a staff operations engineer and team lead, I lead a team of six engineers
+to support and maintain a large legacy code-base.
+Architected a Kubernetes and Terraform based platform for microservice
+deployment.
+
+* Led a team of six engineers as a Technical Lead
+    + Managed team backlog and quarterly project planning, maintaining a balance
+        between infrastructure related projects and legacy maintenance needs
+    + Facilitated inter-team meetings to managed operational needs of the entire
+        company
+    + Created best-practices for the engineering department as a whole
+    + Coached team members in security practices, infrastructure as code (IaC)
+        practices, and other disciplines
+* Interfaced with the security team to ensure the company met its compliance
+    requirements (SOC2 and SOX)
+* Developed tooling to improve developer experience
+    + Built reusable workflows for both GitHub Actions and CircleCI, reducing
+        the amount of CI/CD code the developer would have to create and
+        maintain
+    + Created a standardized application infrastructure to reduce the time
+        required to deploy new microservices to non-production environments
+* Maintained legacy application infrastructure
+    + Supported a Amazon Web Services (AWS) Elastic Container Service (ECS)
+        Custer which hosted our keystone ruby-on-rails application
+    + Maintained CloudFormation examples and boilerplate code for developers to
+        deploy their applications
+    + Maintained our custom ruby-on-rails deployment application
+
+
+
 ### [Nav][] -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
 As a principal software engineer with a focus on DevOps, I architected,
 deployed and maintained the infrastructure platform for a late-stage fintech
@@ -69,7 +100,7 @@ Owner and primary consultant of successful Linux consulting and training company
 Customers include RedHat training partners, Linux Foundation, Endosys, Sangoma, Local, State, Federal Government, and the Department of Defense.
 Customer environments range from dozens to thousands of servers.
 
-Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and other systems administration tasks.
+Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, Telephony Systems design and installation, and other systems administration tasks.
 
 * Designed and built a self-contained, portable training platform for the Department of
     Defense.
@@ -81,7 +112,7 @@ Services provided include system updates, configuration management, installation
     + Built system automation to match the deployed software, allowing users
         an environment which closely matched production environments.
     + Designed and manufactured hardware to facilitate quiet airflow for the mobile
-        datacenter allowing use in close quarters.
+        data center allowing use in close quarters.
 
 * Created security related training framework for SCORM-enabled training
     content.
@@ -101,6 +132,10 @@ Services provided include system updates, configuration management, installation
     + Course creation includes slides, books, lab exercises, and virtual server environments.
 
 * Delivered Linux systems administration training courses and proctored exams for RedHat training partners.
+
+* Built 20 Seat Virtual/Physical inbound support call center.
+
+* Maintained on-site networking infrastructure for local governmental agency.
 
 ### [Bluehost][] -- Sr Systems Architect, DevOps -- Aug 2014 - Aug 2017
 Sr Linux Systems architect embedded in development team.
@@ -151,7 +186,7 @@ Managing day to day digital operations, capacity planning, operations budgeting 
 
     + Built automation and configuration management systems using Cobbler and Puppet.
 
-    + Migrated ops and dev teams from CVS to SVN.
+    + Migrated ops and development teams from CVS to SVN.
 
     + Built and improved deployment utilities cutting down on deployment time.
 
@@ -170,6 +205,7 @@ Managing day to day digital operations, capacity planning, operations budgeting 
     + [GitHub][][^7]
     + [GitLab][][^8]
 
+  [UserTesting]: https://www.usertesting.com/
   [Bluehost]: http://bluehost.com
   [vault_helper]: https://gitlab.com/goozbach/vault_helper
   [Nav]: http://nav.com

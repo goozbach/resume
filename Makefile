@@ -17,7 +17,7 @@ pdf: ${BASENAME}.pdf
 html: ${BASENAME}.html
 
 spell:
-	aspell check ${SOURCENAME}.md
+	aspell --home-dir=. check ${SOURCENAME}.md
 
 open: ${BASENAME}.pdf
 	evince -f ${BASENAME}.pdf &
