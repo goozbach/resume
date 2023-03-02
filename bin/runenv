@@ -100,12 +100,15 @@ else
   VOLUMEFLAG=''
 fi
 
+# find the current directory and get the cannonacial path
+MYWORKDIR=$(readlink -f $(pwd))
+
 touch runtime/bash_history
 # main
 if [[ ${1:-''} == "-debug" ]]
 then
-  echo ${COMMAND} run --rm -it -v $(pwd)/runtime/bashrc:/root/.bashrc${VOLUMEFLAG} -v $(pwd)/runtime/bash_history:/root/.bash_history${VOLUMEFLAG} -v $(pwd):/opt/source${VOLUMEFLAG} ${FULLTAG} /bin/bash
+  echo ${COMMAND} run --rm -it -v ${MYWORKDIR}/runtime/bashrc:/root/.bashrc${VOLUMEFLAG} -v ${MYWORKDIR}/runtime/bash_history:/root/.bash_history${VOLUMEFLAG} -v ${MYWORKDIR}:/opt/source${VOLUMEFLAG} ${FULLTAG} /bin/bash
   exit 1
 else
-  ${COMMAND} run --rm -it -v $(pwd)/runtime/bashrc:/root/.bashrc${VOLUMEFLAG} -v $(pwd)/runtime/bash_history:/root/.bash_history${VOLUMEFLAG} -v $(pwd):/opt/source${VOLUMEFLAG} ${FULLTAG} /bin/bash
+  ${COMMAND} run --rm -it -v ${MYWORKDIR}/runtime/bashrc:/root/.bashrc${VOLUMEFLAG} -v ${MYWORKDIR}/runtime/bash_history:/root/.bash_history${VOLUMEFLAG} -v ${MYWORKDIR}:/opt/source${VOLUMEFLAG} ${FULLTAG} /bin/bash
 fi

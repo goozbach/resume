@@ -28,7 +28,7 @@ open: ${BASENAME}.pdf
 	git commit --allow-empty -m "adding $@ automaticly" $@
 
 %.pdf:	${SOURCENAME}.md ${PDFTEMPLATE}
-	pandoc --self-contained --template=${PDFTEMPLATE} -f markdown+yaml_metadata_block+footnotes -o $@ $<
+	pandoc --self-contained --template=${PDFTEMPLATE} -M subtitle="$(TITLE)" -f markdown+yaml_metadata_block+footnotes -o $@ $<
 	git add $@
 	git commit --allow-empty -m "adding $@ automaticly" $@
 
