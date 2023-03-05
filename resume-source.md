@@ -4,7 +4,7 @@ subtitle: Sr. DevOps Engineer
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
-  Linux infrastructure specialist with twenty-two years of experience in
+  Linux infrastructure specialist with twenty-four years of experience in
   training, on-prem, or cloud computing platforms (AWS, GCP).
   Using my training background, systems administration/architecture know-how, and course development knowledge to architect robust, scalable digital infrastructure.
   Focusing on core business technology: custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems architecture, design and training.
@@ -18,20 +18,26 @@ to support and maintain a large legacy code-base.
 Architected a Kubernetes and Terraform based platform for microservice
 deployment.
 
-* Led a team of six engineers as a Technical Lead
+* Led a team of seven engineers as a Technical Lead
     + Managed team backlog and quarterly project planning, maintaining a balance
-        between infrastructure related projects and legacy maintenance needs
-    + Facilitated inter-team meetings to managed operational needs of the entire
-        company
+        between new infrastructure related projects and legacy maintenance
+        needs while paying down technical debt
+    + Facilitated both an architecture and DevOps guild to share best practices
+        in each across the engineering organization
     + Created best-practices for the engineering department as a whole
-    + Coached team members in security practices, infrastructure as code (IaC)
-        practices, and other disciplines
-* Interfaced with the security team to ensure the company met its compliance
-    requirements (SOC2 and SOX)
+    + Coached team members in security practices, infrastructure as code
+        (Terraform, Ansible, Packer) practices, and other disciplines
+    + Hired to grow our team from 4 to 7 members
+* Interfaced with the security team 
+    + Ensured the company met its compliance requirements (SOC2, SOX, GDPR, and ISO27001)
+    + Created and maintained Single Sign On (SSO) for third-party tools
+    + Improved our security profile by moving tools from tokens to OpenID
+        Connect (OIDC), and creating single-repository Terraform roles.
+    + Improved our container security practices
+    + Participated in security incident response events
 * Developed tooling to improve developer experience
     + Built reusable workflows for both GitHub Actions and CircleCI, reducing
-        the amount of CI/CD code the developer would have to create and
-        maintain
+        the amount of CI/CD code the developer would have to create and maintain
     + Created a standardized application infrastructure to reduce the time
         required to deploy new microservices to non-production environments
 * Maintained legacy application infrastructure
@@ -39,9 +45,13 @@ deployment.
         Custer which hosted our keystone ruby-on-rails application
     + Maintained CloudFormation examples and boilerplate code for developers to
         deploy their applications
-    + Maintained our custom ruby-on-rails deployment application
-
-
+    + Maintained our custom ruby-on-rails deployment application, migrating it
+        from Heroku to a self-hosted Kubernetes environment
+* Designed a new application platform based on Kubernetes (Amazon Elastic
+    Kubernetes Service -- EKS)
+    + Separated production and non-production workloads into different AWS
+        accounts
+    + Improved overall cloud security by migrating to current best practices
 
 ### [Nav][] -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
 As a principal software engineer with a focus on DevOps, I architected,
@@ -106,8 +116,8 @@ Services provided include system updates, configuration management, installation
     Defense.
     + The customer needed a digital training environment in locations where we
         wouldn't have reliable internet access, or use of computers on-site.
-    + Designed and built a platform which could be shipped all over the
-        world which contained a portable data center, and a fleet of laptops as
+    + Designed and built a hardware platform which shipped all over the
+        world consisting of a portable data center, and a fleet of laptops as
         workstations.
     + Built system automation to match the deployed software, allowing users
         an environment which closely matched production environments.
@@ -146,7 +156,7 @@ Supported pre-production developer environments allowing development team to foc
 
 * Built and supported automated pre-production systems using Ansible, Puppet, KVM, and OpenStack.
 
-* Provided self-service portals for various development resources.
+* Provided self-service portals for development resources.
 
     + RPM Package building, and YUM repository hosting.
 

@@ -1,4 +1,4 @@
-personal_ws-1.1 en 64 
+personal_ws-1.1 en 69 
 Ansible
 Architected
 BZR
@@ -15,8 +15,10 @@ DNS
 DevOps
 Docbook
 ECS
+EKS
 Endosys
 GCP
+GDPR
 GitLab
 Goozbach
 HBA
@@ -33,6 +35,8 @@ LaTeX
 Nav
 NetAPP
 Nexenta
+OIDC
+OpenID
 OpenIndiana
 OpenShift
 OpenStack
@@ -43,6 +47,7 @@ RunDocs
 SCL
 SCORM
 SOX
+SSO
 Sangoma
 Solaris
 SolusVM
