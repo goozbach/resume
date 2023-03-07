@@ -5,16 +5,16 @@ author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
   Linux infrastructure specialist with twenty-four years of experience in
-  training, on-prem, or cloud computing platforms (AWS, GCP).
-  Using my training background, systems administration/architecture know-how, and course development knowledge to architect robust, scalable digital infrastructure.
+  training, on-prem, or cloud computing platforms (AWS, GCP, Digital Ocean).
+  With a training background, systems administration/architecture know-how, and course development knowledge to architect robust, scalable digital infrastructure.
   Focusing on core business technology: custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems architecture, design and training.
 
 ...
 
 ## Experience
 ### [UserTesting][] -- Staff Software Engineer / Ops and Infrastructure Team Lead -- Mar 2021 - Mar 2023
-As a staff operations engineer and team lead, I lead a team of seven engineers
-supporting and maintaining a large legacy code-base.
+Staff operations engineer leading a team of seven engineers supporting and
+maintaining a large legacy code-base.
 Architected a Kubernetes and Terraform based platform for microservice
 deployment.
 
@@ -38,14 +38,13 @@ deployment.
     Kubernetes Service -- EKS
 
 ### [Nav][] -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
-As a principal software engineer with a focus on DevOps, I architected,
-deployed and maintained the infrastructure platform for a late-stage fintech
-startup.
+Principal software engineer with a focus on DevOps, architected, deployed and
+maintained the infrastructure platform for a late-stage fintech startup.
 Architected and oversaw migration of a mid-sized traditional Amazon AWS infrastructure
 into Kubernetes hosted on AWS.
 
 * Mitigated legacy architecture problems using automation(Ansible), security tools
-    (HashiCorp Vault), and my systems operations background.
+    (HashiCorp Vault), and a systems operations background.
     + Created a tool called [vault_helper][][^1] to ease the rotation of encryption
         keys of the HashiCorp Vault system.
 * Built new Kubernetes platform and migrated legacy applications onto it.
@@ -74,7 +73,7 @@ Services provided include system updates, configuration management, installation
 
 * Consulting customers on DevOps policies, procedures, and tools, using continuous integration (Jenkins), unit testing (Test Anything Protocol, Rspec), configuration management (Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
 
-* Maintained on-site networking infrastructure for municipal governmental agency.
+* Maintain on-site networking infrastructure for municipal governmental agency.
 
 ## Additional Information
 * Open Source Projects:

@@ -17,7 +17,7 @@
 \newcommand{\tightlist}{%
   \setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}\setlength{\parsep}{0pt}}
 
-\usepackage[top=0.4in, bottom=0.8in, left=0.6in, right=0.6in]{geometry}
+\usepackage[top=0.4in, bottom=1.0in, left=0.6in, right=0.6in]{geometry}
 
 \usepackage{tikz}
 \usetikzlibrary{fadings,patterns}
