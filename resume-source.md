@@ -1,6 +1,6 @@
 ---
 title: Derek C. Carter
-subtitle: Sr. DevOps Engineer
+subtitle: Principal Software Engineer - Infrastructure
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
@@ -75,11 +75,15 @@ Services provided include system updates, configuration management, installation
 
 * Maintain on-site networking infrastructure for municipal governmental agency.
 
+### Further Experience
+You can find my further experience on my LinkedIn Profile: [https://www.linkedin.com/in/goozbach/]
+
 ## Additional Information
 * Open Source Projects:
     + [GitHub][][^3]
     + [GitLab][][^4]
 
+  [https://www.linkedin.com/in/goozbach/]: https://www.linkedin.com/in/goozbach/
   [UserTesting]: https://www.usertesting.com/
   [vault_helper]: https://gitlab.com/goozbach/vault_helper
   [Nav]: http://nav.com

@@ -1,0 +1,2 @@
+asciidoctor-pdf -a role_source=a conversation I had with Scott Mcallister at Salt Lake City DevOps Days -a company_name=Ngrok -a role_name=Principal Software Engineer - Infrastructure -a role_description=maturing its development process cover-letter.adoc
+asciidoctor-pdf -a role_source=a conversation I had with Scott Mcallister at Salt Lake City DevOps Days -a company_name=Ngrok -a role_name=Principal Software Engineer - Infrastructure -a role_description=maturing its development process cover-letter.adoc
