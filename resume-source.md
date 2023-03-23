@@ -1,6 +1,6 @@
 ---
 title: Derek C. Carter
-subtitle: Principal Software Engineer - Infrastructure
+subtitle: Senior DevOps Lead
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
