@@ -1,6 +1,6 @@
 ---
 title: Derek C. Carter
-subtitle: Senior DevOps Lead
+subtitle: Full-Stack Dev Ops Cloud Engineer
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
