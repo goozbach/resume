@@ -12,7 +12,7 @@ summary: |
 ...
 
 ## Experience
-### [Unchained][] -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
+### [Unchained][][^10] -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
 Senior DevOps Team lead and DevOps Team Manager spearheading a migration to
 devops workflows and principles for the entire engineering organization.
 
@@ -32,10 +32,10 @@ devops workflows and principles for the entire engineering organization.
 * Introduced better Role Based Access Control(RBAC) backed by Terraform and
     terragrunt to increase security and reduce human error when creating roles or
     adding users to roles.
-* Lead a team of two with a rotating "DevOps Residency" program to help spread
+* Managed a team of two with a third rotating "DevOps Residency" program to help spread
     devops principles through the entire engineering organization.
 
-### [UserTesting][] -- Staff Software Engineer / Ops and Infrastructure Team Lead -- Mar 2021 - Mar 2023
+### [UserTesting][][^11] -- Staff Software Engineer / Ops and Infrastructure Team Lead -- Mar 2021 - Mar 2023
 Staff operations engineer leading a team of seven engineers supporting and
 maintaining a large legacy code-base.
 Architected a Kubernetes and Terraform based platform for microservice
@@ -60,7 +60,7 @@ deployment.
 * Designed a new application platform based on Kubernetes using Amazon Elastic
     Kubernetes Service -- EKS
 
-### [Nav][] -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
+### [Nav][][^12] -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
 Principal software engineer with a focus on DevOps, architected, deployed and
 maintained the infrastructure platform for a late-stage fintech startup.
 Architected and oversaw migration of a mid-sized traditional Amazon AWS infrastructure
@@ -87,7 +87,7 @@ into Kubernetes hosted on AWS.
         development closer into alignment. This also increased the resiliency
         for the running applications.
 
-### [Goozbach Infrastructure Solutions, LLC][] -- Linux Infrastructure Consultant and Instructor -- Dec 2011 – Present
+### [Goozbach Infrastructure Solutions, LLC][][^13] -- Linux Infrastructure Consultant and Instructor -- Dec 2011 – Present
 Owner and primary consultant of successful Linux consulting and training company providing Linux support and best practices consultation.
 Customers include RedHat training partners, Linux Foundation, Endosys, Sangoma, Local, State, Federal Government, and the Department of Defense.
 Customer environments range from dozens to thousands of servers.
@@ -96,15 +96,18 @@ Services provided include system updates, configuration management, installation
 
 * Consulting customers on DevOps policies, procedures, and tools, using continuous integration (Jenkins), unit testing (Test Anything Protocol, Rspec), configuration management (Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
 
-* Maintain on-site networking infrastructure for municipal governmental agency.
+* Infrastructure consulting for Security Startup in stealth mode
+
+* Linux distro customization for client in telephony space
 
 ### Further Experience
 You can find my further experience on my LinkedIn Profile: [https://www.linkedin.com/in/goozbach/]
 
 ## Additional Information
 * Open Source Projects:
-    + [GitHub][][^3]
-    + [GitLab][][^4]
+  * https://github.com/goozbach/
+  * https://gitlab.com/goozbach/
+
 
   [https://www.linkedin.com/in/goozbach/]: https://www.linkedin.com/in/goozbach/
   [Unchained]: https://www.unchained.com/
@@ -112,9 +115,10 @@ You can find my further experience on my LinkedIn Profile: [https://www.linkedin
   [vault_helper]: https://gitlab.com/goozbach/vault_helper
   [Nav]: http://nav.com
   [Goozbach Infrastructure Solutions, LLC]: http://goozbach.com/
-  [GitHub]: https://github.com/goozbach/
-  [GitLab]: https://gitlab.com/goozbach/
 
   [^1]: <https://gitlab.com/goozbach/vault_helper>  
-  [^3]: <https://github.com/goozbach/>  
-  [^4]: <https://gitlab.com/goozbach/>  
+  [^10]: <https://www.unchained.com>
+  [^11]: <https://www.usertesting.com>
+  [^12]: <https://nav.com/>
+  [^13]: <https://goozbach.com/>
+
