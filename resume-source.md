@@ -4,7 +4,7 @@ subtitle: Staff Software Engineer -- Cloud Engineering
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
-  Linux infrastructure specialist with twenty-four years of experience in
+  Linux infrastructure specialist with twenty-six years of experience in
   training, on-prem, or cloud computing platforms (AWS, GCP, Digital Ocean).
   With a training background, systems administration/architecture know-how, and course development knowledge to architect robust, scalable digital infrastructure.
   Focusing on core business technology: custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems architecture, design and training.
@@ -12,6 +12,29 @@ summary: |
 ...
 
 ## Experience
+### [Unchained][] -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
+Senior DevOps Team lead and DevOps Team Manager spearheading a migration to
+devops workflows and principles for the entire engineering organization.
+
+* Introduced an Request for Comments(RFC) process for formalizing engineering
+    decisions.
+* Migrated from hosted GitHub code hosting to internally hosted GitLab server.
+    * Created engineering-wide CI/CD workflows for managing development,
+        testing and deployment of microservices
+    * Created internal-only CI/CD runners to ensure our code only ran on
+        company owned hardware.
+* Introduced the use of Terragrunt and multiple environments into existing
+    terraform infrastructure, allowing for ease of deploying infrastructure
+    into different environments.
+* Created new multi-environment deployments to better separate dev, staging,
+    and production workflows. Introduced new internal-only domains to reduce
+    environment confusion.
+* Introduced better Role Based Access Control(RBAC) backed by Terraform and
+    terragrunt to increase security and reduce human error when creating roles or
+    adding users to roles.
+* Lead a team of two with a rotating "DevOps Residency" program to help spread
+    devops principles through the entire engineering organization.
+
 ### [UserTesting][] -- Staff Software Engineer / Ops and Infrastructure Team Lead -- Mar 2021 - Mar 2023
 Staff operations engineer leading a team of seven engineers supporting and
 maintaining a large legacy code-base.
