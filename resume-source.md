@@ -16,11 +16,11 @@ summary: |
 Senior DevOps Team lead and DevOps Team Manager spearheading a migration to
 DevOps workflows and principles for the entire engineering organization.
 
-* Introduced an Request for Comments(RFC) process for formalizing engineering
+* Introduced a Request for Comments(RFC) process for formalizing engineering
     decisions.
 * Migrated from hosted GitHub code hosting to internally hosted GitLab server.
     * Created engineering-wide CI/CD workflows for managing development,
-        testing and deployment of microservices
+        testing and deployment of microservices.
     * Created internal-only CI/CD runners to ensure our code only ran on
         company owned hardware.
 * Introduced the use of Terragrunt and multiple environments into existing
@@ -102,7 +102,7 @@ Services provided include system updates, configuration management, installation
 * Linux distro customization for client in telephony space
 
 ### Further Experience
-You can find my further experience on my LinkedIn Profile: [https://www.linkedin.com/in/goozbach/]
+Find the remainder of my experience on LinkedIn: [https://www.linkedin.com/in/goozbach/]
 
 ## Additional Information
 * Open Source Projects:

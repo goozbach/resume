@@ -1,5 +1,5 @@
 NAME ?= Derek_Carter
-TITLE ?= Digtal-Infrastructure-Architect
+TITLE ?= Digital-Infrastructure-Architect
 BASENAME ?= ${NAME}-${TITLE}
 SOURCENAME ?= resume-source
 GHBRANCH ?= gh-pages
