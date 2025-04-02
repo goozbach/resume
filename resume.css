@@ -144,3 +144,10 @@ body > h4 {
 #main {
     margin-top: 4em;
 }
+
+.footnote-ref {
+  font-size: 40%; /* Set font size to 40% of normal text */
+  vertical-align: super; /* Position text as superscript */
+  text-decoration: none; /* Remove any text decoration */
+}
+

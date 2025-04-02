@@ -1,6 +1,6 @@
 ---
 title: Derek C. Carter
-subtitle: Staff Software Engineer -- Cloud Engineering
+subtitle: Staff Software Engineer -- DevOps and Cloud Engineering
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
@@ -14,7 +14,7 @@ summary: |
 ## Experience
 ### [Unchained][][^10] -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
 Senior DevOps Team lead and DevOps Team Manager spearheading a migration to
-devops workflows and principles for the entire engineering organization.
+DevOps workflows and principles for the entire engineering organization.
 
 * Introduced an Request for Comments(RFC) process for formalizing engineering
     decisions.
@@ -24,16 +24,16 @@ devops workflows and principles for the entire engineering organization.
     * Created internal-only CI/CD runners to ensure our code only ran on
         company owned hardware.
 * Introduced the use of Terragrunt and multiple environments into existing
-    terraform infrastructure, allowing for ease of deploying infrastructure
+    Terraform infrastructure, allowing for ease of deploying infrastructure
     into different environments.
-* Created new multi-environment deployments to better separate dev, staging,
+* Created new multi-environment deployments to better separate development, staging,
     and production workflows. Introduced new internal-only domains to reduce
     environment confusion.
 * Introduced better Role Based Access Control(RBAC) backed by Terraform and
-    terragrunt to increase security and reduce human error when creating roles or
+    Terragrunt to increase security and reduce human error when creating roles or
     adding users to roles.
-* Managed a team of two with a third rotating "DevOps Residency" program to help spread
-    devops principles through the entire engineering organization.
+* Managed a team of two. Created a rotating "DevOps Residency Program" role as well
+    to help spread DevOps principles through the entire engineering organization.
 
 ### [UserTesting][][^11] -- Staff Software Engineer / Ops and Infrastructure Team Lead -- Mar 2021 - Mar 2023
 Staff operations engineer leading a team of seven engineers supporting and
@@ -61,8 +61,9 @@ deployment.
     Kubernetes Service -- EKS
 
 ### [Nav][][^12] -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
-Principal software engineer with a focus on DevOps, architected, deployed and
-maintained the infrastructure platform for a late-stage fintech startup.
+Principal software engineer with a focus on DevOps. 
+Architected, deployed and maintained the infrastructure platform for a late-stage fintech
+startup.
 Architected and oversaw migration of a mid-sized traditional Amazon AWS infrastructure
 into Kubernetes hosted on AWS.
 
@@ -96,7 +97,7 @@ Services provided include system updates, configuration management, installation
 
 * Consulting customers on DevOps policies, procedures, and tools, using continuous integration (Jenkins), unit testing (Test Anything Protocol, Rspec), configuration management (Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
 
-* Infrastructure consulting for Security Startup in stealth mode
+* Infrastructure consulting for security startup in stealth mode
 
 * Linux distro customization for client in telephony space
 
