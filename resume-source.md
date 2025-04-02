@@ -107,6 +107,7 @@ You can find my further experience on my LinkedIn Profile: [https://www.linkedin
     + [GitLab][][^4]
 
   [https://www.linkedin.com/in/goozbach/]: https://www.linkedin.com/in/goozbach/
+  [Unchained]: https://www.unchained.com/
   [UserTesting]: https://www.usertesting.com/
   [vault_helper]: https://gitlab.com/goozbach/vault_helper
   [Nav]: http://nav.com
