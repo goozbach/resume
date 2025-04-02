@@ -1,0 +1,1 @@
+asciidoctor-pdf -a 'role_source=a comment made by Collin Winget on Linkedin' -a 'company_name=Alianza' -a 'role_name=Senior DevOps Lead' -a 'role_description=world class, DevOps focused organization' cover-letter-Alianza.adoc

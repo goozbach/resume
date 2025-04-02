@@ -1,0 +1,43 @@
+= Derek Carter
+Derek Carter <derek@goozbach.com>
+2023-03-18 12:59: Cover Letter
+:attribute-missing: drop-line
+:icons: font
+:role_name: Digital Infrastructure Architect
+:role_description:
+:role_source:
+:hiring_manager_name: Hiring Manager
+:company_name:
+:company_address:
+
+[%hardbreaks]
+{docdate}
+{hiring_manager_name}
+{company_name}
+{company_address}
+
+Dear {hiring_manager_name},
+
+My name is {firstname} {lastname} and I'm a Linux infrastructure and Training
+Specialist with over twenty-four years of experience.
+I came across your {role_name} posting from {role_source} and I'm sharing my
+interest in helping {company_name} reach it's goal of {role_description}.
+
+I have most recently spent the last two years at UserTesting leading a team of
+seven in building a new Kubernetes-based platform and improving development
+processes.
+
+I feel I'd be a great asset to the team at {company_name}.
+As a Linux instructor I have honed my skills around explaining complex topics
+to a wide audience. These skills will help me represent Ngrok in a favorable
+light both in-person and digitally.
+
+I'm attaching my resume, and you can find my entire work history on my LinkedIn
+profile https://www.linkedin.com/in/goozbach/
+
+I look forward to hearing from you and wish you the best.
+
+Sincerely,
+
+Derek Carter
+
