@@ -1,13 +1,15 @@
 ---
 title: Derek C. Carter
-subtitle: Staff Software Engineer -- DevOps and Cloud Engineering
+subtitle: Senior DevOps Information System Engineer
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
-  Linux infrastructure specialist with twenty-six years of experience in
-  training, on-prem, or cloud computing platforms (AWS, GCP, Digital Ocean).
-  With a training background, systems administration/architecture know-how, and course development knowledge to architect robust, scalable digital infrastructure.
-  Focusing on core business technology: custom Linux distribution creation, systems automation and DevOps methodologies, telecommunications, systems architecture, design and training.
+  Linux infrastructure and DevOps specialist with 26 years of experience, specializing
+    in architecting scalable solutions for both on-premises and cloud platforms 
+    (AWS, GCP, Digital Ocean). 
+  Expertise spans systems administration, architecture, training, and course development
+    across diverse industries, including local, state, and federal government,
+    telecommunications, legacy media (radio), startups, and Fortune 500 companies.
 
 ...
 
@@ -99,7 +101,9 @@ Services provided include system updates, configuration management, installation
 
 * Infrastructure consulting for security startup in stealth mode
 
-* Linux distro customization for client in telephony space
+* Linux distro customization for client in telephony space.
+
+* Created Linux Courseware and virtual/hybrid classroom infrastructure.
 
 ### Further Experience
 Find the remainder of my experience on LinkedIn: [https://www.linkedin.com/in/goozbach/]

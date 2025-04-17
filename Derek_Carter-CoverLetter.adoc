@@ -1,0 +1,44 @@
+= Derek Carter
+Derek Carter <derek@goozbach.com>
+2023-03-18 12:59: Cover Letter
+:attribute-missing: drop-line
+:icons: font
+:role_name: Platform Engineering Productivity Software Engineer
+:role_description: providing reliable developer environments
+:role_source: a slack community I'm a member of
+:hiring_manager_name: Hiring Manager
+:company_name: Elastic
+:company_address:
+
+[%hardbreaks]
+{docdate}
+{hiring_manager_name}
+{company_name}
+{company_address}
+
+Dear {hiring_manager_name},
+
+My name is {firstname} {lastname} and I'm a cloud infrastructure specialist with
+twenty-six years of experience.
+I was made aware of your {role_name} posting from {role_source}, and I'm sharing my
+interest in helping {company_name} reach it's goal of {role_description}.
+
+My most recent experience was leading a team of three DevOps
+engineers at Unchained to create and socialize a new GitLab CI based platform.
+I improved developer productivity, while reducing costs by implementing DevOps
+related practices and tooling.
+
+I'd be a great asset to the team at {company_name}.
+As a Linux instructor I have honed my skills around explaining complex topics
+to a wide audience. These skills will help me represent {company_name} in a favorable
+light, both in-person and digitally.
+
+I've attached my resume to this application, and you can find my entire work history on my LinkedIn
+profile https://www.linkedin.com/in/goozbach/
+
+I look forward to hearing from you and wish you the best.
+
+Sincerely,
+
+Derek Carter
+
