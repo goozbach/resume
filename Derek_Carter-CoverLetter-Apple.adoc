@@ -3,11 +3,11 @@ Derek Carter <derek@goozbach.com>
 2023-03-18 12:59: Cover Letter
 :attribute-missing: drop-line
 :icons: font
-:role_name: Senior DevOps Information System Engineer
-:role_description:  taking it's software supply chain to the next level
-:role_source: a search of the Sony jobs board
+:role_name: Software Engineer: DevOps/Automation Engineer
+:role_description:  automating developer tooling
+:role_source: a search of the Apple jobs board
 :hiring_manager_name: Hiring Manager
-:company_name: PlayStation / Sony Interactive Entertainment
+:company_name: Apple
 :company_address:
 
 [%hardbreaks]
@@ -29,9 +29,14 @@ I improved developer productivity, while reducing costs by implementing DevOps
 related practices and tooling.
 
 I'd be a great asset to the team at {company_name}.
-As a Linux instructor I have honed my skills around explaining complex topics
-to a wide audience. These skills will help me represent {company_name} in a favorable
-light, both in-person and digitally.
+
+My experience leading DevOps teams has enabled my former employers to streamline their development workflows and foster more efficient, reliable software delivery.
+
+I have a proven track record of helping companies adopt modern infrastructure
+automation practices, resulting in improved developer experiences, more
+consistent deployments, and accelerated release cycles.
+
+Notably, I was one of the first developers on the Ansible project, where I contributed significantly by writing the initial SELinux modules.
 
 I've attached my resume to this application, and you can find my entire work history on my LinkedIn
 profile https://www.linkedin.com/in/goozbach/

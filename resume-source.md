@@ -1,6 +1,6 @@
 ---
 title: Derek C. Carter
-subtitle: Senior DevOps Information System Engineer
+subtitle: Software Engineer: DevOps/Automation Engineer
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
