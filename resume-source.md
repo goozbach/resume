@@ -1,6 +1,6 @@
 ---
 title: Derek C. Carter
-subtitle: Software Engineer: DevOps/Automation Engineer
+subtitle: Senior Software Engineer - Full-Stack
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |

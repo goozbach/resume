@@ -1,0 +1,51 @@
+= Derek Carter
+Derek Carter <derek@goozbach.com>
+2023-03-18 12:59: Cover Letter
+:attribute-missing: drop-line
+:icons: font
+:role_name: Staff Engineer (Platform)
+:role_description:  automating developer tooling
+:role_source: a posting in a community slack I'm a member of
+:hiring_manager_name: Hiring Manager
+:company_name: Parachute Health
+:company_address:
+
+[%hardbreaks]
+{docdate}
+{hiring_manager_name}
+{company_name}
+{company_address}
+
+Dear {hiring_manager_name},
+
+My name is {firstname} {lastname} and I'm a cloud infrastructure specialist with
+twenty-six years of experience.
+I was made aware of your {role_name} posting from {role_source}, and I'm sharing my
+interest in helping {company_name} reach it's goal of {role_description}.
+
+My most recent experience was leading a team of three DevOps
+engineers at Unchained to create and socialize a new GitLab CI based platform.
+I improved developer productivity, while reducing costs by implementing DevOps
+related practices and tooling.
+
+I'd be a great asset to the team at {company_name}.
+
+My experience leading DevOps teams has enabled my former employers to streamline their development workflows and foster more efficient, reliable software delivery.
+
+I have a proven track record of helping companies adopt modern infrastructure
+automation practices, resulting in improved developer experiences, more
+consistent deployments, and accelerated release cycles.
+
+My experience includes a few different consulting clients in the medical and/or
+government fields so I bring a great perspective for building a platform which
+can meet your compliance needs.
+
+I've attached my resume to this application, and you can find my entire work history on my LinkedIn
+profile https://www.linkedin.com/in/goozbach/
+
+I look forward to hearing from you and wish you the best.
+
+Sincerely,
+
+Derek Carter
+

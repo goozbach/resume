@@ -1,0 +1,38 @@
+= Derek Carter
+Derek Carter <derek@goozbach.com>
+2023-03-18 12:59: Cover Letter
+:attribute-missing: drop-line
+:icons: font
+:role_name: Infrastructure Engineer
+:role_description:  automating developer tooling
+:role_source: your jobs page
+:hiring_manager_name: Wes Novack
+:company_name: SchoolAI
+:company_address:
+
+[%hardbreaks]
+{docdate}
+{hiring_manager_name}
+{company_name}
+{company_address}
+
+Dear {hiring_manager_name},
+
+I really appreciated the time we took to talk on Friday.
+
+I'd be a great asset to the team at {company_name}.
+
+My experience leading DevOps teams has enabled my former employers to streamline their development workflows and foster more efficient, reliable software delivery.
+
+I have a proven track record of helping companies adopt modern infrastructure
+automation practices, resulting in improved developer experiences, more
+consistent deployments, and accelerated release cycles.
+
+In addition to my technical skills I do have a considerable background in
+technical training and have a passion for course ware and education.
+
+I'm looking forward to seeing everyone at the office on Monday
+
+Sincerely,
+
+Derek Carter
