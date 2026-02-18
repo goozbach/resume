@@ -15,8 +15,8 @@ summary: |
 
 ## Experience
 ### [VidAngel][][^14] -- DevOps Engineer -- Jun 2025 - Feb 2026
-DevOps engineer modernizing CI/CD, infrastructure-as-code, and AMI image pipelines
-for a streaming media platform.
+DevOps engineer improving deployment reliability and infrastructure repeatability
+for a streaming media company.
 
 * Refactored aging GitLab deployment system to use modern CI/CD practices, including
     pre-compilation of application code, resulting in a more robust and stable
