@@ -4,8 +4,8 @@ subtitle: Staff DevOps Engineer / Platform Architect
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
-  Linux infrastructure and DevOps specialist with 27 years of experience, specializing
-    in architecting scalable solutions for both on-premises and cloud platforms 
+  Linux infrastructure and DevOps specialist specializing
+    in architecting scalable solutions for both on-premises and cloud platforms
     (AWS, GCP, Digital Ocean). 
   Expertise spans systems administration, architecture, training, and course development
     across diverse industries, including local, state, and federal government,
