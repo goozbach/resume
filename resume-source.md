@@ -26,7 +26,6 @@ for a streaming media company.
 * Built an automated AMI baking pipeline, replacing a manual image management
     process and standardizing base images across environments.
 
-## Experience
 ### [Unchained][][^10] -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
 Senior DevOps Team lead and DevOps Team Manager spearheading a migration to
 DevOps workflows and principles for the entire engineering organization.
