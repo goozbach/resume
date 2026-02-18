@@ -1,10 +1,10 @@
 ---
 title: Derek C. Carter
-subtitle: Senior Software Engineer - Full-Stack
+subtitle: Staff DevOps Engineer / Platform Architect
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009  
 summary: |
-  Linux infrastructure and DevOps specialist with 26 years of experience, specializing
+  Linux infrastructure and DevOps specialist with 27 years of experience, specializing
     in architecting scalable solutions for both on-premises and cloud platforms 
     (AWS, GCP, Digital Ocean). 
   Expertise spans systems administration, architecture, training, and course development
@@ -12,6 +12,19 @@ summary: |
     telecommunications, legacy media (radio), startups, and Fortune 500 companies.
 
 ...
+
+## Experience
+### [VidAngel][][^14] -- DevOps Engineer -- Jun 2025 - Feb 2026
+DevOps engineer modernizing CI/CD, infrastructure-as-code, and AMI image pipelines
+for a streaming media platform.
+
+* Refactored aging GitLab deployment system to use modern CI/CD practices, including
+    pre-compilation of application code, resulting in a more robust and stable
+    deployment pipeline.
+* Improved HashiCorp Vault operations by codifying all Vault settings and
+    configurations in Terraform, enabling repeatable, auditable secret management.
+* Built an automated AMI baking pipeline, replacing a manual image management
+    process and standardizing base images across environments.
 
 ## Experience
 ### [Unchained][][^10] -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
@@ -115,13 +128,15 @@ Find the remainder of my experience on LinkedIn: [https://www.linkedin.com/in/go
 
 
   [https://www.linkedin.com/in/goozbach/]: https://www.linkedin.com/in/goozbach/
+  [VidAngel]: https://www.vidangel.com/
   [Unchained]: https://www.unchained.com/
   [UserTesting]: https://www.usertesting.com/
   [vault_helper]: https://gitlab.com/goozbach/vault_helper
   [Nav]: http://nav.com
   [Goozbach Infrastructure Solutions, LLC]: http://goozbach.com/
 
-  [^1]: <https://gitlab.com/goozbach/vault_helper>  
+  [^1]: <https://gitlab.com/goozbach/vault_helper>
+  [^14]: <https://www.vidangel.com/>
   [^10]: <https://www.unchained.com>
   [^11]: <https://www.usertesting.com>
   [^12]: <https://nav.com/>

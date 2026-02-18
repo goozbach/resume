@@ -1,4 +1,5 @@
-personal_ws-1.1 en 71 
+personal_ws-1.1 en 77 
+AMI
 Ansible
 Architected
 BZR
@@ -9,6 +10,7 @@ CircleCI
 CloudFormation
 ConTeX
 Coraid
+Courseware
 DEV
 DHCP
 DNS
@@ -43,6 +45,7 @@ OpenIndiana
 OpenShift
 OpenStack
 PXE
+RBAC
 RedHat
 Rspec
 RunDocs
@@ -54,8 +57,10 @@ Sangoma
 Solaris
 SolusVM
 Terraform
+Terragrunt
 UserTesting
 VM
+VidAngel
 VirtualBox
 Vmware
 Xen
@@ -63,6 +68,7 @@ ZFS
 architected
 auditability
 cron
+distro
 fintech
 mbox
 microservice
