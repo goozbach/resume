@@ -2,10 +2,11 @@
 title: Derek C. Carter
 subtitle: Staff DevOps Engineer / Platform Architect
 author: <derek@goozbach.com>
-phone: 1-(762)233-4009  
+phone: 1-(762)233-4009
+location: American Fork, Utah  
 summary: |
-  Linux infrastructure and DevOps specialist specializing
-    in architecting scalable solutions for both on-premises and cloud platforms
+  Linux infrastructure and DevOps specialist focused on
+    architecting scalable solutions for both on-premises and cloud platforms
     (AWS, GCP, Digital Ocean). 
   Expertise spans systems administration, architecture, training, and course development
     across diverse industries, including local, state, and federal government,
@@ -13,77 +14,66 @@ summary: |
 
 ...
 
+## Technical Skills
+
+### Cloud Infrastructure
+Amazon Web Services (AWS) - EKS, ECS, CloudFormation, EC2 | Google Cloud Platform (GCP) | Microsoft Azure | Digital Ocean | Ovirt
+
+### DevOps Tools
+Terraform | Terragrunt | Ansible | Packer | Puppet | CFengine | Salt | Cobbler
+
+Kubernetes | Docker | GitLab Pipelines | GitHub Actions | Jenkins | CircleCI | Git | ArgoCD
+
+### Systems Administration, Security, & Compliance
+HashiCorp Vault | SOC2, SOX, GDPR, ISO27001 | Linux Infrastructure Automation | System Administration | Bash Scripting | Python | Linux distro customization | Network Automation | Telephony Systems (Asterisk)
+
+CoreOS | Ubuntu | RHEL | Fedora | Debian
+
 ## Experience
-### [VidAngel][][^14] -- DevOps Engineer -- Jun 2025 - Feb 2026
-DevOps engineer improving deployment reliability and infrastructure repeatability
+### VidAngel (https://www.vidangel.com/) -- DevOps Engineer -- Jun 2025 - Feb 2026
+DevOps Engineer focused on cloud infrastructure automation and CI/CD pipeline optimization
 for a streaming media company.
 
-* Refactored aging GitLab deployment system to use modern CI/CD practices, including
-    pre-compilation of application code, resulting in a more robust and stable
-    deployment pipeline.
-* Improved HashiCorp Vault operations by codifying all Vault settings and
-    configurations in Terraform, enabling repeatable, auditable secret management.
-* Built an automated AMI baking pipeline, replacing a manual image management
-    process and standardizing base images across environments.
+* Architected and implemented GitLab CI/CD pipeline modernization, introducing Infrastructure as Code practices and pre-compilation workflows, improving deployment reliability.
+* Automated HashiCorp Vault secret management through Terraform Infrastructure as Code, enabling auditable configuration management and reducing manual vault operations.
+* Designed and implemented automated Amazon Machine Image (AMI) baking pipeline using Packer, replacing manual processes and standardizing base images across development, staging, and production environments.
 
-### [Unchained][][^10] -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
-Senior DevOps Team lead and DevOps Team Manager spearheading a migration to
-DevOps workflows and principles for the entire engineering organization.
+### Unchained (https://www.unchained.com/) -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
+Senior DevOps Team Lead and Engineering Manager leading DevOps adoption and cloud infrastructure updates
+for cryptocurrency/blockchain technology company with 50+ engineering team members.
 
-* Introduced a Request for Comments(RFC) process for formalizing engineering
-    decisions.
-* Migrated from hosted GitHub code hosting to internally hosted GitLab server.
-    * Created engineering-wide CI/CD workflows for managing development,
-        testing and deployment of microservices.
-    * Created internal-only CI/CD runners to ensure our code only ran on
-        company owned hardware.
-* Introduced the use of Terragrunt and multiple environments into existing
-    Terraform infrastructure, allowing for ease of deploying infrastructure
-    into different environments.
-* Created new multi-environment deployments to better separate development, staging,
-    and production workflows. Introduced new internal-only domains to reduce
-    environment confusion.
-* Introduced better Role Based Access Control(RBAC) backed by Terraform and
-    Terragrunt to increase security and reduce human error when creating roles or
-    adding users to roles.
-* Managed a team of two. Created a rotating "DevOps Residency Program" role as well
-    to help spread DevOps principles through the entire engineering organization.
+* Established Request for Comments (RFC) process for engineering architecture decisions, improving cross-team collaboration and reducing technical debt.
+* Led GitLab Enterprise migration from hosted GitHub, implementing self-hosted GitLab server with enhanced security controls.
+    * Architected enterprise-wide CI/CD pipeline framework for microservices deployment, supporting 30+ services across multiple environments.
+    * Implemented private GitLab CI/CD runners on company-owned infrastructure, ensuring code security compliance and reducing third-party dependencies.
+* Enhanced Terraform Infrastructure as Code with Terragrunt multi-environment architecture, enabling consistent infrastructure deployment across development, staging, and production environments.
+* Designed and deployed multi-environment cloud architecture with environment-specific internal domains, reducing deployment errors and improving developer experience.
+* Implemented Role Based Access Control (RBAC) system using Terraform and Terragrunt automation, strengthening security posture and reducing manual access management overhead.
+* Managed team of 2 DevOps engineers and established rotating "DevOps Residency Program" to embed DevOps practices across 8 development teams, improving deployment frequency.
 
-### [UserTesting][][^11] -- Staff Software Engineer / Ops and Infrastructure Team Lead -- Mar 2021 - Mar 2023
-Staff operations engineer leading a team of seven engineers supporting and
-maintaining a large legacy code-base.
-Architected a Kubernetes and Terraform based platform for microservice
-deployment.
+### UserTesting (https://www.usertesting.com/) -- Staff Software Engineer / Ops and Infrastructure Team Lead -- Mar 2021 - Mar 2023
+Staff Site Reliability Engineer leading 7-person infrastructure team supporting enterprise-scale user experience platform
+serving millions of monthly active users. Architected Kubernetes-based microservices platform and cloud migration strategy.
 
-* Managed team backlog and quarterly project planning, maintaining a balance
-    between new infrastructure related projects and legacy maintenance
-    needs while paying down technical debt
-* Created best-practices for the engineering department as well as leading our
-    DevOps and Cross-Squad Architecture Guilds
-* Interfaced with the security team ensuring the company met its compliance
-    requirements (SOC2, SOX, GDPR, and ISO27001)
-* Developed tooling to improve developer experience
-    + Built reusable workflows for both GitHub Actions and CircleCI, reducing
-        the amount of CI/CD code the developer would have to create and maintain
-    + Created a standardized application infrastructure to reduce the time
-        required to deploy new microservices to non-production environments
-    + Migrated a well used internal tool from Heroku to internally hosted
-        Kubernetes, reducing cost and complexity while improving security
-* Maintained legacy application infrastructure including an AWS Elastic Container
-    Service (ECS) cluster
-* Designed a new application platform based on Kubernetes using Amazon Elastic
-    Kubernetes Service -- EKS
+* Led agile team management and quarterly OKR planning for infrastructure engineering team, balancing technical debt reduction with new feature delivery across 100+ microservices architecture.
+* Established engineering best practices and led DevOps Guild and Cross-Squad Architecture Guild, standardizing deployment practices across 15 development teams.
+* Ensured enterprise security compliance (SOC2, SOX, GDPR, ISO27001) through infrastructure automation and security tooling implementation, maintaining compliance audits.
+* Enhanced developer experience through platform engineering initiatives:
+    + Developed reusable GitHub Actions and CircleCI pipeline templates, reducing CI/CD setup time for new microservices.
+    + Created standardized Infrastructure as Code templates for rapid microservice deployment, reducing time-to-production.
+    + Migrated critical internal applications from Heroku to self-managed Kubernetes infrastructure, reducing operational costs while improving security posture.
+* Maintained and optimized AWS Elastic Container Service (ECS) legacy infrastructure supporting high-availability production workloads.
+* Architected modern container orchestration platform using Amazon Elastic Kubernetes Service (EKS), Terraform Infrastructure as Code, and GitOps deployment methodology.
 
-### [Nav][][^12] -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
+### Nav (https://nav.com/) -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
 Principal software engineer with a focus on DevOps. 
-Architected, deployed and maintained the infrastructure platform for a late-stage fintech
-startup.
+Architected, deployed and maintained the infrastructure platform for a late-stage fintech startup.
 Architected and oversaw migration of a mid-sized traditional Amazon AWS infrastructure
 into Kubernetes hosted on AWS.
 
 * Mitigated legacy architecture problems using automation(Ansible), security tools
     (HashiCorp Vault), and a systems operations background.
-    + Created a tool called [vault_helper][][^1] to ease the rotation of encryption
+    + Created a tool called vault_helper (https://gitlab.com/goozbach/vault_helper) to ease the rotation of encryption
         keys of the HashiCorp Vault system.
 * Built new Kubernetes platform and migrated legacy applications onto it.
     + Built architecture to allow legacy apps and new (k8s) apps to communicate
@@ -102,8 +92,8 @@ into Kubernetes hosted on AWS.
         development closer into alignment. This also increased the resiliency
         for the running applications.
 
-### [Goozbach Infrastructure Solutions, LLC][][^13] -- Linux Infrastructure Consultant and Instructor -- Dec 2011 – Present
-Owner and primary consultant of successful Linux consulting and training company providing Linux support and best practices consultation.
+### Goozbach Infrastructure Solutions, LLC (https://goozbach.com/) -- Linux Infrastructure Consultant and Instructor -- Dec 2011 – Present
+Owner and primary consultant of Linux consulting and training company providing Linux support and best practices consultation.
 Customers include RedHat training partners, Linux Foundation, Endosys, Sangoma, Local, State, Federal Government, and the Department of Defense.
 Customer environments range from dozens to thousands of servers.
 
@@ -120,24 +110,11 @@ Services provided include system updates, configuration management, installation
 ### Further Experience
 Find the remainder of my experience on LinkedIn: [https://www.linkedin.com/in/goozbach/]
 
+## Education
+* Linux Foundation Training Partner - Authorized course developer and instructor
+* Red Hat Training - Red Hat Certified Examiner (RHCX)
+
 ## Additional Information
 * Open Source Projects:
   * https://github.com/goozbach/
   * https://gitlab.com/goozbach/
-
-
-  [https://www.linkedin.com/in/goozbach/]: https://www.linkedin.com/in/goozbach/
-  [VidAngel]: https://www.vidangel.com/
-  [Unchained]: https://www.unchained.com/
-  [UserTesting]: https://www.usertesting.com/
-  [vault_helper]: https://gitlab.com/goozbach/vault_helper
-  [Nav]: http://nav.com
-  [Goozbach Infrastructure Solutions, LLC]: http://goozbach.com/
-
-  [^1]: <https://gitlab.com/goozbach/vault_helper>
-  [^14]: <https://www.vidangel.com/>
-  [^10]: <https://www.unchained.com>
-  [^11]: <https://www.usertesting.com>
-  [^12]: <https://nav.com/>
-  [^13]: <https://goozbach.com/>
-
