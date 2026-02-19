@@ -1,6 +1,9 @@
 ---
 title: Derek C. Carter
-subtitle: Staff DevOps Engineer / Platform Architect
+subtitle: |
+  DevOps Engineer  
+  Platform Architect  
+  Trainer
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009
 location: American Fork, Utah  
@@ -17,17 +20,24 @@ summary: |
 ## Technical Skills
 
 ### Cloud Infrastructure
-Amazon Web Services (AWS) - EKS, ECS, CloudFormation, EC2 | Google Cloud Platform (GCP) | Microsoft Azure | Digital Ocean | Ovirt
+Amazon Web Services (AWS)  •  Google Cloud Platform (GCP)  •  Microsoft Azure  •  Digital Ocean  •  Ovirt
 
 ### DevOps Tools
-Terraform | Terragrunt | Ansible | Packer | Puppet | CFengine | Salt | Cobbler
+Terraform  •  Terragrunt  •  Ansible  •  Packer  •  Puppet  •  CFengine  •  Salt  •  Cobbler
 
-Kubernetes | Docker | GitLab Pipelines | GitHub Actions | Jenkins | CircleCI | Git | ArgoCD
+Kubernetes  •  Docker  •  GitLab Pipelines  •  GitHub Actions  •  Jenkins  •  CircleCI  •  Git  •  ArgoCD
 
 ### Systems Administration, Security, & Compliance
-HashiCorp Vault | SOC2, SOX, GDPR, ISO27001 | Linux Infrastructure Automation | System Administration | Bash Scripting | Python | Linux distro customization | Network Automation | Telephony Systems (Asterisk)
+Linux Infrastructure Automation  •  System Administration  •  Linux distro customization
 
-CoreOS | Ubuntu | RHEL | Fedora | Debian
+Bash Scripting  •  Python  •  Network Automation  •  Telephony Systems (Asterisk)
+
+HashiCorp Vault  •  Compliance (SOC2, SOX, GDPR, ISO27001)
+
+CoreOS  •  Ubuntu  •  RHEL  •  Fedora  •  Debian
+
+### Training & Education
+Courseware Creation  •  Digital Classroom Infrastructure  •  Training Delivery (Virtual & In-Person)
 
 ## Experience
 ### VidAngel (https://www.vidangel.com/) -- DevOps Engineer -- Jun 2025 - Feb 2026
@@ -108,7 +118,7 @@ Services provided include system updates, configuration management, installation
 * Created Linux Courseware and virtual/hybrid classroom infrastructure.
 
 ### Further Experience
-Find the remainder of my experience on LinkedIn: [https://www.linkedin.com/in/goozbach/]
+Find the remainder of my experience on LinkedIn: https://www.linkedin.com/in/goozbach/
 
 ## Education
 * Linux Foundation Training Partner - Authorized course developer and instructor
