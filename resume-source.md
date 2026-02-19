@@ -1,31 +1,32 @@
 ---
 title: Derek C. Carter
 subtitle: |
-  DevOps Engineer  
-  Platform Architect  
-  Trainer
+  Platform Engineering Leader  
+  Infrastructure Architect  
+  Technical Trainer
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009
 location: American Fork, Utah  
 summary: |
-  Linux infrastructure and DevOps specialist focused on
-    architecting scalable solutions for both on-premises and cloud platforms
-    (AWS, GCP, Digital Ocean). 
-  Expertise spans systems administration, architecture, training, and course development
-    across diverse industries, including local, state, and federal government,
-    telecommunications, legacy media (radio), startups, and Fortune 500 companies.
+  Platform Engineering Leader with 15+ years building Internal Developer Platforms that accelerate software delivery and reduce cognitive load for development teams. Expert in designing golden paths, implementing developer self-service capabilities, and cloud cost optimization strategies. Proven track record leading platform transformations across diverse industries, including comprehensive training programs that drive platform adoption. Experience spans startups to Fortune 500 companies, successfully serving development teams ranging from 8 to 50+ engineers.
 
 ...
 
 ## Technical Skills
 
-### Cloud Infrastructure
-Amazon Web Services (AWS)  •  Google Cloud Platform (GCP)  •  Microsoft Azure  •  Digital Ocean  •  Ovirt
+### Platform Engineering & Developer Experience
+Internal Developer Platforms  •  Developer Self-Service  •  Golden Paths  •  Platform Orchestration
 
-### DevOps Tools
-Terraform  •  Terragrunt  •  Ansible  •  Packer  •  Puppet  •  CFengine  •  Salt  •  Cobbler
+### Cloud Infrastructure & Automation
+Amazon Web Services (AWS)  •  Google Cloud Platform (GCP)  •  Microsoft Azure  •  Digital Ocean  •  Cloud Cost Optimization
 
-Kubernetes  •  Docker  •  GitLab Pipelines  •  GitHub Actions  •  Jenkins  •  CircleCI  •  Git  •  ArgoCD
+Kubernetes  •  Docker  •  Helm  •  Terraform  •  Terragrunt  •  Infrastructure as Code
+
+### CI/CD & GitOps
+GitLab Pipelines  •  GitHub Actions  •  ArgoCD  •  Jenkins  •  CircleCI  •  Git
+
+### Configuration Management & Automation
+Ansible  •  Packer  •  Puppet  •  Salt  •  Linux Infrastructure Automation
 
 ### Systems Administration, Security, & Compliance
 Linux Infrastructure Automation  •  System Administration  •  Linux distro customization
@@ -41,7 +42,7 @@ Courseware Creation  •  Digital Classroom Infrastructure  •  Training Delive
 
 ## Experience
 ### VidAngel (https://www.vidangel.com/) -- DevOps Engineer -- Jun 2025 - Feb 2026
-DevOps Engineer focused on cloud infrastructure automation and CI/CD pipeline optimization
+DevOps Engineer focused on cloud infrastructure automation, developer platform improvements, and CI/CD pipeline optimization
 for a streaming media company.
 
 * Architected and implemented GitLab CI/CD pipeline modernization, introducing Infrastructure as Code practices and pre-compilation workflows, improving deployment reliability.
@@ -49,12 +50,12 @@ for a streaming media company.
 * Designed and implemented automated Amazon Machine Image (AMI) baking pipeline using Packer, replacing manual processes and standardizing base images across development, staging, and production environments.
 
 ### Unchained (https://www.unchained.com/) -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
-Senior DevOps Team Lead and Engineering Manager leading DevOps adoption and cloud infrastructure updates
+Senior DevOps Team Lead and Engineering Manager leading platform transformation and cloud infrastructure modernization
 for cryptocurrency/blockchain technology company with 50+ engineering team members.
 
 * Established Request for Comments (RFC) process for engineering architecture decisions, improving cross-team collaboration and reducing technical debt.
 * Led GitLab Enterprise migration from hosted GitHub, implementing self-hosted GitLab server with enhanced security controls.
-    * Architected enterprise-wide CI/CD pipeline framework for microservices deployment, supporting 30+ services across multiple environments.
+    * Architected enterprise-wide deployment platform with standardized CI/CD pipelines, supporting 30+ services across multiple environments and enabling developer self-service capabilities.
     * Implemented private GitLab CI/CD runners on company-owned infrastructure, ensuring code security compliance and reducing third-party dependencies.
 * Enhanced Terraform Infrastructure as Code with Terragrunt multi-environment architecture, enabling consistent infrastructure deployment across development, staging, and production environments.
 * Designed and deployed multi-environment cloud architecture with environment-specific internal domains, reducing deployment errors and improving developer experience.
@@ -76,10 +77,9 @@ serving millions of monthly active users. Architected Kubernetes-based microserv
 * Architected modern container orchestration platform using Amazon Elastic Kubernetes Service (EKS), Terraform Infrastructure as Code, and GitOps deployment methodology.
 
 ### Nav (https://nav.com/) -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
-Principal software engineer with a focus on DevOps. 
-Architected, deployed and maintained the infrastructure platform for a late-stage fintech startup.
-Architected and oversaw migration of a mid-sized traditional Amazon AWS infrastructure
-into Kubernetes hosted on AWS.
+Principal software engineer with a focus on DevOps and platform engineering. 
+Architected, deployed and maintained the developer platform and infrastructure for a late-stage fintech startup.
+Led platform transformation migrating traditional Amazon AWS infrastructure to Kubernetes-based developer platform.
 
 * Mitigated legacy architecture problems using automation(Ansible), security tools
     (HashiCorp Vault), and a systems operations background.
@@ -93,9 +93,9 @@ into Kubernetes hosted on AWS.
         standard, secret management and code release workflows
     + Built a "canary application" which tested and exercised all the possible
         features of the platform.
-    + Built a centralized CI/CD pipeline system to standardize deployment pipelines.
-        This enabled developers to focus on their application code, not deployment
-        artifacts and scripts.
+    + Built a centralized CI/CD pipeline platform to standardize deployment workflows.
+        This enabled developers to focus on their application code through self-service deployment
+        capabilities, reducing cognitive load and deployment friction.
     + Migrated all infrastructure creation from an ad-hoc solution to HashiCorp
         Terraform. Enabling repeatable and better maintainable infrastructure.
     + Implemented RunDocs for every application, bringing operations and
@@ -109,7 +109,7 @@ Customer environments range from dozens to thousands of servers.
 
 Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, Telephony Systems design and installation, and other systems administration tasks.
 
-* Consulting customers on DevOps policies, procedures, and tools, using continuous integration (Jenkins), unit testing (Test Anything Protocol, Rspec), configuration management (Puppet, Ansible, CFengine, Salt), and installation automation (Cobbler, PXE, Kickstart)
+* Consulting customers on DevOps policies, procedures, and platform engineering tools, using continuous integration (Jenkins), unit testing (Test Anything Protocol, Rspec), configuration management (Puppet, Ansible, Salt), and installation automation (PXE, Kickstart)
 
 * Infrastructure consulting for security startup in stealth mode
 
@@ -120,11 +120,4 @@ Services provided include system updates, configuration management, installation
 ### Further Experience
 Find the remainder of my experience on LinkedIn: https://www.linkedin.com/in/goozbach/
 
-## Education
-* Linux Foundation Training Partner - Authorized course developer and instructor
-* Red Hat Training - Red Hat Certified Examiner (RHCX)
 
-## Additional Information
-* Open Source Projects:
-  * https://github.com/goozbach/
-  * https://gitlab.com/goozbach/
