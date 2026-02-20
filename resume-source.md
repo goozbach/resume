@@ -18,24 +18,16 @@ summary: |
 Internal Developer Platforms  •  Developer Self-Service  •  Golden Paths  •  Platform Orchestration
 
 ### Cloud Infrastructure & Automation
-Amazon Web Services (AWS)  •  Google Cloud Platform (GCP)  •  Microsoft Azure  •  Digital Ocean  •  Cloud Cost Optimization
-
-Kubernetes  •  Docker  •  Helm  •  Terraform  •  Terragrunt  •  Infrastructure as Code
+AWS  •  GCP  •  Azure  •  Digital Ocean  •  Cloud Cost Optimization  •  Kubernetes  •  Docker  •  Helm  •  Terraform  •  Terragrunt  •  Infrastructure as Code
 
 ### CI/CD & GitOps
 GitLab Pipelines  •  GitHub Actions  •  ArgoCD  •  Jenkins  •  CircleCI  •  Git
 
-### Configuration Management & Automation
-Ansible  •  Packer  •  Puppet  •  Salt  •  Linux Infrastructure Automation
+### Systems Administration
+Ansible  •  Packer  •  Puppet  •  Salt  •  Systems Administration & Automation  •  Bash Scripting  •  Python  •  Network Automation  •  Telephony Systems (Asterisk)  •  CoreOS  •  Ubuntu  •  RHEL  •  Fedora  •  Debian
 
-### Systems Administration, Security, & Compliance
-Linux Infrastructure Automation  •  System Administration  •  Linux distro customization
-
-Bash Scripting  •  Python  •  Network Automation  •  Telephony Systems (Asterisk)
-
-HashiCorp Vault  •  Compliance (SOC2, SOX, GDPR, ISO27001)
-
-CoreOS  •  Ubuntu  •  RHEL  •  Fedora  •  Debian
+### Security & Compliance
+HashiCorp Vault  •  Compliance (SOC2, SOX, GDPR, ISO27001)  •  Linux distro customization
 
 ### Training & Education
 Courseware Creation  •  Digital Classroom Infrastructure  •  Training Delivery (Virtual & In-Person)
