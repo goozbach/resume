@@ -12,37 +12,16 @@ summary: |
 
 ...
 
-## Technical Skills
-
-### Platform Engineering & Developer Experience
-Internal Developer Platforms  •  Developer Self-Service  •  Golden Paths  •  Platform Orchestration
-
-### Cloud Infrastructure & Automation
-AWS  •  GCP  •  Azure  •  Digital Ocean  •  Cloud Cost Optimization  •  Kubernetes  •  Docker  •  Helm  •  Terraform  •  Terragrunt  •  Infrastructure as Code
-
-### CI/CD & GitOps
-GitLab Pipelines  •  GitHub Actions  •  ArgoCD  •  Jenkins  •  CircleCI  •  Git
-
-### Systems Administration
-Ansible  •  Packer  •  Puppet  •  Salt  •  Systems Administration & Automation  •  Bash Scripting  •  Python  •  Network Automation  •  Telephony Systems (Asterisk)  •  CoreOS  •  Ubuntu  •  RHEL  •  Fedora  •  Debian
-
-### Security & Compliance
-HashiCorp Vault  •  Compliance (SOC2, SOX, GDPR, ISO27001)  •  Linux distro customization
-
-### Observability & Monitoring
-Grafana  •  DataDog  •  Prometheus  •  New Relic  •  Application Performance Monitoring  •  SLO/SLI  •  Metrics & Alerting
-
-### Training & Education
-Courseware Creation  •  Digital Classroom Infrastructure  •  Training Delivery (Virtual & In-Person)
-
 ## Experience
 ### VidAngel (https://www.vidangel.com/) -- DevOps Engineer -- Jun 2025 - Feb 2026
 DevOps Engineer focused on cloud infrastructure automation, developer platform improvements, and CI/CD pipeline optimization
 for a streaming media company.
 
-* Architected and implemented GitLab CI/CD pipeline modernization, introducing Infrastructure as Code practices and pre-compilation workflows, improving deployment reliability.
-* Automated HashiCorp Vault secret management through Terraform Infrastructure as Code, enabling auditable configuration management and reducing manual vault operations.
-* Designed and implemented automated Amazon Machine Image (AMI) baking pipeline using Packer, replacing manual processes and standardizing base images across development, staging, and production environments.
+* Designed self-hosted HashiCorp Vault architecture with high-availability cluster, automated key management, and load balancing, targeting 99.95% service availability and delivering projected annual cost savings of $3,400.
+* Redesigned backend deployment pipeline using GitLab CI/CD with atomic deployments and version management, implementing hash-based dependency packaging and automated rollback capabilities via Ansible.
+* Built automated golden image pipeline using Packer and Ansible, creating standardized AMI base operating system images with integrated monitoring, logging agents, and access control settings across all environments.
+* Deployed self-hosted GitLab CI/CD runners on Kubernetes infrastructure, reducing external dependencies and improving build security with custom runner images containing required development tooling.
+* Expanded Infrastructure as Code adoption through reusable Terraform modules for networking and access management, establishing consistent deployment patterns and accelerating team onboarding.
 
 ### Unchained (https://www.unchained.com/) -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
 Senior DevOps Team Lead and Engineering Manager leading platform transformation and cloud infrastructure modernization
@@ -111,6 +90,15 @@ Services provided include system updates, configuration management, installation
 * Linux distro customization for client in telephony space.
 
 * Created Linux Courseware and virtual/hybrid classroom infrastructure.
+
+## Technical Skills  
+**Platform Engineering:** Internal Developer Platforms • Developer Self-Service • Golden Paths • Platform Orchestration  
+**Cloud & Infrastructure:** AWS • GCP • Azure • Kubernetes • Docker • Terraform • Terragrunt • Infrastructure as Code  
+**CI/CD & Automation:** GitLab Pipelines • GitHub Actions • ArgoCD • Jenkins • Ansible • Packer • Git  
+**Observability:** Grafana • DataDog • Prometheus • New Relic • SLO/SLI • Metrics & Alerting  
+**Security & Compliance:** HashiCorp Vault • SOC2/SOX/GDPR/ISO27001 • Linux distro customization  
+**Systems & Languages:** Python • Bash • Linux (Ubuntu/RHEL/Fedora/CoreOS/Debian) • Network Automation • Systems Administration  
+**Training & Education:** Courseware Creation • Digital Classroom Infrastructure • Training Delivery (Virtual & In-Person)
 
 ### Further Experience
 Find the remainder of my experience on LinkedIn: https://www.linkedin.com/in/goozbach/
