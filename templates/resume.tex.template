@@ -6,12 +6,7 @@
 \usepackage{longtable}
 \usepackage{booktabs}
 
-% redefine href
-\usepackage{letltxmacro}
-\LetLtxMacro{\oldhref}{\href}
-\newcommand{\href}[2]{
-  \oldhref{#2}{#1}\footnote{\url{#2}}%
-}
+
 
 % tightlist
 \newcommand{\tightlist}{%
@@ -106,6 +101,11 @@ $endif$
   breaklinks=true,
   unicode=true,
   pdfborderstyle={/S/U/W 1},
+}
+
+% Custom command for links with footnotes (use \hrefwithurl{url}{text} when you want footnotes)
+\newcommand{\hrefwithurl}[2]{%
+  \href{#1}{#2}\footnote{\url{#1}}%
 }
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt plus 2pt minus 1pt}

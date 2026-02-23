@@ -7,6 +7,7 @@ SITEBRANCH ?= friocorte-pages
 PDFTEMPLATE ?= templates/resume.tex.template
 HTMLTEMPLATE ?= templates/resume.html.template
 CSSFILE ?= resume.css
+CVPATH ?= ../cv.gooz.us/static
 
 .PHONY: all pdf html open release fancy clean release-gh release-site publish
 
@@ -23,7 +24,7 @@ open: ${BASENAME}.pdf
 	evince -f ${BASENAME}.pdf &
 
 %.html:	${SOURCENAME}.md ${HTMLTEMPLATE} ${CSSFILE}
-	pandoc -t html --template=${HTMLTEMPLATE} --self-contained -f markdown+yaml_metadata_block -o $@ $< -c ${CSSFILE}
+	pandoc -t html --template=${HTMLTEMPLATE} --self-contained -f markdown+yaml_metadata_block+footnotes -o $@ $< -c ${CSSFILE}
 	git add $@
 	git commit --allow-empty -m "adding $@ automaticly" $@
 
@@ -54,7 +55,9 @@ release-site:
 	git commit --allow-empty -m "automatic pull of html and pdf from master"
 	git checkout master
 
-publish: release
+publish: ${BASENAME}.pdf ${BASENAME}.html
+	cp ${BASENAME}.pdf ${CVPATH}/Derek-Carter.pdf
+	cp ${BASENAME}.html ${CVPATH}/Derek-Carter.html
 
 fancy:
 	@echo $(MAKE) -C fancy/

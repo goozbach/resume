@@ -13,7 +13,7 @@ summary: |
 ...
 
 ## Experience
-### VidAngel (https://www.vidangel.com/) -- DevOps Engineer -- Jun 2025 - Feb 2026
+### [VidAngel](https://www.vidangel.com/) *(vidangel.com)* -- DevOps Engineer -- Jun 2025 - Feb 2026
 DevOps Engineer focused on cloud infrastructure automation, developer platform improvements, and CI/CD pipeline optimization
 for a streaming media company.
 
@@ -23,7 +23,7 @@ for a streaming media company.
 * Deployed self-hosted GitLab CI/CD runners on Kubernetes infrastructure, reducing external dependencies and improving build security with custom runner images containing required development tooling.
 * Expanded Infrastructure as Code adoption through reusable Terraform modules for networking and access management, establishing consistent deployment patterns and accelerating team onboarding.
 
-### Unchained (https://www.unchained.com/) -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
+### [Unchained](https://www.unchained.com/) *(unchained.com)* -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
 Senior DevOps Team Lead and Engineering Manager leading platform transformation and cloud infrastructure modernization
 for cryptocurrency/blockchain technology company with 50+ engineering team members.
 
@@ -36,7 +36,7 @@ for cryptocurrency/blockchain technology company with 50+ engineering team membe
 * Implemented Role Based Access Control (RBAC) system using Terraform and Terragrunt automation, strengthening security posture and reducing manual access management overhead.
 * Managed team of 2 DevOps engineers and established rotating "DevOps Residency Program" to embed DevOps practices across 8 development teams, improving deployment frequency.
 
-### UserTesting (https://www.usertesting.com/) -- Staff Software Engineer / Ops and Infrastructure Team Lead -- Mar 2021 - Mar 2023
+### [UserTesting](https://www.usertesting.com/) *(usertesting.com)* -- Staff Software Engineer / Ops and Infrastructure Team Lead -- Mar 2021 - Mar 2023
 Staff Site Reliability Engineer leading 7-person infrastructure team supporting enterprise-scale user experience platform
 serving millions of monthly active users. Architected Kubernetes-based microservices platform and cloud migration strategy.
 
@@ -50,14 +50,14 @@ serving millions of monthly active users. Architected Kubernetes-based microserv
 * Maintained and optimized AWS Elastic Container Service (ECS) legacy infrastructure supporting high-availability production workloads.
 * Architected modern container orchestration platform using Amazon Elastic Kubernetes Service (EKS), Terraform Infrastructure as Code, and GitOps deployment methodology.
 
-### Nav (https://nav.com/) -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
+### [Nav](https://nav.com/) *(nav.com)* -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
 Principal software engineer with a focus on DevOps and platform engineering. 
 Architected, deployed and maintained the developer platform and infrastructure for a late-stage fintech startup.
 Led platform transformation migrating traditional Amazon AWS infrastructure to Kubernetes-based developer platform.
 
 * Mitigated legacy architecture problems using automation(Ansible), security tools
     (HashiCorp Vault), and a systems operations background.
-    + Created a tool called vault_helper (https://gitlab.com/goozbach/vault_helper) to ease the rotation of encryption
+    + Created a tool called [vault_helper](https://gitlab.com/goozbach/vault_helper) to ease the rotation of encryption
         keys of the HashiCorp Vault system.
 * Built new Kubernetes platform and migrated legacy applications onto it.
     + Built architecture to allow legacy apps and new (k8s) apps to communicate
@@ -76,7 +76,7 @@ Led platform transformation migrating traditional Amazon AWS infrastructure to K
         development closer into alignment. This also increased the resiliency
         for the running applications.
 
-### Goozbach Infrastructure Solutions, LLC (https://goozbach.com/) -- Linux Infrastructure Consultant and Instructor -- Dec 2011 – Present
+### [Goozbach Infrastructure Solutions, LLC](https://goozbach.com/) *(goozbach.com)* -- Linux Infrastructure Consultant and Instructor -- Dec 2011 – Present
 Owner and primary consultant of Linux consulting and training company providing Linux support and best practices consultation.
 Customers include RedHat training partners, Linux Foundation, Endosys, Sangoma, Local, State, Federal Government, and the Department of Defense.
 Customer environments range from dozens to thousands of servers.
@@ -101,6 +101,6 @@ Services provided include system updates, configuration management, installation
 **Training & Education:** Courseware Creation • Digital Classroom Infrastructure • Training Delivery (Virtual & In-Person)
 
 ### Further Experience
-Find the remainder of my experience on LinkedIn: https://www.linkedin.com/in/goozbach/
+Find the remainder of my experience on [LinkedIn](https://www.linkedin.com/in/goozbach/).
 
 
