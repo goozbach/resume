@@ -29,6 +29,9 @@ Ansible  •  Packer  •  Puppet  •  Salt  •  Systems Administration & Auto
 ### Security & Compliance
 HashiCorp Vault  •  Compliance (SOC2, SOX, GDPR, ISO27001)  •  Linux distro customization
 
+### Observability & Monitoring
+Grafana  •  DataDog  •  Prometheus  •  New Relic  •  Application Performance Monitoring  •  SLO/SLI  •  Metrics & Alerting
+
 ### Training & Education
 Courseware Creation  •  Digital Classroom Infrastructure  •  Training Delivery (Virtual & In-Person)
 
