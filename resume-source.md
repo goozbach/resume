@@ -21,7 +21,7 @@ for a streaming media company.
 * Redesigned backend deployment pipeline using GitLab CI/CD with atomic deployments and version management, implementing hash-based dependency packaging and automated rollback capabilities via Ansible.
 * Built automated golden image pipeline using Packer and Ansible, creating standardized AMI base operating system images with integrated monitoring, logging agents, and access control settings across all environments.
 * Deployed self-hosted GitLab CI/CD runners on Kubernetes infrastructure, reducing external dependencies and improving build security with custom runner images containing required development tooling.
-* Expanded Infrastructure as Code adoption through reusable Terraform modules for networking and access management, establishing consistent deployment patterns and accelerating team onboarding.
+* Expanded Infrastructure as Code adoption through reusable Terraform modules for networking and access management, establishing consistent deployment patterns and accelerating team on boarding.
 
 ### [Unchained](https://www.unchained.com/) *(unchained.com)* -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
 Senior DevOps Team Lead and Engineering Manager leading platform transformation and cloud infrastructure modernization
@@ -46,7 +46,7 @@ serving millions of monthly active users. Architected fault-tolerant Kubernetes-
 * Ensured enterprise security compliance (SOC2, SOX, GDPR, ISO27001) through infrastructure automation and security tooling implementation, maintaining compliance audits.
 * Enhanced developer experience through platform engineering initiatives and educational content:
     + Developed reusable GitHub Actions and CircleCI pipeline templates with comprehensive documentation and training materials, reducing CI/CD setup time for new microservices.
-    + Created standardized Infrastructure as Code templates and runbooks for rapid microservice deployment, including developer onboarding documentation.
+    + Created standardized Infrastructure as Code templates and runbooks for rapid microservice deployment, including developer on boarding documentation.
     + Migrated critical internal applications from Heroku to self-managed Kubernetes infrastructure, conducting knowledge transfer sessions and creating operational guides.
 * Maintained and optimized AWS Elastic Container Service (ECS) legacy infrastructure supporting high-availability production workloads with state management and concurrency controls.
 * Architected modern container orchestration platform using Amazon Elastic Kubernetes Service (EKS), Terraform Infrastructure as Code, and GitOps deployment methodology.
