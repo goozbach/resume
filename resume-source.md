@@ -95,6 +95,13 @@ Services provided include technical curriculum development, hands-on workshop de
 **Security & Compliance:** HashiCorp Vault • SOC2/SOX/GDPR/ISO27001 • Enterprise Security Architecture  
 **Training & Education Technologies:** Virtual/Hybrid Classroom Infrastructure • Interactive Labs • Assessment Platforms • Educational Content Management
 
+## Open Source
+* [github.com/goozbach](https://github.com/goozbach)
+* [gitlab.com/users/goozbach/projects](https://gitlab.com/users/goozbach/projects)
+
+## Presentations & Speaking
+* [presentation.goozbach.com](https://presentation.goozbach.com/)
+
 ### Further Experience
 Find the remainder of my experience on [LinkedIn](https://www.linkedin.com/in/goozbach/).
 
