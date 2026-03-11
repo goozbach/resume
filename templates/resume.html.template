@@ -10,6 +10,7 @@ $endfor$
 $if(date-meta)$
   <meta name="date" content="$date-meta$" />
 $endif$
+  <meta name="version" content="$modified$" />
   <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
   <style type="text/css">code{white-space: pre;}</style>
 $if(quotes)$
@@ -68,6 +69,10 @@ $toc$
 $endif$
 <div id="clearfix">&nbsp;</div>
 $body$
+
+<div id="footer">
+  <p class="version">Last modified: $modified$</p>
+</div>
 
 $for(include-after)$
 $include-after$

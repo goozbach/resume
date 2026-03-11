@@ -46,8 +46,8 @@ table {
 /* start mine */
 body {
     margin: auto;
-    width: 70%;
-    padding: .5in;
+    width: 72%;
+    padding: .6in;
     padding-bottom: 5em;
     font-family: helvetica, Verdana, sans-serif;
     color: #2E2B00;
@@ -149,5 +149,14 @@ body > h4 {
   font-size: 40%; /* Set font size to 40% of normal text */
   vertical-align: super; /* Position text as superscript */
   text-decoration: none; /* Remove any text decoration */
+}
+
+#footer {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #ccc;
+  font-size: 0.75em;
+  color: #666;
+  text-align: right;
 }
 

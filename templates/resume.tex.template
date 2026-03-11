@@ -101,6 +101,8 @@ $endif$
   breaklinks=true,
   unicode=true,
   pdfborderstyle={/S/U/W 1},
+  pdfkeywords={$modified$},
+  pdfsubject={Last modified: $modified$}
 }
 
 % Custom command for links with footnotes (use \hrefwithurl{url}{text} when you want footnotes)
@@ -200,5 +202,8 @@ $for(include-after)$
 
 $include-after$
 $endfor$
+
+\vspace{1em}
+\noindent\tiny\textsf{Last modified: $modified$}
 
 \end{document}
