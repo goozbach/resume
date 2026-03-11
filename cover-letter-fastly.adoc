@@ -1,0 +1,48 @@
+= Derek Carter
+Derek Carter <derek@goozbach.com>
+2023-03-18 12:59: Cover Letter
+:attribute-missing: drop-line
+:icons: font
+:role_name: Senior DevOps Lead
+:role_description: world class, DevOps focused organization
+:role_source: a comment made by Collin Winget on Linkedin
+:hiring_manager_name: Hiring Manager
+:company_name: Alianza
+:company_address:
+
+[%hardbreaks]
+{docdate}
+{hiring_manager_name}
+{company_name}
+{company_address}
+
+Dear {hiring_manager_name},
+
+My name is {firstname} {lastname} and I'm a cloud infrastructure and DevOps
+specialist with twenty-four years of experience.
+I came across your {role_name} posting from {role_source}, and I'm sharing my
+interest in helping {company_name} reach it's goal of {role_description}.
+
+My most recent experience was leading a team of seven operations and DevOps
+engineers at UserTesting to create and socialize a new Kubernetes based platform.
+I improved developer productivity, while reducing costs by implementing DevOps
+related practices and tooling.
+
+Prior to that, I was a Staff Engineer at Nav inc. and architected a full DevOps and
+CI/CD pipeline to migrate the engineering org from a platform of hand-maintained
+servers to a Kubernetes based platform.
+
+I'd be a great asset to the team at {company_name}.
+As a Linux instructor I have honed my skills around explaining complex topics
+to a wide audience. These skills will help me represent {company_name} in a favorable
+light, both in-person and digitally.
+
+I'm attaching my resume, and you can find my entire work history on my LinkedIn
+profile https://www.linkedin.com/in/goozbach/
+
+I look forward to hearing from you and wish you the best.
+
+Sincerely,
+
+Derek Carter
+
