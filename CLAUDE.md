@@ -6,6 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Markdown-source resume that compiles to PDF and HTML via Pandoc + XeTeX. The single source file (`resume-source.md`) produces multiple tailored resumes by varying the `TITLE` make variable.
 
+## How to tailor for a specific job
+* be concise, don't go changing stuff willy nilly
+* Don't invent stuff, don't change specifics that exist
+* if there's not a current git branch for the work of this job opportunity
+    create one using the following pattern: `feat_<company>-<title>`
+* don't commit to git, let me review changes first
+
 ## Building
 
 
