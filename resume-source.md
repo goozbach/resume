@@ -8,7 +8,7 @@ author: <derek@goozbach.com>
 phone: 1-(762)233-4009
 location: American Fork, Utah  
 summary: |
-  Principal DevOps Engineer with 15+ years building and operating cloud-based SaaS applications at scale. Expert-level Kubernetes experience spanning cluster design, CI/CD integration, observability, and troubleshooting. Deep expertise in Infrastructure as Code (Terraform), GitOps deployments (ArgoCD), and zero-downtime deployment strategies including rolling, canary, and blue/green deployments. Proven track record optimizing infrastructure for scalability, reliability, and performance across AWS cloud platforms, serving development teams from startups to Fortune 500 companies.
+  Principal DevOps Engineer with 15+ years building and operating cloud-based SaaS applications at scale. Expert-level Kubernetes experience spanning cluster design, CI/CD integration, observability, and troubleshooting. Deep expertise in Infrastructure as Code (Terraform), GitOps deployments (ArgoCD), and zero-downtime deployment strategies including rolling, canary, and blue/green deployments. Proven track record optimizing infrastructure for scalability, reliability, and performance across various cloud platforms, serving development teams from startups to Fortune 500 companies.
 
 ...
 
