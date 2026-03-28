@@ -1,5 +1,5 @@
 % vim: set filetype=latex
-\documentclass[fontsize=10.5]{scrartcl}
+\documentclass[fontsize=10pt]{scrartcl}
 \usepackage{amssymb,amsmath}
 \usepackage[english]{babel}
 \usepackage[]{moresize}
@@ -12,7 +12,7 @@
 \newcommand{\tightlist}{%
   \setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}\setlength{\parsep}{0pt}}
 
-\usepackage[top=0.4in, bottom=1.0in, left=0.6in, right=0.6in]{geometry}
+\usepackage[top=0.4in, bottom=0.6in, left=0.6in, right=0.6in]{geometry}
 
 \usepackage{tikz}
 \usetikzlibrary{fadings,patterns}
@@ -110,7 +110,7 @@ $endif$
   \href{#1}{#2}\footnote{\url{#1}}%
 }
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\parskip}{5pt plus 1pt minus 1pt}
 $if(listings)$
 \usepackage{listings}
 $endif$

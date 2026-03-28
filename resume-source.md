@@ -79,12 +79,12 @@ Services provided include system updates, configuration management, installation
 
 ## Technical Skills  
 **Kubernetes Expertise:** Cluster Design • CI/CD Integration • Service Mesh • Observability • Troubleshooting • Container Orchestration  
-**Cloud Platforms & Infrastructure:** AWS • GCP • Azure • Auto-scaling • Multi-Region Deployments • Cost Optimization  
+**Cloud Platforms & Infrastructure:** AWS (EC2 • ECS • EKS • RDS • S3) • GCP • Azure • Auto-scaling • Multi-Region Deployments • Cost Optimization  
 **Infrastructure as Code:** Terraform • Terragrunt • CloudFormation • Ansible • Packer  
 **GitOps & CI/CD:** ArgoCD • GitLab Pipelines • GitHub Actions • Jenkins • Zero-Downtime Deployments  
 **Network Fundamentals:** TCP/UDP • IPv4/IPv6 • Subnetting • OSI Model • Firewalls • Load Balancers • VPN • Service Discovery  
 **Observability & Monitoring:** Prometheus • Grafana • DataDog • New Relic • SLO/SLI • Alerting • Troubleshooting  
-**Security & Compliance:** HashiCorp Vault • SOC2/SOX/GDPR/ISO27001 • Network Security • Access Control • Secret Management  
+**Security & Compliance:** HashiCorp Vault • SOC2/SOX/GDPR/ISO27001/PCI-DSS • Network Security • Access Control • Secret Management  
 **Linux Systems:** Ubuntu/RHEL/Fedora/CoreOS/Debian • Network Configuration • Performance Tuning • Systems Administration  
 **Languages & Scripting:** Python • Bash • Go • Network Automation
 

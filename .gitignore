@@ -11,3 +11,4 @@ output/
 runtime/.bash_history
 runtime/bash_history
 cv/
+*.bak

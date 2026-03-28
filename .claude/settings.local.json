@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:jobs.nvidia.com)"
+      "WebFetch(domain:jobs.nvidia.com)",
+      "Bash(git checkout:*)"
     ]
   }
 }
