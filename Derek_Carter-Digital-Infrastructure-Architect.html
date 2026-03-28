@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
   <meta name="author" content="derek@goozbach.com" />
-  <meta name="version" content="2026-03-23_2496f81" />
+  <meta name="version" content="2026-03-28_ce0cc00" />
   <title>Derek C. Carter</title>
   <style type="text/css">code{white-space: pre;}</style>
 </head>
@@ -33,6 +33,7 @@ Technical Trainer</h1>
 <li>Designed self-hosted HashiCorp Vault architecture with high-availability cluster, automated key management, and load balancing, achieving 99.95% service availability and delivering projected annual cost savings of $3,400.</li>
 <li>Architected zero-downtime backend deployment pipeline using GitLab CI/CD with rolling deployment strategies, implementing hash-based dependency packaging and automated rollback capabilities via Ansible for continuous deployment.</li>
 <li>Built automated golden image pipeline using Packer and Ansible, creating standardized AMI base operating system images with integrated monitoring, logging agents, and network security configurations across all environments.</li>
+<li>Developed and maintained custom Debian packaging (<code>.deb</code>) for internal tooling and service dependencies, enabling reproducible artifact delivery and streamlined OS-level installation across fleet environments.</li>
 <li>Deployed and managed self-hosted GitLab CI/CD runners on Kubernetes infrastructure, reducing external dependencies and improving build security with custom runner images containing required development tooling.</li>
 <li>Expanded Infrastructure as Code adoption through reusable Terraform modules for VPC networking, load balancers, and access management, establishing consistent deployment patterns and accelerating team onboarding.</li>
 </ul>
@@ -86,12 +87,13 @@ Technical Trainer</h1>
 </ul></li>
 </ul>
 <h3 id="goozbach-infrastructure-solutions-llc-goozbach.com-linux-infrastructure-consultant-and-instructor-dec-2011-present"><a href="https://goozbach.com/">Goozbach Infrastructure Solutions, LLC</a> <em>(goozbach.com)</em> – Linux Infrastructure Consultant and Instructor – Dec 2011 – Present</h3>
-<p>Owner and primary consultant of Linux consulting and training company providing Linux support and best practices consultation. Customers include RedHat training partners, Linux Foundation, IBM, HP, Novell, Sangoma, Local, State, Federal Government, and the Department of Defense. Customer environments range from dozens to thousands of servers.</p>
+<p>Owner and primary consultant of Linux consulting and training company providing Linux support and best practices consultation. Customers include Red Hat training partners, Linux Foundation, IBM, HP, Novell, Sangoma, Local, State, Federal Government, and the Department of Defense. Customer environments range from dozens to thousands of servers.</p>
 <p>Services provided include system updates, configuration management, installation automation, Bash and Python scripting, training delivery, training course development, and systems administration tasks.</p>
 <ul>
 <li>Consulting customers on DevOps policies, procedures, and platform engineering tools, using continuous integration (Jenkins), configuration management (Puppet, Ansible, Salt), and installation automation (PXE, Kickstart)</li>
 <li>Infrastructure consulting for security startup in stealth mode</li>
-<li>Linux distro customization for client in telephony space</li>
+<li>Built and maintained <strong>GooseOS</strong>, a custom RHEL-derivative Linux distribution: authored RPM spec files, automated package builds with Koji, and managed custom Yum/DNF repositories for targeted deployment environments.</li>
+<li>Linux distribution customization for telephony-space client: modified upstream RHEL/CentOS and Debian/Ubuntu bases, packaged custom RPMs and <code>.deb</code> packages, and built automated installation workflows (PXE, Kickstart, Preseed, Autoinstall) for hardware provisioning at scale.</li>
 <li>Created Linux Courseware and virtual/hybrid classroom infrastructure</li>
 </ul>
 <h2 id="technical-skills">Technical Skills</h2>
@@ -102,18 +104,20 @@ Technical Trainer</h1>
 <strong>Network Fundamentals:</strong> TCP/UDP • IPv4/IPv6 • Subnetting • OSI Model • Firewalls • Load Balancers • VPN • Service Discovery<br />
 <strong>Observability &amp; Monitoring:</strong> Prometheus • Grafana • DataDog • New Relic • SLO/SLI • Alerting • Troubleshooting<br />
 <strong>Security &amp; Compliance:</strong> HashiCorp Vault • SOC2/SOX/GDPR/ISO27001/PCI-DSS • Network Security • Access Control • Secret Management<br />
-<strong>Linux Systems:</strong> Ubuntu/RHEL/Fedora/CoreOS/Debian • Network Configuration • Performance Tuning • Systems Administration<br />
+<strong>Linux Systems:</strong> Ubuntu/RHEL/Fedora/CoreOS/Debian • RPM/DEB Packaging • Koji • Network Configuration • Performance Tuning • Systems Administration<br />
 <strong>Languages &amp; Scripting:</strong> Python • Bash • Go • Network Automation</p>
 <h2 id="open-source-presentations">Open Source &amp; Presentations</h2>
 <ul>
-<li><a href="https://github.com/goozbach">github.com/goozbach</a> • <a href="https://gitlab.com/users/goozbach/projects">gitlab.com/users/goozbach/projects</a></li>
+<li><a href="https://github.com/goozbach">github.com/goozbach</a></li>
+<li><a href="https://gitlab.com/users/goozbach/projects">gitlab.com/users/goozbach/projects</a></li>
 <li><a href="https://presentation.goozbach.com/">presentation.goozbach.com</a></li>
+<li><a href="https://www.linkedin.com/in/goozbach/">linkedin.com/in/goozbach</a></li>
 </ul>
 <h3 id="further-experience">Further Experience</h3>
 <p>Find the remainder of my experience on <a href="https://www.linkedin.com/in/goozbach/">LinkedIn</a>.</p>
 
 <div id="footer">
-  <p class="version">Last modified: 2026-03-23_2496f81</p>
+  <p class="version">Last modified: 2026-03-28_ce0cc00</p>
 </div>
 
 </body>
