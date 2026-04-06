@@ -17,7 +17,7 @@ summary: |
 Principal DevOps Engineer architecting scalable cloud infrastructure, Kubernetes cluster management, and zero-downtime deployment strategies
 for a streaming media company.
 
-* Designed self-hosted HashiCorp Vault architecture with high-availability cluster, automated key management, and load balancing, achieving 99.95% service availability and delivering projected annual cost savings of $3,400.
+* Designed self-hosted HashiCorp Vault architecture with high-availability cluster, automated key management, and load balancing, achieving 99.95% service availability.
 * Architected zero-downtime backend deployment pipeline using GitLab CI/CD with rolling deployment strategies, implementing hash-based dependency packaging and automated rollback capabilities via Ansible for continuous deployment.
 * Built automated golden image pipeline using Packer and Ansible, creating standardized AMI base operating system images with integrated monitoring, logging agents, and network security configurations across all environments.
 * Developed and maintained custom Debian packaging (`.deb`) for internal tooling and service dependencies, enabling reproducible artifact delivery and streamlined OS-level installation across fleet environments.
@@ -87,6 +87,7 @@ Services provided include system updates, configuration management, installation
 **Network Fundamentals:** TCP/UDP • IPv4/IPv6 • Subnetting • OSI Model • Firewalls • Load Balancers • VPN • Service Discovery  
 **Observability & Monitoring:** Prometheus • Grafana • DataDog • New Relic • SLO/SLI • Alerting • Troubleshooting  
 **Security & Compliance:** HashiCorp Vault • SOC2/SOX/GDPR/ISO27001/PCI-DSS • Network Security • Access Control • Secret Management  
+**Disaster Recovery:** RTO/RPO Planning • Failover Automation • Backup Validation • DR Testing • Multi-Region Redundancy  
 **Linux Systems:** Ubuntu/RHEL/Fedora/CoreOS/Debian • RPM/DEB Packaging • Koji • Network Configuration • Performance Tuning • Systems Administration  
 **Languages & Scripting:** Python • Bash • Go • Network Automation
 
