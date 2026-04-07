@@ -8,7 +8,7 @@ author: <derek@goozbach.com>
 phone: 1-(762)233-4009
 location: American Fork, Utah  
 summary: |
-  Principal DevOps Engineer with 15+ years building and operating cloud-based SaaS applications at scale. Expert-level Kubernetes experience spanning cluster design, CI/CD integration, observability, and troubleshooting. Deep expertise in Infrastructure as Code (Terraform), GitOps deployments, and zero-downtime deployment strategies including rolling, canary, and blue/green deployments. Proven track record optimizing infrastructure for scalability, reliability, and performance across various cloud platforms, serving development teams from startups to Fortune 100 companies.
+  Principal DevOps Engineer with 15+ years building the cloud platforms and infrastructure that engineering teams run on. Specializes in Kubernetes cluster design, on-premises to AWS migrations, and developer platform engineering — giving teams the tooling and abstractions they need to ship without depending on ops for every deploy. Deep background in Infrastructure as Code (Terraform), GitOps, observability, and security/compliance controls embedded into platform foundations. Track record spans fintech startups to Fortune 100 companies.
 
 ...
 
@@ -17,7 +17,7 @@ summary: |
 Principal DevOps Engineer architecting scalable cloud infrastructure, Kubernetes cluster management, and zero-downtime deployment strategies
 for a streaming media company.
 
-* Designed self-hosted HashiCorp Vault architecture with high-availability cluster, automated key management, and load balancing, achieving 99.95% service availability.
+* Designed self-hosted HashiCorp Vault architecture with high-availability cluster, automated key management, and load balancing, achieving 99.95% service availability and delivering approximately 30% reduction in secret management costs.
 * Architected zero-downtime backend deployment pipeline using GitLab CI/CD with rolling deployment strategies, implementing hash-based dependency packaging and automated rollback capabilities via Ansible for continuous deployment.
 * Built automated golden image pipeline using Packer and Ansible, creating standardized AMI base operating system images with integrated monitoring, logging agents, and network security configurations across all environments.
 * Developed and maintained custom Debian packaging (`.deb`) for internal tooling and service dependencies, enabling reproducible artifact delivery and streamlined OS-level installation across fleet environments.
@@ -34,7 +34,8 @@ cryptocurrency/blockchain technology company with 50+ engineering team members.
     * Implemented private GitLab CI/CD runners on Kubernetes infrastructure, ensuring code security compliance and reducing third-party dependencies for continuous deployment.
 * Enhanced Terraform Infrastructure as Code with Terragrunt multi-environment architecture, enabling consistent infrastructure deployment across development, staging, and production environments with automated rollback capabilities.
 * Designed and deployed multi-environment cloud architecture with environment-specific internal domains, load balancers, and network segmentation, reducing deployment errors and improving developer experience.
-* Implemented Role Based Access Control (RBAC) system using Terraform and Terragrunt automation, strengthening security posture and reducing manual access management overhead.
+* Implemented policy-as-code access controls using Terraform and Terragrunt to enforce Role Based Access Control (RBAC) across AWS environments, embedding identity and access management into platform abstractions, reducing manual access management overhead and enforcing least-privilege by default.
+* Wrote on-call runbooks and defined rotation schedules for the microservices platform; gave teams a repeatable post-incident review process and cut triage time for production issues.
 * Managed team of 2 DevOps engineers and established rotating "DevOps Residency Program" to embed DevOps practices across 8 development teams, improving deployment frequency and system reliability.
 
 ### [UserTesting](https://www.usertesting.com/) *(usertesting.com)* -- Staff Software Engineer / Ops and Infrastructure Team Lead -- Mar 2021 - Mar 2023
@@ -50,6 +51,7 @@ Architected Kubernetes-based microservices platform and cloud migration strategy
     + Migrated critical internal applications from Heroku to self-managed Amazon EKS Kubernetes infrastructure, reducing operational costs by 40% while improving security posture.
 * Maintained and optimized AWS Elastic Container Service (ECS) legacy infrastructure supporting high-availability production workloads.
 * Architected modern container orchestration platform using Amazon Elastic Kubernetes Service (EKS), Terraform Infrastructure as Code, and GitOps deployment methodology.
+* Wrote runbooks and on-call escalation paths for the 100+ service platform, giving 15 development teams clear ownership during incidents and faster paths to recovery.
 
 ### [Nav](https://nav.com/) *(nav.com)* -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
 Principal DevOps Engineer architecting cloud-based SaaS applications for fintech startup.
@@ -64,7 +66,7 @@ Led complete platform transformation migrating traditional AWS infrastructure to
     + Built comprehensive "canary application" for testing zero-downtime deployment strategies including rolling, canary, and blue/green deployments across all platform features.
     + Architected centralized CI/CD pipeline platform to standardize deployment workflows, enabling developer self-service capabilities and reducing deployment cognitive load.
     + Migrated entire infrastructure to HashiCorp Terraform Infrastructure as Code, establishing repeatable, maintainable, and version-controlled infrastructure with automated provisioning.
-    + Implemented comprehensive RunDocs and observability for every application, improving system reliability, troubleshooting capabilities, and operational alignment between development and operations teams.
+    + Wrote RunDocs and wired up observability for every service, giving the ops team actionable triage steps and cutting time-to-resolution on production incidents.
 
 ### [Goozbach Infrastructure Solutions, LLC](https://goozbach.com/) *(goozbach.com)* -- Linux Infrastructure Consultant and Instructor -- Dec 2011 – Present
 Owner and primary consultant of Linux consulting and training company providing Linux support and best practices consultation.
@@ -78,6 +80,7 @@ Services provided include system updates, configuration management, installation
 * Built and maintained **GooseOS**, a custom RHEL-derivative Linux distribution: authored RPM spec files, automated package builds with Koji, and managed custom Yum/DNF repositories for targeted deployment environments.
 * Linux distribution customization for telephony-space client: modified upstream RHEL/CentOS and Debian/Ubuntu bases, packaged custom RPMs and `.deb` packages, and built automated installation workflows (PXE, Kickstart, Preseed, Autoinstall) for hardware provisioning at scale.
 * Created Linux Courseware and virtual/hybrid classroom infrastructure
+* Guided consulting clients through on-premises data center to AWS cloud migrations, including workload assessment, lift-and-shift execution, and hybrid architecture design bridging legacy Linux infrastructure with AWS services.
 
 ## Technical Skills  
 **Kubernetes Expertise:** Cluster Design • CI/CD Integration • Service Mesh • Observability • Troubleshooting • Container Orchestration  
