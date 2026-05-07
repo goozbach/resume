@@ -1,14 +1,14 @@
 ---
 title: Derek C. Carter
 subtitle: |
+  Staff Cloud Infrastructure Engineer  
   Platform Engineering Leader  
-  Infrastructure Architect  
-  Technical Trainer
+  Kubernetes & Cloud Architecture Specialist
 author: <derek@goozbach.com>
 phone: 1-(762)233-4009
 location: American Fork, Utah  
 summary: |
-  Principal DevOps Engineer with 15+ years building the cloud platforms and infrastructure that engineering teams run on. Specializes in Kubernetes cluster design, on-premises to AWS migrations, and developer platform engineering — giving teams the tooling and abstractions they need to ship without depending on ops for every deploy. Deep background in Infrastructure as Code (Terraform), GitOps, observability, and security/compliance controls embedded into platform foundations. Track record spans fintech startups to Fortune 100 companies.
+  Staff-level Infrastructure Engineer with 15+ years designing and operating cloud platforms at scale. Expert in Kubernetes cluster architecture, infrastructure-as-code, orchestration, and observability for platform engineering that enables engineering teams to ship without ops dependencies. Deep experience in fintech environments with compliance controls (SOC2, SOX, PCI-DSS) and track record of setting technical direction through RFCs, architecture reviews, and cross-functional leadership. Scaled infrastructure supporting 100+ microservices across multiple AWS regions.
 
 ...
 
@@ -25,33 +25,32 @@ for a streaming media company.
 * Expanded Infrastructure as Code adoption through reusable Terraform modules for VPC networking, load balancers, and access management, establishing consistent deployment patterns and accelerating team onboarding.
 
 ### [Unchained](https://www.unchained.com/) *(unchained.com)* -- Senior Software Engineer / DevOps Team Lead -- May 2023 - Mar 2025
-Senior DevOps Team Lead leading platform transformation and cloud infrastructure modernization for high-availability
-cryptocurrency/blockchain technology company with 50+ engineering team members.
+Staff-level DevOps Team Lead driving platform transformation and cloud infrastructure modernization for high-availability
+cryptocurrency platform with 50+ engineers.
 
-* Established Request for Comments (RFC) process for engineering architecture decisions, improving cross-team collaboration and reducing technical debt across microservices platform.
+* Established Request for Comments (RFC) process for engineering architecture decisions, setting technical direction and improving cross-team collaboration across microservices platform.
 * Led GitLab Enterprise migration implementing GitOps deployment methodology with self-hosted GitLab server and enhanced security controls.
     * Architected enterprise-wide Kubernetes deployment platform with standardized CI/CD pipelines, supporting 30+ microservices across multiple AWS regions and enabling developer self-service capabilities.
     * Implemented private GitLab CI/CD runners on Kubernetes infrastructure, ensuring code security compliance and reducing third-party dependencies for continuous deployment.
-* Enhanced Terraform Infrastructure as Code with Terragrunt multi-environment architecture, enabling consistent infrastructure deployment across development, staging, and production environments with automated rollback capabilities.
 * Designed and deployed multi-environment cloud architecture with environment-specific internal domains, load balancers, and network segmentation, reducing deployment errors and improving developer experience.
-* Implemented policy-as-code access controls using Terraform and Terragrunt to enforce Role Based Access Control (RBAC) across AWS environments, embedding identity and access management into platform abstractions, reducing manual access management overhead and enforcing least-privilege by default.
-* Wrote on-call runbooks and defined rotation schedules for the microservices platform; gave teams a repeatable post-incident review process and cut triage time for production issues.
+* Enhanced Terraform Infrastructure as Code with Terragrunt multi-environment architecture, enabling consistent infrastructure deployment across development, staging, and production with automated rollback capabilities.
+* Implemented policy-as-code access controls using Terraform and Terragrunt to enforce Role Based Access Control (RBAC) across AWS environments, embedding identity and access management into platform abstractions and enforcing least-privilege by default.
+* Wrote on-call runbooks and defined rotation schedules for the microservices platform; established repeatable post-incident review process and cut triage time for production issues.
 * Managed team of 2 DevOps engineers and established rotating "DevOps Residency Program" to embed DevOps practices across 8 development teams, improving deployment frequency and system reliability.
 
 ### [UserTesting](https://www.usertesting.com/) *(usertesting.com)* -- Staff Software Engineer / Ops and Infrastructure Team Lead -- Mar 2021 - Mar 2023
-Staff DevOps Engineer leading 7-person infrastructure team supporting enterprise-scale user experience platform.
-Architected Kubernetes-based microservices platform and cloud migration strategy.
+Staff-level infrastructure leader driving platform architecture for enterprise-scale user experience platform supporting 100+ microservices.
 
-* Led agile team management and quarterly OKR planning for infrastructure engineering team, balancing technical debt reduction with new feature delivery across 100+ microservices architecture.
+* Led 7-person infrastructure team with quarterly OKR planning, balancing technical debt reduction with new feature delivery across 100+ microservices.
 * Established engineering best practices and led DevOps Guild and Cross-Squad Architecture Guild, standardizing zero-downtime deployment practices including rolling, canary, and blue/green strategies across 15 development teams.
 * Ensured enterprise security compliance (SOC2, SOX, GDPR, ISO27001) through infrastructure automation and security tooling implementation, maintaining compliance audits.
+* Architected modern container orchestration platform using Amazon Elastic Kubernetes Service (EKS), Terraform Infrastructure as Code, and GitOps deployment methodology.
+* Migrated critical internal applications from Heroku to self-managed Amazon EKS Kubernetes infrastructure, reducing operational costs by 40% while improving security posture.
 * Enhanced developer experience through comprehensive platform engineering initiatives:
     + Developed reusable GitHub Actions and CircleCI pipeline templates with GitOps integration, reducing CI/CD setup time for new microservices by 75%.
-    + Created standardized Terraform Infrastructure as Code templates for rapid microservice deployment with auto-scaling and load balancing, reducing time-to-production.
-    + Migrated critical internal applications from Heroku to self-managed Amazon EKS Kubernetes infrastructure, reducing operational costs by 40% while improving security posture.
-* Maintained and optimized AWS Elastic Container Service (ECS) legacy infrastructure supporting high-availability production workloads.
-* Architected modern container orchestration platform using Amazon Elastic Kubernetes Service (EKS), Terraform Infrastructure as Code, and GitOps deployment methodology.
+    + Created standardized Terraform IaC templates for rapid microservice deployment with auto-scaling and load balancing.
 * Wrote runbooks and on-call escalation paths for the 100+ service platform, giving 15 development teams clear ownership during incidents and faster paths to recovery.
+* Maintained and optimized AWS ECS legacy infrastructure supporting high-availability production workloads.
 
 ### [Nav](https://nav.com/) *(nav.com)* -- Principal Software Engineer DevOps -- Aug 2017 - Feb 2021
 Principal DevOps Engineer architecting cloud-based SaaS applications for fintech startup.
